@@ -28,6 +28,31 @@ href="https://2018-fall-sds-albert.slack.com/">2018-fall-sds-albert.slack.com</a
 
 ***
 
+# Outline
+
+1. **Minimially viable set of tools to participate in open-source data analysis**
+    1. Data tools: viz, formatting, wrangling
+    1. Getting help: Googling strategies, stackoverflow
+    1. Notebooks: Markdown first, then R Markdown, Jupyter Notebooks
+    1. Collaborating:
+        + Communication: Reprex, Slack, Codes of conduct
+        + Git: Theory, GitHub interface
+        + Documentation: README's
+        + Promotion: Twitter, profile pages, online etiquette. 
+1. **Analysis of GitHub's 2017 [Open Source Survey](http://opensourcesurvey.org/2017/)**
+    1. Discuss why issues around open source matter: [changelog podcast](https://changelog.com/podcast/252), [Wired article](https://www.wired.com/2017/06/diversity-open-source-even-worse-tech-overall/), etc
+    1. Replicate one result from survey
+    1. Find new result
+1. **Tell your first data story using any [R Markdown format](https://rmarkdown.rstudio.com/formats.html)**
+    1. Poster
+    1. Website: [R Markdown Websites](https://rmarkdown.rstudio.com/rmarkdown_websites.htm) or personal [blogdown](https://alison.rbind.io/post/up-and-running-with-blogdown/) page
+    1. Bookdown book
+    1. R package
+
+
+
+*** 
+
 
     
 # Course Description & Objectives
