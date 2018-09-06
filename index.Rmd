@@ -5,7 +5,7 @@ date: "Last updated on `r Sys.Date()`"
 output:
   html_document:
     toc: true
-    toc_depth: 2
+    toc_depth: 1
     toc_float: true
     df_print: kable
 ---
@@ -44,12 +44,12 @@ h1{font-weight: 400;}
 # Schedule 
 
 * **Topics**:
-    1. Tools of the trade (orange): R, RStudio, R packages, R Markdown, GitHub.
-    1. Data visualization (pink): Grammar of Graphics, 5 named graphs, color theory.
+    1. Tools of the trade (orange): R, RStudio, R packages, R Markdown, Git & GitHub.
+    1. Data visualization (pink): Grammar of Graphics, Five Named Graphs (5NG), color theory.
     1. Working with data (blue): Tidy data, data wrangling, data importing. 
     1. Maps and spatial data (green): Map and geospatial data.
-    1. "Learning how to learn" new data science tools (yellow): Text data, webscraping, SQL.
-* **Readings**: MD is ModernDive, MDSR is Modern Data Science with R.
+    1. Learning how to learn new data science tools (yellow): Text data, webscraping, SQL.
+* **Readings + Optional Readings**: MD is ModernDive, MDSR is Modern Data Science with R.
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&single=true&amp;widget=true&amp;headers=false" width="100%" height="810"></iframe>
 
@@ -61,19 +61,32 @@ h1{font-weight: 400;}
 
 # Lec 1
 
-1. Data visualization:
-    1. [Comparison](http://www.bbc.com/culture/story/20150720-the-london-underground-map-the-design-that-shaped-a-city){target="_blank"} of Beck's original (1933) and today's London Underground map
-    1. [Actual](https://deskarati.com/2012/03/31/london-undergrounds-real-map/) London Underground map
-1. Data wrangling: Do the following:
-    1. Login to [RStudio Server]()
-1. Maps and spatial data:
-    1. [ColorBrewer 2.0](http://colorbrewer2.org/): Color Advice for Maps
-    1. Interactive maps via the [leaflet JavaScript library](https://leafletjs.com/), which we'll interface with using the [`leaflet` R package](https://rstudio.github.io/leaflet/).
-1. Text data:
-    1. Who wrote the New York Times anonymous opinion editorial ["I Am Part of the Resistance Inside the Trump Administration"](https://www.nytimes.com/2018/09/05/opinion/trump-white-house-anonymous-resistance.html)? A `tidytext` [approach](http://varianceexplained.org/r/op-ed-text-analysis/) to answering this question.
-    
+## Topics
+
+1. **Data visualization**:
+    1. [Comparison](http://www.bbc.com/culture/story/20150720-the-london-underground-map-the-design-that-shaped-a-city){target="_blank"} of Beck's original (1933) and today's London Underground map.
+    1. [Map](https://deskarati.com/2012/03/31/london-undergrounds-real-map/){target="_blank"} of actual routes London Underground lines follow.
+1. **Data wrangling**: Do the following...
+    1. Login to [RStudio Server](http://rstudio.smith.edu/){target="_blank"}. If you can't, follow along with someone nearby and speak to me after class.
+    1. In the "Console" window copy and paste `library(nycflights13)` and hit enter. Then copy and paste `View(flights)` and hit enter.
+1. **Maps and spatial data**:
+    1. [ColorBrewer 2.0](http://colorbrewer2.org/){target="_blank"}: Color Advice for Maps.
+    1. Interactive maps via the [leaflet JavaScript library](https://leafletjs.com/){target="_blank"}, which we'll interface with using the [`leaflet` R package](https://rstudio.github.io/leaflet/){target="_blank"}.
+1. **Text data**:
+    1. Who wrote the New York Times anonymous opinion editorial ["I Am Part of the Resistance Inside the Trump Administration"](https://www.nytimes.com/2018/09/05/opinion/trump-white-house-anonymous-resistance.html){target="_blank"}? A [text analysis approach](http://varianceexplained.org/r/op-ed-text-analysis/){target="_blank"} to answering this question.
 
 
+
+## Before Monday's lecture
+
+* Make sure:
+    + You are part of the class Slack team (click hashtag icon in menubar above) and 
+        1. Have added a profile picture
+        1. Can see the `#192_data_science` channel
+        1. Have turned on [email notifications](https://get.slack.help/hc/en-us/articles/201355156-Guide-to-Slack-notifications-#email-notifications){target="_blank"}
+    + You can login to RStudio Server (click R icon in menubar above).
+    + You have access to the [2018-09 SDS192 Intro to Data Science](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science){target="_blank"} DataCamp group.
+* Having issues getting set up? Need help? Then fill out this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSehdLkV7PPj2_ghaHROdqb4fRCdJDv0ksDLoMw95WpPnfxzqQ/viewform){target="_blank"}.
 
 <!--
 
