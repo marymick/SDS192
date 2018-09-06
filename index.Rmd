@@ -67,7 +67,7 @@ h1{font-weight: 400;}
     1. [Comparison](http://www.bbc.com/culture/story/20150720-the-london-underground-map-the-design-that-shaped-a-city){target="_blank"} of Beck's original (1933) and today's London Underground map.
     1. [Map](https://deskarati.com/2012/03/31/london-undergrounds-real-map/){target="_blank"} of actual routes London Underground lines follow.
 1. **Data wrangling**: Do the following...
-    1. Login to [RStudio Server](http://rstudio.smith.edu/){target="_blank"}. If you can't, follow along with someone nearby and speak to me after class.
+    1. Login to [RStudio Server](http://rstudio.smith.edu/){target="_blank"}. If you can't, follow along with someone nearby and fill out the help Google Form below.
     1. In the "Console" window copy and paste `library(nycflights13)` and hit enter. Then copy and paste `View(flights)` and hit enter.
 1. **Maps and spatial data**:
     1. [ColorBrewer 2.0](http://colorbrewer2.org/){target="_blank"}: Color Advice for Maps.
