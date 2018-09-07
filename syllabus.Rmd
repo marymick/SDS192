@@ -27,6 +27,8 @@ h1{font-weight: 400;}
         1. [Tutoring](https://www.smith.edu/qlc/tutoring.html?colStats=open#PanelStats){target="_blank"}: Sunday thru Thursday 7-9pm - McConnell Hall 301.
         1. [Data Counselor Raul Zelada Aprili](https://www.smith.edu/qlc/tutoring.html?colDataCnslr=open#PanelDataCnslr){target="_blank"}: By appointment - Spinelli Center.
 
+
+
 *** 
 
 
@@ -37,7 +39,7 @@ h1{font-weight: 400;}
 Course Search](https://www.smith.edu/academics/academic-program/curriculum/course-search?term=Fall+2018&dept=Statistical+and+Data+Sciences&instr=Albert+Y.+Kim&credits=&course_numb=192&course_keywd=&op=Submit&form_build_id=form-7cQWYLnNXxPrKj_HYG_M0FCUgwmOR_VZguPCdiDJOZU&form_id=campus_course_search_basic_search_form){target="_blank"}.
 * **Objectives**: This semester you will
     1. Take your first steps into the world of data (see topic schedule on main page).
-    1. Learn *just enough* coding and computational thinking to work with data. 
+    1. For those new to programming, learn just enough coding and computational thinking to work with data. For those with some experience programming, start expanding your "data science toolbox."
     1. Dip your toes into the world of open-source software and start engaging with the open-source community.
     1. Tell your first "data stories" via projects.
 
@@ -57,46 +59,28 @@ We will draw from the following sources:
 1. ["Text Mining with R"](https://www.tidytextmining.com/){target="_blank"} by Silge and Robinson.
 
 
-<!--
+
 ***  
+
+
 
 # Expectations
 
 As a student in this class:
 
-1. Communication:
-    a) You are expected to stay on top of announcements and direct messages in Slack.
-    a) You can expect responses to Slack messages from me within 24h, but not
-    during weekends.
-    a) Please ask only administrative and briefer questions on Slack, as I prefer 
-    having more substantive conversations in person.
-1. Lectures:
-    a) You are expected to bring your laptop to every lecture.
-    a) You are not required to inform me of occasional absenses. However, you are
-    resposible for asking your peers, and not the instructor, for what you missed.
-1. Problem sets:
-    a) All problem sets must be handed in on time in lecture; no extensions will
-    be granted.
-    a) For written homeworks, you are expected to hand in a physical copy that
-    is stapled and has the fringe/perf from any spiral notebook paper removed.
-    If you can't make lecture, ask peer to hand it in for you.
-    a) You must show all your work explain your reasoning in your solutions. 
-    a) Collaboration: While I encourage you to discuss problem sets with your
-    peers, you must submit your own answers and not simple rewordings of
-    another's work. Furthermore, as per the Amherst College Student Code of
-    Conduct's statement on [intellectual responbisility and
-    plagiarism](https://www.amherst.edu/offices/student-affairs/community-standards/intellectual-responsibility-and-plagiarism)
-    all collaborations must be explicitly acknowledged in your submissions.
-1. Exams: 
-    a) There will be no make-up nor rescheduled midterms, except in the
-    following cases if documentation (such as a dean's note) is provided:
-    serious illness, death in the family, athletic commitments, religious
-    obligations, and job interviews.
-    a) If you require special testing accommodations, you must inform me over Slack at least a week in advance. 
-1. Final project: You must cite all your sources and follow the Amherst College
-Student Code of Conduct's statement on intellectual responbisility and
-plagiarism linked above.    
--->
+1. **Communication**: You are expected to stay on top of announcements and
+direct messages in Slack.
+1. **Attendance**: You are not required to inform the instructor of *occasional* absenses.
+However, you are resposible for asking your peers, and not the instructor, for
+what you missed.
+1. **Collaboration**: While I encourage you to work with your peers for problem
+sets and labs, you must submit your own answers and not simple rewordings of
+another's work. Furthermore, all collaborations must be explicitly acknowledged
+in your submissions.
+1. **Honor Code**: All your work must follow the [Smith College Academic Honor
+Code
+Statement](https://www.smith.edu/sao/handbook/socialconduct/honorcode.php){target="_blank"};
+in particular all external sources must be cited in your submissions.
 
 
     
@@ -106,63 +90,32 @@ plagiarism linked above.
 
 # Evaluation
 
-
 ## Problem Sets 30%
 
-<!--
+Problem sets will involve computational assignments with written explanations. All homework must be submitted electronically before midnight of the due date. While no late submissions will be accepted, the lowest two problem set scores will be dropped in the final problem set grade.
 
+## Quizzes and Labs 20% {#termproject}
 
-
-Honor code
-
--->
-
-<!--
-The problem sets in this class should be viewed as low-stakes opportunities to
-practice, instead of evaluative tools used by the instructor to assign grades.
-
-* Assigned/due on Tuesdays.
-* No extensions for problem sets will be granted.
-* Assignments will be graded on the following qualitative scale:
-    1. `r set.seed(79);emo::ji("check")`-: You unfortunately struggled on this problem set and
-    should go to office hours or to the tutoring center.
-    1. `r set.seed(79);emo::ji("check")`: This is typically the most common grade. You did everything mostly well and there are no red flags. However,
-    you should still compare your work to the posted solutions.
-    1. `r set.seed(79);emo::ji("check")`+: You went above and beyond what was required and "wowed" us.
-* Lowest two scores dropped.
-* Translation to final grade: If you earn `r set.seed(79);emo::ji("check")`s for all problem sets, you can expect roughly 8% out of 10%. 
--->
-
-
-## Labs 20% {#termproject}
-
-<!--See [Term Project](term_project.html) page.-->
-
+This course will include quizzes and lab sessions. Advance notice will be given for all quizzes. The labs will be conducted primarily in R and/or DataCamp, with some supplemental exercises in other platforms at the instructor’s discretion. Students are strongly encouraged to work in groups during these labs. 
 
 ## Projects 40%
 
-<!--
-* Breakdown: 15% for each midterm and 25% for the final
-* All exams are cummulative.
-* There will be no extra-credit work to improve exam scores after the fact.
--->
+You will work on 4-5 group projects (exact number TBD) over the course of the semester. These projects will be structured, but fairly open-ended to allow you be creative. Evaluation will emphasize originality and ingenuity in addition to sophistication and complexity.
 
 ## Engagement 10% {#engagement}
 
-<!--
 It is difficult to explicit codify what constitutes "an engaged student," so 
 instead I present the following rough principle I will follow: *you'll only get
 out of this class as much as you put in*. Some examples of behavior counter to
 this principle:
 
-* 2% are quizzes:
-    + Tuesday 3/27 quiz on "Hang the DJ"
-    + Tuesday 4/17 quiz on the Central Limit Theorem
-* Not participating in in-class exercises.
+* Not participating in class.
 * Engaging so little with me, either in class or during office hours, that I
 don't know what your voice sounds like.
+* Shirking group work.
+* [Ghosting](https://www.urbandictionary.com/define.php?term=Ghosting&utm_source=search-action){target="_blank"}.
 * Doing the bare minimum to get by. 
--->
+
 
 
 ***
