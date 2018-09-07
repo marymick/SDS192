@@ -23,9 +23,9 @@ h1{font-weight: 400;}
 * **Lectures:** Sec 01: MWF 11:00-12:10 - McConnell 103
 * **Outside help**:
     + Albert's office hours: TBD, or by appointment.
-    + [Spinelli Center for Quantitative Learning](https://www.smith.edu/qlc/tutoring.html){target="_blank"}
-        1. Tutoring (click "Stats TAs"): Sunday thru Thursday 7-9pm - McConnell Hall 301.
-        1. Raul Zelada Aprili, Data Research and Statistics Counselor (click "Data Research and Statistical Support") - By appointment
+    + [Spinelli Center for Quantitative Learning](https://www.smith.edu/qlc/){target="_blank"}
+        1. [Tutoring](https://www.smith.edu/qlc/tutoring.html?colStats=open#PanelStats){target="_blank"}: Sunday thru Thursday 7-9pm - McConnell Hall 301.
+        1. [Data Counselor Raul Zelada Aprili](https://www.smith.edu/qlc/tutoring.html?colDataCnslr=open#PanelDataCnslr){target="_blank"}: By appointment - Spinelli Center.
 
 *** 
 
@@ -38,8 +38,8 @@ Course Search](https://www.smith.edu/academics/academic-program/curriculum/cours
 * **Objectives**: This semester you will
     1. Take your first steps into the world of data (see topic schedule on main page).
     1. Learn *just enough* coding and computational thinking to work with data. 
-    1. Get a preview of the world of open-source software.
-    1. Tell your first "data story."
+    1. Dip your toes into the world of open-source software and start engaging with the open-source community.
+    1. Tell your first "data stories" via projects.
 
 
 
@@ -53,8 +53,8 @@ We will draw from the following sources:
 
 1. ["ModernDive: An Introduction to Statistical and Data Sciences via R"](https://moderndive.netlify.com/){target="_blank"} by Ismay and Kim (click link in menubar above).
 1. ["Modern Data Science with R"](https://mdsr-book.github.io/){target="_blank"} by Baumer, Kaplan, and Horton.
-1. DataCamp: an online interactive environment for learning data science currently via R and Python. On top of the DataCamp courses we'll cover this semester, you have free access to [all their courses](https://www.datacamp.com/courses/all){target="_blank"} for 6 months. 
-1. ["Text Mining with R"](https://www.tidytextmining.com/){target="_blank"}
+1. DataCamp: an online interactive environment for learning data science. On top of the DataCamp courses we'll cover this semester, you have free access to [ALL their courses](https://www.datacamp.com/courses/all){target="_blank"} for 6 months. 
+1. ["Text Mining with R"](https://www.tidytextmining.com/){target="_blank"} by Silge and Robinson.
 
 
 <!--
