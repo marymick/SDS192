@@ -24,7 +24,7 @@ h1{font-weight: 400;}
 * **Outside help**:
     + Albert's office hours: TBD, or by appointment.
     + [Spinelli Center for Quantitative Learning](https://www.smith.edu/qlc/tutoring.html){target="_blank"}
-        1. Tutoring (click "Stats TAs"): Sunday thru Thursday 7-9pm - Seelye Hall 207.
+        1. Tutoring (click "Stats TAs"): Sunday thru Thursday 7-9pm - McConnell Hall 301.
         1. Raul Zelada Aprili, Data Research and Statistics Counselor (click "Data Research and Statistical Support") - By appointment
 
 *** 
