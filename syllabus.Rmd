@@ -49,7 +49,7 @@ Course Search](https://www.smith.edu/academics/academic-program/curriculum/cours
 
 # Materials
 
-We will draw on the following sources:
+We will draw from the following sources:
 
 1. ["ModernDive: An Introduction to Statistical and Data Sciences via R"](https://moderndive.netlify.com/){target="_blank"} by Ismay and Kim (click link in menubar above).
 1. ["Modern Data Science with R"](https://mdsr-book.github.io/){target="_blank"} by Baumer, Kaplan, and Horton.
@@ -113,17 +113,7 @@ plagiarism linked above.
 
 
 
-
-
-
 Honor code
-
-
-
-
-
-
-
 
 -->
 
@@ -143,9 +133,11 @@ practice, instead of evaluative tools used by the instructor to assign grades.
 * Translation to final grade: If you earn `r set.seed(79);emo::ji("check")`s for all problem sets, you can expect roughly 8% out of 10%. 
 -->
 
+
 ## Labs 20% {#termproject}
 
 <!--See [Term Project](term_project.html) page.-->
+
 
 ## Projects 40%
 
@@ -207,6 +199,8 @@ who do not follow the Code of Conduct may be reprimanded for such behavior.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the instructor.
 
-This Code of Conduct is adapted from the [Contributor Covenant](http://contributor-covenant.org){target="_blank"}, version
-1.0.0, available at [here](http://contributor-covenant.org/version/1/0/0/){target="_blank"}.
+This Code of Conduct is adapted from the [Contributor
+Covenant](http://contributor-covenant.org){target="_blank"}, version 1.0.0,
+available at
+[here](http://contributor-covenant.org/version/1/0/0/){target="_blank"}.
 

@@ -77,12 +77,12 @@ h1{font-weight: 400;}
 
 
 
-## Before Monday's lecture
+## Before Lec 2
 
 * Make sure:
     + You are part of the class Slack team (click hashtag icon in menubar above) and 
         1. Have added a profile picture
-        1. Can see the `#192_data_science` channel
+        1. Can see the `#192_data_science`, `#moderndive_typoes`, and `random` channels
         1. Have turned on [email notifications](https://get.slack.help/hc/en-us/articles/201355156-Guide-to-Slack-notifications-#email-notifications){target="_blank"}
     + You can login to RStudio Server (click R icon in menubar above).
     + You have access to the [2018-09 SDS192 Intro to Data Science](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science){target="_blank"} DataCamp group.
