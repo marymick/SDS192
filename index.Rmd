@@ -84,7 +84,7 @@ h1{font-weight: 400;}
         1. Have added a profile picture
         1. Can see the `#192_data_science`, `#moderndive_typoes`, and `random` channels
         1. Have turned on [email notifications](https://get.slack.help/hc/en-us/articles/201355156-Guide-to-Slack-notifications-#email-notifications){target="_blank"}
-    + You have received an invitation email to DataCamp and have joined the group. Do not create an account separately on datacamp.com, but rather use the link in the email you'll get later today.
+    + You have received an invitation email to DataCamp and have joined the group. Do not create an account separately on datacamp.com, but rather use the link in the email you received.
     + You've completed the [Intro Survey](https://docs.google.com/forms/d/e/1FAIpQLSdTI6UM9OlYygbZQU_gQPtQPGplFIXzmE_YCMPT_1bSkDd3Zw/viewform){target="_blank"}
 * **Need help with any of the above?** Fill out this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSehdLkV7PPj2_ghaHROdqb4fRCdJDv0ksDLoMw95WpPnfxzqQ/viewform){target="_blank"}.
 
