@@ -177,8 +177,7 @@ reported by contacting the instructor.
 
 This Code of Conduct is adapted from the [Contributor
 Covenant](http://contributor-covenant.org){target="_blank"}, version 1.0.0,
-available at
-[here](http://contributor-covenant.org/version/1/0/0/){target="_blank"}.
+available [here](http://contributor-covenant.org/version/1/0/0/){target="_blank"}.
 
 ## Expectations
 
