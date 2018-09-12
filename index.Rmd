@@ -57,6 +57,28 @@ h1{font-weight: 400;}
 
 ***
 
+
+
+# Problem set 1 {#PS01}
+
+*Assigned Monday 9/17, due Monday 9/25 at 9pm*
+
+
+
+***
+
+
+
+# Lec 3
+
+
+
+
+
+***
+
+
+
 # Lec 2
 
 1. **Background** Based on n=61 responses so far:  
@@ -77,6 +99,8 @@ h1{font-weight: 400;}
 
 1. Make sure you've completed the [Lec 1 TODO's](#Lec1TODO)
 
+
+
 ***
 
 
@@ -94,8 +118,6 @@ h1{font-weight: 400;}
     1. Interactive maps via the [leaflet JavaScript library](https://leafletjs.com/){target="_blank"}, which we'll interface with using the [`leaflet` R package](https://rstudio.github.io/leaflet/){target="_blank"}.
 1. **Text data**
     1. Who wrote the New York Times anonymous opinion editorial ["I Am Part of the Resistance Inside the Trump Administration"](https://www.nytimes.com/2018/09/05/opinion/trump-white-house-anonymous-resistance.html){target="_blank"}? A [text analysis approach](http://varianceexplained.org/r/op-ed-text-analysis/){target="_blank"} to answering this question.
-
-
 
 ## TODO's {#Lec1TODO}
 

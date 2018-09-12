@@ -22,7 +22,7 @@ h1{font-weight: 400;}
     + If possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person.
 * **Lectures:** Sec 01: MWF 11:00-12:10 - McConnell 103
 * **Outside help**:
-    + Albert's office hours: TBD, or by appointment.
+    + M & Tu 3-6pm or by appointment - McConnell Hall 215
     + [Spinelli Center for Quantitative Learning](https://www.smith.edu/qlc/){target="_blank"}
         1. [Tutoring](https://www.smith.edu/qlc/tutoring.html?colStats=open#PanelStats){target="_blank"}: Sunday thru Thursday 7-9pm - McConnell Hall 301.
         1. [Data Counselor Raul Zelada Aprili](https://www.smith.edu/qlc/tutoring.html?colDataCnslr=open#PanelDataCnslr){target="_blank"}: By appointment - Spinelli Center.
