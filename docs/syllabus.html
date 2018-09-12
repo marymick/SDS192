@@ -167,7 +167,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2",
+      selectors: "h1",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -310,15 +310,11 @@ div.tocify {
 h1{font-weight: 400;}
 </style>
 <div id="basicinfo" class="section level1">
-<h1>Basic information</h1>
+<h1>Basic Course Information</h1>
 <ul>
 <li><strong>Course title:</strong> SDS 192: Introduction to Data Science</li>
 <li><strong>Instructor:</strong> <a href="https://rudeboybert.rbind.io/" target="_blank">Albert Y. Kim</a> - Assistant Professor of Statistical &amp; Data Sciences</li>
-<li><strong><del>Email:</del> Slack team</strong>: Click hashtag icon in navbar for the browser interface or use the <a href="https://slack.com/downloads/" target="_blank">desktop app</a>.
-<ul>
-<li>I will respond to Slack messages within 24h, but not during weekends.</li>
-<li>If possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person.</li>
-</ul></li>
+<li><strong><del>Email:</del> Slack team</strong>: Click hashtag icon in navbar for the browser interface or use the <a href="https://slack.com/downloads/" target="_blank">desktop app</a>.</li>
 <li><strong>Lectures:</strong> Sec 01: MWF 11:00-12:10 - McConnell 103</li>
 <li><strong>Outside help</strong>:
 <ul>
@@ -330,7 +326,23 @@ h1{font-weight: 400;}
 </ol></li>
 </ul></li>
 </ul>
+<div id="expectations" class="section level2">
+<h2>Expectations</h2>
+<ul>
+<li><strong>Slack</strong>:
+<ul>
+<li>You are expected to stay on top of announcements and direct messages in Slack. For strategies that suit you and your work style (ex: turning on email notifications), please don’t hesistate to ask me for suggestions!</li>
+<li>I will respond to Slack messages within 24h, but will respond to weekend messages (Friday afternoon to Monday morning) at my discretion.</li>
+<li>If possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person.</li>
+</ul></li>
+<li><strong>Lectures</strong>:
+<ul>
+<li>You do not need to inform me of <em>occasional</em> absenses. However, you are responsible for asking your peers for what you missed. For example, makeup lectures will not be held during office hours.</li>
+<li>You are expected to bring your fully charged laptop, a set of headphones, colored pens/pencils, and your paper notebook to every lecture.</li>
+</ul></li>
+</ul>
 <hr />
+</div>
 </div>
 <div id="course-description-objectives" class="section level1">
 <h1>Course Description &amp; Objectives</h1>
@@ -338,7 +350,7 @@ h1{font-weight: 400;}
 <li><strong>Official course description</strong>: On <a href="https://www.smith.edu/academics/academic-program/curriculum/course-search?term=Fall+2018&amp;dept=Statistical+and+Data+Sciences&amp;instr=Albert+Y.+Kim&amp;credits=&amp;course_numb=192&amp;course_keywd=&amp;op=Submit&amp;form_build_id=form-7cQWYLnNXxPrKj_HYG_M0FCUgwmOR_VZguPCdiDJOZU&amp;form_id=campus_course_search_basic_search_form" target="_blank">Smith College Course Search</a>.</li>
 <li><strong>Objectives</strong>: This semester you will
 <ol style="list-style-type: decimal">
-<li>Take your first steps into the world of data (see topic schedule on main page).</li>
+<li>Take your first steps into the world of data.</li>
 <li>For those new to programming, learn just enough coding and computational thinking to work with data. For those with some experience programming, start expanding your “data science toolbox.”</li>
 <li>Dip your toes into the world of open-source software and start engaging with the open-source community.</li>
 <li>Tell your first “data stories” via projects.</li>
@@ -346,37 +358,43 @@ h1{font-weight: 400;}
 </ul>
 <hr />
 </div>
-<div id="materials" class="section level1">
-<h1>Materials</h1>
-<p>We will draw from the following sources:</p>
+<div id="topic-schedule-and-readings" class="section level1">
+<h1>Topic Schedule and Readings</h1>
+<p>A rough topic schedule and corresponding readings are posted below and on the <a href="index.html">main</a> page. We will draw from the following sources:</p>
 <ol style="list-style-type: decimal">
-<li><a href="https://moderndive.netlify.com/" target="_blank">“ModernDive: An Introduction to Statistical and Data Sciences via R”</a> by Ismay and Kim (click link in menubar above).</li>
-<li><a href="https://mdsr-book.github.io/" target="_blank">“Modern Data Science with R”</a> by Baumer, Kaplan, and Horton.</li>
-<li>DataCamp: an online interactive environment for learning data science. On top of the DataCamp courses we’ll cover this semester, you have free access to <a href="https://www.datacamp.com/courses/all" target="_blank">ALL their courses</a> for 6 months.</li>
-<li><a href="https://www.tidytextmining.com/" target="_blank">“Text Mining with R”</a> by Silge and Robinson.</li>
+<li><a href="https://moderndive.netlify.com/" target="_blank">“ModernDive: An Introduction to Statistical and Data Sciences via R (MD)”</a> by Ismay and Kim (link in menubar above).</li>
+<li><a href="https://mdsr-book.github.io/" target="_blank">“Modern Data Science with R (MDSR)”</a> by Baumer, Kaplan, and Horton.</li>
+<li><a href="https://www.tidytextmining.com/" target="_blank">“Text Mining with R (TMR)”</a> by Silge and Robinson.</li>
+<li><a href="https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments" target="_blank">DataCamp</a>: an online interactive environment for learning data science currently via R and Python. On top of the DataCamp courses we’ll cover this semester, you have free access to <a href="https://www.datacamp.com/courses/all" target="_blank">all their courses</a> for 6 months.</li>
 </ol>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="300">
+</iframe>
+<div id="expectations-1" class="section level2">
+<h2>Expectations</h2>
+<ul>
+<li><strong>Topics</strong>: Note the topic schedule may shift depending on class progress. That being said, I will try to keep the schedule up-to-date for at least the upcoming two lectures.</li>
+<li><strong>Readings</strong>:
+<ul>
+<li>You are not required to cover readings for any given lecture beforehand as you’ll be given class time to do so in the presence of your peers. However, if you feel you would benefit from reading beforehand, please feel free!</li>
+<li>You are however responsible for finishing the readings before the start of the next lecture.</li>
+</ul></li>
+<li><strong>Reference</strong>: These are optional reference readings if you would like a second perspective on the readings. For example, say you would like a second persepective on “scatterplots” on top of what we covered in ModernDive, I suggest reading any sections related to “scatterplots” in MDSR Chapter 3 as needed, not the entire chapter.</li>
+<li><strong>DataCamp</strong>: You do not need to cover the listed courses beforehand; they will be assigned as lab work (see <a href="#labs">Quizzes and Labs</a> below).</li>
+<li><strong>Important Events</strong>: Please be sure to frequently check the far-right column for important deadlines and events.</li>
+</ul>
 <hr />
 </div>
-<div id="expectations" class="section level1">
-<h1>Expectations</h1>
-<p>As a student in this class:</p>
-<ol style="list-style-type: decimal">
-<li><strong>Communication</strong>: You are expected to stay on top of announcements and direct messages in Slack.</li>
-<li><strong>Attendance</strong>: You are not required to inform the instructor of <em>occasional</em> absenses. However, you are resposible for asking your peers, and not the instructor, for what you missed.</li>
-<li><strong>Collaboration</strong>: While I encourage you to work with your peers for problem sets and labs, you must submit your own answers and not simple rewordings of another’s work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.</li>
-<li><strong>Honor Code</strong>: All your work must follow the <a href="https://www.smith.edu/sao/handbook/socialconduct/honorcode.php" target="_blank">Smith College Academic Honor Code Statement</a>; in particular all external sources must be cited in your submissions.</li>
-</ol>
-<hr />
 </div>
 <div id="evaluation" class="section level1">
 <h1>Evaluation</h1>
 <div id="problem-sets-30" class="section level2">
 <h2>Problem Sets 30%</h2>
 <p>Problem sets will involve computational assignments with written explanations. All homework must be submitted electronically before midnight of the due date. While no late submissions will be accepted, the lowest two problem set scores will be dropped in the final problem set grade.</p>
+<p>More details coming soon.</p>
 </div>
-<div id="termproject" class="section level2">
+<div id="labs" class="section level2">
 <h2>Quizzes and Labs 20%</h2>
-<p>This course will include quizzes and lab sessions. Advance notice will be given for all quizzes. The labs will be conducted primarily in R and/or DataCamp, with some supplemental exercises in other platforms at the instructor’s discretion. Students are strongly encouraged to work in groups during these labs.</p>
+<p>This course will include quizzes and lab sessions. Advance notice will be given for all quizzes. The labs will be conducted primarily in R and/or DataCamp, with some supplemental exercises in other platforms at the my discretion. Students are strongly encouraged to work in groups during these labs.</p>
 </div>
 <div id="projects-40" class="section level2">
 <h2>Projects 40%</h2>
@@ -392,21 +410,43 @@ h1{font-weight: 400;}
 <li><a href="https://www.urbandictionary.com/define.php?term=Ghosting&amp;utm_source=search-action" target="_blank">Ghosting</a>.</li>
 <li>Doing the bare minimum to get by.</li>
 </ul>
+</div>
+<div id="expectations" class="section level2">
+<h2>Expectations</h2>
+<ul>
+<li><strong>DataCamp</strong>:
+<ol style="list-style-type: decimal">
+<li>DataCamp is meant to be low stakes-practice, so the only thing that matters for your grade is whether you complete the course. So while things like the number of hints/solutions taken don’t factor into your grade, it is important to make a good faith effort to answer these questions the best you can.</li>
+<li>Taking notes based on what you cover is not required, but please do so if you feel you will benefit.</li>
+<li>You should be taking no more than roughly 4 hours per DataCamp assignment.</li>
+<li>Please note retention of the material will not be perfect the first time through. The only way to really retain the material is via lots of practice/doing. For now, think of this as a introduction.</li>
+</ol></li>
+</ul>
+<ol style="list-style-type: decimal">
+<li><strong>Collaboration</strong>: While I encourage you to work with your peers for problem sets and labs, you must submit your own answers and not simple rewordings of another’s work. Furthermore, all collaborations must be explicitly acknowledged in your submissions.</li>
+<li><strong>Honor Code</strong>: All your work must follow the <a href="https://www.smith.edu/sao/handbook/socialconduct/honorcode.php" target="_blank">Smith College Academic Honor Code Statement</a>; in particular all external sources must be cited in your submissions.</li>
+</ol>
 <hr />
 </div>
 </div>
 <div id="accommodations" class="section level1">
 <h1>Accommodations</h1>
 <p>Smith is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the Disability Services Office at the beginning of the semester. To do so, call 413.585.2071 to arrange an appointment with Laura Rauscher, Director of Disability Services.</p>
+<div id="expectations-2" class="section level2">
+<h2>Expectations</h2>
+<p>If you require accommodations, please provide the me with documentation and advance notice for when you think you will need them.</p>
 <hr />
+</div>
 </div>
 <div id="code-of-conduct" class="section level1">
 <h1>Code of Conduct</h1>
-<p>As the instructor and assistants for this course, we are committed to making participation in this course a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.</p>
-<p>Examples of unacceptable behavior by participants in this course include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.</p>
-<p>As the instructor and assistants we have the right and responsibility to point out and stop behavior that is not aligned to this Code of Conduct. Participants who do not follow the Code of Conduct may be reprimanded for such behavior.</p>
-<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the instructor.</p>
+<p>As the instructor and assistants for this course, we are committed to making participation in this course a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion. Examples of unacceptable behavior by participants in this course include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.</p>
+<p>As the instructor and assistants we have the right and responsibility to point out and stop behavior that is not aligned to this Code of Conduct. Participants who do not follow the Code of Conduct may be reprimanded for such behavior. Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the instructor.</p>
 <p>This Code of Conduct is adapted from the <a href="http://contributor-covenant.org" target="_blank">Contributor Covenant</a>, version 1.0.0, available at <a href="http://contributor-covenant.org/version/1/0/0/" target="_blank">here</a>.</p>
+<div id="expectations-3" class="section level2">
+<h2>Expectations</h2>
+<p>All students, the instructor, and all assistants are expected to adhere to this Code of Conduct in all settings: lectures, office hours, during tutoring hours, and over Slack.</p>
+</div>
 </div>
 
 

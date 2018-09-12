@@ -5,7 +5,7 @@ date: "Last updated on `r Sys.Date()`"
 output:
   html_document:
     toc: true
-    toc_depth: 1
+    toc_depth: 2
     toc_float: true
     df_print: kable
 ---
@@ -49,7 +49,7 @@ h1{font-weight: 400;}
     1. Working with data (blue): Tidy data, data wrangling, data importing. 
     1. Maps and spatial data (green): Map and geospatial data.
     1. Learning how to learn new data science tools (yellow): Text data, webscraping, SQL.
-* **Readings + Optional Readings**: MD is ModernDive, MDSR is Modern Data Science with R.
+* **Readings + Reference**: MD is ModernDive, MDSR is Modern Data Science with R, TMR is Text Mining with R. 
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&single=true&amp;widget=true&amp;headers=false" width="100%" height="810"></iframe>
 
@@ -59,9 +59,42 @@ h1{font-weight: 400;}
 
 
 
-# Problem set 1 {#PS01}
+# Lec 3
 
-*Assigned Monday 9/17, due Monday 9/25 at 9pm*
+* Go over previous Slack `#general_announcements`
+* If you haven't already, **please** complete the [Intro Survey](https://docs.google.com/forms/d/e/1FAIpQLSdTI6UM9OlYygbZQU_gQPtQPGplFIXzmE_YCMPT_1bSkDd3Zw/viewform){target="_blank"} from Lec 1.
+* Syllabus discussion:
+    + Added full topic schedule
+    + Added office hours
+    + Added *expectations* to following sections:
+        1. Basic Course Information
+        1. Topic Schedule and Readings
+        1. Evaluation
+        1. Code of Conduct
+
+## Today's Activity       
+        
+1. Go over ModernDive Chapter 2. Note:
+    + You can skip all videos and linked DataCamp courses.
+    + "Learning checks": These are practice problems that you do not need to submit. Should you write your answers down? If you feel like you would benefit, then yes! I will post solutions to the learning checks before the next lecture!
+1. Start Problem set 1 below. I will discuss the DataCamp interface at 11:55am.
+
+## Getting help
+
+A big part of learning data science tools is learning how to get help effectively. For example, in this course:
+
+**In class**:
+
+1. Ask yourself "Is this something I can Google?" Learning to use Google effectively is an important tool in a data scientist's toolbox.
+1. Ask the people sitting next to you. 
+1. Raise your hand to ask the data assistant or myself.
+
+**Outside of class**:
+
+1. Ask yourself "Is this something I can Google?" Learning to use Google effectively is an important tool in a data scientist's toolbox.
+1. Ask yourself "Are there people I work with in class that I can Slack?"
+1. If you all don't know, post a question on Slack in the `#r_questions` channel.
+1. Visit the Spinelli Center for tutoring Sunday-Thursday 7-9pm (see [syllabus](syllabus.html#basicinfo) for more info).
 
 
 
@@ -69,9 +102,26 @@ h1{font-weight: 400;}
 
 
 
-# Lec 3
 
 
+# Problem set 1 {#PS01}
+
+*Assigned Wednesday 9/12, due Monday 9/17 at 9pm*
+
+1. **DataCamp**
+    * Complete the following chapters from the "Introduction to R" course, which you should see in the following [link](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments){target="_blank"}:
+        * Chapter 1: "Intro to basics"
+        * Chapter 2: "Vectors"
+        * Chapter 4: "Factors"
+        * Chapter 5: "Data Frames"
+    * See the [syllabus](syllabus.html#expectations) for expectations on DataCamp assignments.
+1. **Administrative stuff**: To receive full credit for this portion simply ensure
+    * On Slack:
+        1. Your full name is listed: full name = how you would like to be addressed in class & last name.  
+        1. You have added a profile picture with your face visible. This will help me learn your names.
+        1. Hint: Start relying on Google! "How do I change my name and profile picture on Slack?"
+        1. You are a member of the `#moderndive_typoes`, `#r_questions`, and `random` channels.
+    * On DataCamp: Your full name is listed in your [profile](https://www.datacamp.com/profile/account_settings){target="_blank"}; the rest is optional.
 
 
 
@@ -130,4 +180,4 @@ h1{font-weight: 400;}
         1. Have turned on [email notifications](https://get.slack.help/hc/en-us/articles/201355156-Guide-to-Slack-notifications-#email-notifications){target="_blank"}
     + You have received an invitation email to DataCamp and are a member of the [group](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science){target="_blank"}. Do not create an account separately on datacamp.com, but rather use the link in the email you received.
     + You've completed the [Intro Survey](https://docs.google.com/forms/d/e/1FAIpQLSdTI6UM9OlYygbZQU_gQPtQPGplFIXzmE_YCMPT_1bSkDd3Zw/viewform){target="_blank"}
-* **Need help with any of the above?** Fill out this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSehdLkV7PPj2_ghaHROdqb4fRCdJDv0ksDLoMw95WpPnfxzqQ/viewform){target="_blank"}.
+* **Need help with any of the above?** ~~Fill out this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSehdLkV7PPj2_ghaHROdqb4fRCdJDv0ksDLoMw95WpPnfxzqQ/viewform){target="_blank"}~~ Slack me!

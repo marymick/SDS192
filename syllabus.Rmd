@@ -3,7 +3,7 @@ title: "Syllabus"
 output:
   html_document:
     toc: yes
-    toc_depth: 2
+    toc_depth: 1
     toc_float:
       collapsed: no
 ---
@@ -13,19 +13,30 @@ h1{font-weight: 400;}
 </style>
 
 
-# Basic information {#basicinfo}
+# Basic Course Information {#basicinfo}
 
 * **Course title:** SDS 192: Introduction to Data Science
 * **Instructor:** [Albert Y. Kim](https://rudeboybert.rbind.io/){target="_blank"} - Assistant Professor of Statistical & Data Sciences
 * **~~Email:~~ Slack team**: Click hashtag icon in navbar for the browser interface or use the [desktop app](https://slack.com/downloads/){target="_blank"}.
-    + I will respond to Slack messages within 24h, but not during weekends.
-    + If possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person.
 * **Lectures:** Sec 01: MWF 11:00-12:10 - McConnell 103
 * **Outside help**:
     + M & Tu 3-6pm or by appointment - McConnell Hall 215
     + [Spinelli Center for Quantitative Learning](https://www.smith.edu/qlc/){target="_blank"}
         1. [Tutoring](https://www.smith.edu/qlc/tutoring.html?colStats=open#PanelStats){target="_blank"}: Sunday thru Thursday 7-9pm - McConnell Hall 301.
         1. [Data Counselor Raul Zelada Aprili](https://www.smith.edu/qlc/tutoring.html?colDataCnslr=open#PanelDataCnslr){target="_blank"}: By appointment - Spinelli Center.
+  
+## Expectations
+
+* **Slack**:
+    + You are expected to stay on top of announcements and
+direct messages in Slack. For strategies that suit you and your work style (ex: turning on email notifications), please don't hesistate to ask me for suggestions!
+    + I will respond to Slack messages within 24h, but will respond to weekend messages (Friday afternoon to Monday morning) at my discretion.
+    + If possible, please only Slack me with briefer and administrative questions; I prefer having more substantive conversations in person. 
+* **Lectures**:
+    + You do not need to inform me of *occasional* absenses.
+However, you are responsible for asking your peers for what you missed. For
+example, makeup lectures will not be held during office hours.
+    + You are expected to bring your fully charged laptop, a set of headphones, colored pens/pencils, and your paper notebook to every lecture.
 
 
 
@@ -38,7 +49,7 @@ h1{font-weight: 400;}
 * **Official course description**: On [Smith College
 Course Search](https://www.smith.edu/academics/academic-program/curriculum/course-search?term=Fall+2018&dept=Statistical+and+Data+Sciences&instr=Albert+Y.+Kim&credits=&course_numb=192&course_keywd=&op=Submit&form_build_id=form-7cQWYLnNXxPrKj_HYG_M0FCUgwmOR_VZguPCdiDJOZU&form_id=campus_course_search_basic_search_form){target="_blank"}.
 * **Objectives**: This semester you will
-    1. Take your first steps into the world of data (see topic schedule on main page).
+    1. Take your first steps into the world of data.
     1. For those new to programming, learn just enough coding and computational thinking to work with data. For those with some experience programming, start expanding your "data science toolbox."
     1. Dip your toes into the world of open-source software and start engaging with the open-source community.
     1. Tell your first "data stories" via projects.
@@ -49,38 +60,26 @@ Course Search](https://www.smith.edu/academics/academic-program/curriculum/cours
 
 
 
-# Materials
+# Topic Schedule and Readings
 
-We will draw from the following sources:
+A rough topic schedule and corresponding readings are posted below and on the [main](index.html) page. We will draw from the following sources:
 
-1. ["ModernDive: An Introduction to Statistical and Data Sciences via R"](https://moderndive.netlify.com/){target="_blank"} by Ismay and Kim (click link in menubar above).
-1. ["Modern Data Science with R"](https://mdsr-book.github.io/){target="_blank"} by Baumer, Kaplan, and Horton.
-1. DataCamp: an online interactive environment for learning data science. On top of the DataCamp courses we'll cover this semester, you have free access to [ALL their courses](https://www.datacamp.com/courses/all){target="_blank"} for 6 months. 
-1. ["Text Mining with R"](https://www.tidytextmining.com/){target="_blank"} by Silge and Robinson.
+1. ["ModernDive: An Introduction to Statistical and Data Sciences via R (MD)"](https://moderndive.netlify.com/){target="_blank"} by Ismay and Kim (link in menubar above).
+1. ["Modern Data Science with R (MDSR)"](https://mdsr-book.github.io/){target="_blank"} by Baumer, Kaplan, and Horton.
+1. ["Text Mining with R (TMR)"](https://www.tidytextmining.com/){target="_blank"} by Silge and Robinson.
+1. [DataCamp](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments){target="_blank"}: an online interactive environment for learning data science currently via R and Python. On top of the DataCamp courses we'll cover this semester, you have free access to [all their courses](https://www.datacamp.com/courses/all){target="_blank"} for 6 months. 
 
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&single=true&amp;widget=true&amp;headers=false" width="100%" height="300"></iframe>
 
+## Expectations
 
-***  
-
-
-
-# Expectations {#expectations}
-
-As a student in this class:
-
-1. **Communication**: You are expected to stay on top of announcements and
-direct messages in Slack.
-1. **Attendance**: You are not required to inform the instructor of *occasional* absenses.
-However, you are resposible for asking your peers, and not the instructor, for
-what you missed.
-1. **Collaboration**: While I encourage you to work with your peers for problem
-sets and labs, you must submit your own answers and not simple rewordings of
-another's work. Furthermore, all collaborations must be explicitly acknowledged
-in your submissions.
-1. **Honor Code**: All your work must follow the [Smith College Academic Honor
-Code
-Statement](https://www.smith.edu/sao/handbook/socialconduct/honorcode.php){target="_blank"};
-in particular all external sources must be cited in your submissions.
+* **Topics**: Note the topic schedule may shift depending on class progress. That being said, I will try to keep the schedule up-to-date for at least the upcoming two lectures.
+* **Readings**:
+    + You are not required to cover readings for any given lecture beforehand as you'll be given class time to do so in the presence of your peers. However, if you feel you would benefit from reading beforehand, please feel free!
+    + You are however responsible for finishing the readings before the start of the next lecture.
+* **Reference**: These are optional reference readings if you would like a second perspective on the readings. For example, say you would like a second persepective on "scatterplots" on top of what we covered in ModernDive, I suggest reading any sections related to "scatterplots" in MDSR Chapter 3 as needed, not the entire chapter.
+* **DataCamp**: You do not need to cover the listed courses beforehand; they will be assigned as lab work (see [Quizzes and Labs](#labs) below).
+* **Important Events**: Please be sure to frequently check the far-right column for important deadlines and events.
 
 
     
@@ -94,9 +93,11 @@ in particular all external sources must be cited in your submissions.
 
 Problem sets will involve computational assignments with written explanations. All homework must be submitted electronically before midnight of the due date. While no late submissions will be accepted, the lowest two problem set scores will be dropped in the final problem set grade.
 
-## Quizzes and Labs 20% {#termproject}
+More details coming soon.
 
-This course will include quizzes and lab sessions. Advance notice will be given for all quizzes. The labs will be conducted primarily in R and/or DataCamp, with some supplemental exercises in other platforms at the instructor’s discretion. Students are strongly encouraged to work in groups during these labs. 
+## Quizzes and Labs 20% {#labs}
+
+This course will include quizzes and lab sessions. Advance notice will be given for all quizzes. The labs will be conducted primarily in R and/or DataCamp, with some supplemental exercises in other platforms at the my discretion. Students are strongly encouraged to work in groups during these labs. 
 
 ## Projects 40%
 
@@ -116,6 +117,22 @@ don't know what your voice sounds like.
 * [Ghosting](https://www.urbandictionary.com/define.php?term=Ghosting&utm_source=search-action){target="_blank"}.
 * Doing the bare minimum to get by. 
 
+## Expectations {#expectations}
+
+* **DataCamp**:
+    1. DataCamp is meant to be low stakes-practice, so the only thing that matters for your grade is whether you complete the course. So while things like the number of hints/solutions taken don't factor into your grade, it is important to make a good faith effort to answer these questions the best you can.
+    1. Taking notes based on what you cover is not required, but please do so if you feel you will benefit. 
+    1. You should be taking no more than roughly 4 hours per DataCamp assignment.
+    1. Please note retention of the material will not be perfect the first time through. The only way to really retain the material is via lots of practice/doing. For now, think of this as a introduction.
+1. **Collaboration**: While I encourage you to work with your peers for problem
+sets and labs, you must submit your own answers and not simple rewordings of
+another's work. Furthermore, all collaborations must be explicitly acknowledged
+in your submissions.
+1. **Honor Code**: All your work must follow the [Smith College Academic Honor
+Code
+Statement](https://www.smith.edu/sao/handbook/socialconduct/honorcode.php){target="_blank"};
+in particular all external sources must be cited in your submissions.
+
 
 
 ***
@@ -124,7 +141,16 @@ don't know what your voice sounds like.
 
 # Accommodations
  
-Smith is committed to providing support services and reasonable accommodations to all students with disabilities. To request an accommodation, please register with the Disability Services Office at the beginning of the semester. To do so, call 413.585.2071 to arrange an appointment with Laura Rauscher, Director of Disability Services.
+Smith is committed to providing support services and reasonable accommodations
+to all students with disabilities. To request an accommodation, please register
+with the Disability Services Office at the beginning of the semester. To do so,
+call 413.585.2071 to arrange an appointment with Laura Rauscher, Director of
+Disability Services.
+
+## Expectations
+
+If you require accommodations, please provide the me with documentation
+and advance notice for when you think you will need them.
 
 
 
@@ -138,17 +164,14 @@ As the instructor and assistants for this course, we are committed to making
 participation in this course a harassment-free experience for everyone,
 regardless of level of experience, gender, gender identity and expression,
 sexual orientation, disability, personal appearance, body size, race, ethnicity,
-age, or religion.
-
-Examples of unacceptable behavior by participants in this course include the use
-of sexual language or imagery, derogatory comments or personal attacks,
-trolling, public or private harassment, insults, or other unprofessional
-conduct.
+age, or religion. Examples of unacceptable behavior by participants in this
+course include the use of sexual language or imagery, derogatory comments or
+personal attacks, trolling, public or private harassment, insults, or other
+unprofessional conduct.
 
 As the instructor and assistants we have the right and responsibility to point
 out and stop behavior that is not aligned to this Code of Conduct. Participants
 who do not follow the Code of Conduct may be reprimanded for such behavior.
-
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the instructor.
 
@@ -157,3 +180,8 @@ Covenant](http://contributor-covenant.org){target="_blank"}, version 1.0.0,
 available at
 [here](http://contributor-covenant.org/version/1/0/0/){target="_blank"}.
 
+## Expectations
+
+All students, the instructor, and all assistants are expected to adhere to this
+Code of Conduct in all settings: lectures, office hours, during tutoring hours,
+and over Slack.

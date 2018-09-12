@@ -166,7 +166,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1",
+      selectors: "h1,h2",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
@@ -296,7 +296,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">SDS 192: Introduction to Data Science</h1>
 <h4 class="author"><em>Albert Y. Kim</em></h4>
-<h4 class="date"><em>Last updated on 2018-09-11</em></h4>
+<h4 class="date"><em>Last updated on 2018-09-12</em></h4>
 
 </div>
 
@@ -319,19 +319,88 @@ h1{font-weight: 400;}
 <li>Maps and spatial data (green): Map and geospatial data.</li>
 <li>Learning how to learn new data science tools (yellow): Text data, webscraping, SQL.</li>
 </ol></li>
-<li><strong>Readings + Optional Readings</strong>: MD is ModernDive, MDSR is Modern Data Science with R.</li>
+<li><strong>Readings + Reference</strong>: MD is ModernDive, MDSR is Modern Data Science with R, TMR is Text Mining with R.</li>
 </ul>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="810">
 </iframe>
 <hr />
 </div>
-<div id="PS01" class="section level1">
-<h1>Problem set 1</h1>
-<p><em>Assigned Monday 9/17, due Monday 9/25 at 9pm</em></p>
-<hr />
-</div>
 <div id="lec-3" class="section level1">
 <h1>Lec 3</h1>
+<ul>
+<li>Go over previous Slack <code>#general_announcements</code></li>
+<li>If you haven’t already, <strong>please</strong> complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTI6UM9OlYygbZQU_gQPtQPGplFIXzmE_YCMPT_1bSkDd3Zw/viewform" target="_blank">Intro Survey</a> from Lec 1.</li>
+<li>Syllabus discussion:
+<ul>
+<li>Added full topic schedule</li>
+<li>Added office hours</li>
+<li>Added <em>expectations</em> to following sections:
+<ol style="list-style-type: decimal">
+<li>Basic Course Information</li>
+<li>Topic Schedule and Readings</li>
+<li>Evaluation</li>
+<li>Code of Conduct</li>
+</ol></li>
+</ul></li>
+</ul>
+<div id="todays-activity" class="section level2">
+<h2>Today’s Activity</h2>
+<ol style="list-style-type: decimal">
+<li>Go over ModernDive Chapter 2. Note:
+<ul>
+<li>You can skip all videos and linked DataCamp courses.</li>
+<li>“Learning checks”: These are practice problems that you do not need to submit. Should you write your answers down? If you feel like you would benefit, then yes! I will post solutions to the learning checks before the next lecture!</li>
+</ul></li>
+<li>Start Problem set 1 below. I will discuss the DataCamp interface at 11:55am.</li>
+</ol>
+</div>
+<div id="getting-help" class="section level2">
+<h2>Getting help</h2>
+<p>A big part of learning data science tools is learning how to get help effectively. For example, in this course:</p>
+<p><strong>In class</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Ask yourself “Is this something I can Google?” Learning to use Google effectively is an important tool in a data scientist’s toolbox.</li>
+<li>Ask the people sitting next to you.</li>
+<li>Raise your hand to ask the data assistant or myself.</li>
+</ol>
+<p><strong>Outside of class</strong>:</p>
+<ol style="list-style-type: decimal">
+<li>Ask yourself “Is this something I can Google?” Learning to use Google effectively is an important tool in a data scientist’s toolbox.</li>
+<li>Ask yourself “Are there people I work with in class that I can Slack?”</li>
+<li>If you all don’t know, post a question on Slack in the <code>#r_questions</code> channel.</li>
+<li>Visit the Spinelli Center for tutoring Sunday-Thursday 7-9pm (see <a href="syllabus.html#basicinfo">syllabus</a> for more info).</li>
+</ol>
+<hr />
+</div>
+</div>
+<div id="PS01" class="section level1">
+<h1>Problem set 1</h1>
+<p><em>Assigned Wednesday 9/12, due Monday 9/17 at 9pm</em></p>
+<ol style="list-style-type: decimal">
+<li><strong>DataCamp</strong>
+<ul>
+<li>Complete the following chapters from the “Introduction to R” course, which you should see in the following <a href="https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments" target="_blank">link</a>:
+<ul>
+<li>Chapter 1: “Intro to basics”</li>
+<li>Chapter 2: “Vectors”</li>
+<li>Chapter 4: “Factors”</li>
+<li>Chapter 5: “Data Frames”</li>
+</ul></li>
+<li>See the <a href="syllabus.html#expectations">syllabus</a> for expectations on DataCamp assignments.</li>
+</ul></li>
+<li><strong>Administrative stuff</strong>: To receive full credit for this portion simply ensure
+<ul>
+<li>On Slack:
+<ol style="list-style-type: decimal">
+<li>Your full name is listed: full name = how you would like to be addressed in class &amp; last name.<br />
+</li>
+<li>You have added a profile picture with your face visible. This will help me learn your names.</li>
+<li>Hint: Start relying on Google! “How do I change my name and profile picture on Slack?”</li>
+<li>You are a member of the <code>#moderndive_typoes</code>, <code>#r_questions</code>, and <code>random</code> channels.</li>
+</ol></li>
+<li>On DataCamp: Your full name is listed in your <a href="https://www.datacamp.com/profile/account_settings" target="_blank">profile</a>; the rest is optional.</li>
+</ul></li>
+</ol>
 <hr />
 </div>
 <div id="lec-2" class="section level1">
@@ -403,7 +472,7 @@ h1{font-weight: 400;}
 <li>You have received an invitation email to DataCamp and are a member of the <a href="https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science" target="_blank">group</a>. Do not create an account separately on datacamp.com, but rather use the link in the email you received.</li>
 <li>You’ve completed the <a href="https://docs.google.com/forms/d/e/1FAIpQLSdTI6UM9OlYygbZQU_gQPtQPGplFIXzmE_YCMPT_1bSkDd3Zw/viewform" target="_blank">Intro Survey</a></li>
 </ul></li>
-<li><strong>Need help with any of the above?</strong> Fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSehdLkV7PPj2_ghaHROdqb4fRCdJDv0ksDLoMw95WpPnfxzqQ/viewform" target="_blank">Google Form</a>.</li>
+<li><strong>Need help with any of the above?</strong> <del>Fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSehdLkV7PPj2_ghaHROdqb4fRCdJDv0ksDLoMw95WpPnfxzqQ/viewform" target="_blank">Google Form</a></del> Slack me!</li>
 </ul>
 </div>
 </div>
