@@ -59,6 +59,17 @@ h1{font-weight: 400;}
 
 
 
+# Lec 4
+
+* Extra office hours today: Friday 9/14, 3:30-5pm in McConnell 215
+
+
+
+
+***
+
+
+
 # Lec 3
 
 * Go over previous Slack `#general_announcements`
