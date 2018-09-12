@@ -114,7 +114,7 @@ A big part of learning data science tools is learning how to get help effectivel
         * Chapter 2: "Vectors"
         * Chapter 4: "Factors"
         * Chapter 5: "Data Frames"
-    * See the [syllabus](syllabus.html#expectations) for expectations on DataCamp assignments.
+    * See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
 1. **Administrative stuff**: To receive full credit for this portion simply ensure
     * On Slack:
         1. Your full name is listed: full name = how you would like to be addressed in class & last name.  

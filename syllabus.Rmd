@@ -117,7 +117,7 @@ don't know what your voice sounds like.
 * [Ghosting](https://www.urbandictionary.com/define.php?term=Ghosting&utm_source=search-action){target="_blank"}.
 * Doing the bare minimum to get by. 
 
-## Expectations {#expectations}
+## Expectations {#evaluation-expectations}
 
 * **DataCamp**:
     1. DataCamp is meant to be low stakes-practice, so the only thing that matters for your grade is whether you complete the course. So while things like the number of hints/solutions taken don't factor into your grade, it is important to make a good faith effort to answer these questions the best you can.
