@@ -51,7 +51,7 @@ h1{font-weight: 400;}
     1. Learning how to learn new data science tools (yellow): Text data, webscraping, SQL.
 * **Readings + Reference**: MD is ModernDive, MDSR is Modern Data Science with R, TMR is Text Mining with R. 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&single=true&amp;widget=true&amp;headers=false" width="100%" height="810"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&si  ngle=true&amp;widget=true&amp;headers=false" width="100%" height="810"></iframe>
 
 
 
@@ -61,11 +61,44 @@ h1{font-weight: 400;}
 
 # Lec 4
 
-* For those of you with interests in Biology: Reed College's Prof Derek Applewhite ["The Spatial and Temporal Regulation of Non-muscle Myosin II Contractility"](https://twitter.com/rudeboybert/status/1040272556991959041){target="_blank"} talk on Monday 9/17 4:15pm
-* Extra office hours today: Friday 9/14, 3:30-5pm in McConnell 215
-* "Should I be typing in the console directly?"
-    + R scratchpads: `.R` files
-    + 
+## Announcements
+
+* **Extra office hours today 3:30-5pm in McConnell 215**
+* For those of you with interests in Biology: Reed College's Prof Derek Applewhite ["The Spatial and Temporal Regulation of Non-muscle Myosin II Contractility"](https://twitter.com/rudeboybert/status/1040272556991959041){target="_blank"} talk on Monday afternoon.
+* Added note about when to do DataCamp courses to [syllabus](syllabus.html#evaluation-expectations): *You do not need to complete any DataCamp courses in preparation for future lectures; they will always be explicitly assigned*.
+* Solutions to previous lecture's learning checks will be posted directly underneith question. Ex: Look at [LC2.1 Solutions](https://moderndive.netlify.com/2-getting-started.html#exploredataframes){target="_blank"} I just posted.
+
+## Today's Topics/Activities       
+
+### 1. Chalk Talk
+
+The Grammar of Graphics: the theoretical underpinnings of statistical graphics
+
+### 2. In-class exercise 1: R code scratchpads
+
+**Question**: Should I be copying/pasting/tweeking code directly in the console window?  
+**Answer**: You can, but it makes saving work difficult. Instead, create a "scratchpad":
+
+1. Create a new `.R` script: In RStudio Menu Bar -> File -> New File -> R Script. 
+1. Save this as `scratchpad.R`
+1. Copy/paste/tweak any code in your scratchpad, not in console window. For example, for this exercise write: `1+1`
+1. To "run" code in the console (in other words tell R to "do this"), you can do one of the following:
+    1. Copy it from scratchpad, then paste it in console, then hit enter.
+    1. Highlight the code you want to run, then click on "Run"
+    1. Highlight the code you want to run, then press control+enter on Windows/Unix/Chromebook or ⌘+enter on macOS.
+
+### 3. In-class exercise 2
+
+As marked in the Schedule at the top of this page, read ModernDive 3-3.3.1 (start of Chapter 3 to the end of 3.3.1).
+
+* Do not ignore the "Needed Packages" section at the beginning. Recall:
+    + The phone vs app analogy described in ModernDive 2.3.
+    + If you are using RStudio Server in your browser, these packages come pre-installed.
+    + If you are using RStudio Desktop installed on your computer, you'll have to ensure these packages are installed.
+* Please skip the "Introduction to the Tidyverse" DataCamp course mentioned at the beginning of Chapter 3 for now.
+* "Learning checks": These are practice problems that you do not need to submit. Should you write your answers down? If you feel like you would benefit, then yes! I will post solutions to the learning checks before the next lecture!
+
+
 
 
 
@@ -80,13 +113,9 @@ h1{font-weight: 400;}
 * Syllabus discussion:
     + Added full topic schedule
     + Added office hours
-    + Added *expectations* to following sections:
-        1. Basic Course Information
-        1. Topic Schedule and Readings
-        1. Evaluation
-        1. Code of Conduct
+    + Added *expectations* to following sections: Basic Course Information, Topic Schedule and Readings, Evaluation, Accommodations, Code of Conduct
 
-## Today's Activity       
+## Today's Topics/Activities       
         
 1. Go over ModernDive Chapter 2. Note:
     + You can skip all videos and linked DataCamp courses.
@@ -113,8 +142,6 @@ A big part of learning data science tools is learning how to get help effectivel
 
 
 ***
-
-
 
 
 

@@ -128,6 +128,7 @@ don't know what your voice sounds like.
     1. Taking notes based on what you cover is not required, but please do so if you feel you will benefit. 
     1. You should be taking no more than roughly 4 hours per DataCamp assignment.
     1. Please note retention of the material will not be perfect the first time through. The only way to really retain the material is via lots of practice/doing. For now, think of this as a introduction.
+    1. You do not need to complete any DataCamp courses in preparation for future lectures; they will always be explicitly assigned and you will subsequently be given time during Tu/Th lab sections to do them. 
 1. **Collaboration**: While I encourage you to work with your peers for problem
 sets and labs, you must submit your own answers and not simple rewordings of
 another's work. Furthermore, all collaborations must be explicitly acknowledged
