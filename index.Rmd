@@ -61,8 +61,11 @@ h1{font-weight: 400;}
 
 # Lec 4
 
+* For those of you with interests in Biology: Reed College's Prof Derek Applewhite ["The Spatial and Temporal Regulation of Non-muscle Myosin II Contractility"](https://twitter.com/rudeboybert/status/1040272556991959041){target="_blank"} talk on Monday 9/17 4:15pm
 * Extra office hours today: Friday 9/14, 3:30-5pm in McConnell 215
-
+* "Should I be typing in the console directly?"
+    + R scratchpads: `.R` files
+    + 
 
 
 
