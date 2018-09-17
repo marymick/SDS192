@@ -58,8 +58,83 @@ h1{font-weight: 400;}
 ***
 
 
+# Lec 5
 
-# Lec 4
+<!--
+
+## Announcements
+
+* What my `scratchpad.R` looks like after Lec4. Yours shouldn't be *exactly* the same, but close. Note:
+    + Because I saved my work, `scratchpad.R` is written in black. If I had unsaved work, this would be written in red.
+    + `#` are called *comment lines* and are ignored by R when you run them in the console.
+![alt text](static/images/Lec4_scratchpad.png){ width=500px }
+
+* Problem set 02 posted [below](#PS02).
+
+## Today's Topics/Activities       
+
+### 1. Chalk Talk
+
+* What is overplotting?
+* When do I use linegraphs instead of scatterplots?
+
+### 2. In-class exercise: Comment lines
+
+In your console run both:
+
+1. `this is a comment line that helps readers (including you!) understand code`
+1. `# this is a comment line that helps readers (including you!) understand code`
+
+Why does one line return an `Error` whereas the other doesn't?
+
+
+### 3. In-class exercise
+
+As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (start of Chapter 3.3.2 to the end of 3.4).
+
+
+***
+
+
+
+# Problem set 2 {#PS02}
+
+*Assigned Monday 9/17, due Monday 9/24 at 9pm Eastern Time*
+
+## 1. DataCamp
+
+* Complete *only* the following two chapters from the "Introduction to the Tidyverse" course, which you should see in the following [link](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments){target="_blank"}:
+    * Chapter 1: "Data wrangling".
+    * Chapter 2: "Data visualization"
+    * Skip Chapters 3-4 on "Grouping and summarizing" and "Types of visualizations" for now.
+* Note: DataCamp does things in a slightly order, data wrangling first then data visualization. ModernDive however does data visualization first in Chapter 3 then data wrangling in Chapter 5. Reading ModernDive Chapter 5 is not a pre-requisite for completing this problem set.
+* See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
+* If you have already completed the "Introduction to the Tidyverse" DataCamp course previously using a DataCamp account based on your Smith email, you do not need to re-do them; they will show up in my logs as completed.
+
+
+## 2. R component
+
+Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income Inequality](https://fivethirtyeight.com/features/higher-rates-of-hate-crimes-are-tied-to-income-inequality/){target="_blank"}. You'll be analyzing the same data used to write this article. The data is in the `hate_crimes` dataframe, which is included in the `fivethirtyeight` R package. A larger goal of this problem set is to start practicing the "data analysis" workflow.
+-->
+
+* Download the following R scratchpad: <a href="static/PS02_lastname_firstname.R" download>`PS02_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS02_Kim_Albert.R`.
+
+<!--
+* If you are using RStudio Server, "upload" this file to the server by going to RStudio -> Files panel -> Upload.
+* Open `PS02_lastname_firstname.R` and follow the steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
+* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this `PS02_lastname_firstname.R` file and they ran the code as well, then they would get the same results as you.
+    + Restart R: RStudio menu bar -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
+    + Run all your code as described in [Lec4](#Lec04) and make sure that you can replicate the scatterplot.
+* **Submission**: "Download" this file on to your compter by going to RStudio -> Files panel -> More -> Export. Then submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
+
+--> 
+
+
+***
+
+
+
+# Lec 4 {#Lec04}
 
 ## Announcements
 
@@ -74,7 +149,7 @@ h1{font-weight: 400;}
 
 The Grammar of Graphics: the theoretical underpinnings of statistical graphics
 
-### 2. In-class exercise 1: R code scratchpads
+### 2. In-class exercise: R code scratchpads
 
 **Question**: Should I be copying/pasting/tweeking code directly in the console window?  
 **Answer**: You can, but it makes saving work difficult. Instead, create a "scratchpad":
@@ -87,9 +162,9 @@ The Grammar of Graphics: the theoretical underpinnings of statistical graphics
     1. Highlight the code you want to run, then click on "Run"
     1. Highlight the code you want to run, then press control+enter on Windows/Unix/Chromebook or ⌘+enter on macOS.
 
-### 3. In-class exercise 2
+### 3. In-class exercise
 
-As marked in the Schedule at the top of this page, read ModernDive 3-3.3.1 (start of Chapter 3 to the end of 3.3.1).
+As marked in the Schedule at the top of this page, read ModernDive 3 - 3.3.1 (start of Chapter 3 to the end of 3.3.1).
 
 * Do not ignore the "Needed Packages" section at the beginning. Recall:
     + The phone vs app analogy described in ModernDive 2.3.
@@ -147,7 +222,7 @@ A big part of learning data science tools is learning how to get help effectivel
 
 # Problem set 1 {#PS01}
 
-*Assigned Wednesday 9/12, due Monday 9/17 at 9pm*
+*Assigned Wednesday 9/12, due Monday 9/17 at 9pm Eastern Time*
 
 1. **DataCamp**
     * Complete the following chapters from the "Introduction to R" course, which you should see in the following [link](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments){target="_blank"}:

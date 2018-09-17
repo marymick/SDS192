@@ -296,7 +296,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">SDS 192: Introduction to Data Science</h1>
 <h4 class="author"><em>Albert Y. Kim</em></h4>
-<h4 class="date"><em>Last updated on 2018-09-14</em></h4>
+<h4 class="date"><em>Last updated on 2018-09-17</em></h4>
 
 </div>
 
@@ -325,7 +325,79 @@ h1{font-weight: 400;}
 </iframe>
 <hr />
 </div>
-<div id="lec-4" class="section level1">
+<div id="lec-5" class="section level1">
+<h1>Lec 5</h1>
+<!--
+
+## Announcements
+
+* What my `scratchpad.R` looks like after Lec4. Yours shouldn't be *exactly* the same, but close. Note:
+    + Because I saved my work, `scratchpad.R` is written in black. If I had unsaved work, this would be written in red.
+    + `#` are called *comment lines* and are ignored by R when you run them in the console.
+![alt text](static/images/Lec4_scratchpad.png){ width=500px }
+
+* Problem set 02 posted [below](#PS02).
+
+## Today's Topics/Activities       
+
+### 1. Chalk Talk
+
+* What is overplotting?
+* When do I use linegraphs instead of scatterplots?
+
+### 2. In-class exercise: Comment lines
+
+In your console run both:
+
+1. `this is a comment line that helps readers (including you!) understand code`
+1. `# this is a comment line that helps readers (including you!) understand code`
+
+Why does one line return an `Error` whereas the other doesn't?
+
+
+### 3. In-class exercise
+
+As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (start of Chapter 3.3.2 to the end of 3.4).
+
+
+***
+
+
+
+# Problem set 2 {#PS02}
+
+*Assigned Monday 9/17, due Monday 9/24 at 9pm Eastern Time*
+
+## 1. DataCamp
+
+* Complete *only* the following two chapters from the "Introduction to the Tidyverse" course, which you should see in the following [link](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments){target="_blank"}:
+    * Chapter 1: "Data wrangling".
+    * Chapter 2: "Data visualization"
+    * Skip Chapters 3-4 on "Grouping and summarizing" and "Types of visualizations" for now.
+* Note: DataCamp does things in a slightly order, data wrangling first then data visualization. ModernDive however does data visualization first in Chapter 3 then data wrangling in Chapter 5. Reading ModernDive Chapter 5 is not a pre-requisite for completing this problem set.
+* See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
+* If you have already completed the "Introduction to the Tidyverse" DataCamp course previously using a DataCamp account based on your Smith email, you do not need to re-do them; they will show up in my logs as completed.
+
+
+## 2. R component
+
+Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income Inequality](https://fivethirtyeight.com/features/higher-rates-of-hate-crimes-are-tied-to-income-inequality/){target="_blank"}. You'll be analyzing the same data used to write this article. The data is in the `hate_crimes` dataframe, which is included in the `fivethirtyeight` R package. A larger goal of this problem set is to start practicing the "data analysis" workflow.
+-->
+<ul>
+<li>Download the following R scratchpad: <a href="static/PS02_lastname_firstname.R" download><code>PS02_lastname_firstname.R</code></a> and rename it so that it matches your name. For example in my case: <code>PS02_Kim_Albert.R</code>.</li>
+</ul>
+<!--
+* If you are using RStudio Server, "upload" this file to the server by going to RStudio -> Files panel -> Upload.
+* Open `PS02_lastname_firstname.R` and follow the steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
+* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this `PS02_lastname_firstname.R` file and they ran the code as well, then they would get the same results as you.
+    + Restart R: RStudio menu bar -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
+    + Run all your code as described in [Lec4](#Lec04) and make sure that you can replicate the scatterplot.
+* **Submission**: "Download" this file on to your compter by going to RStudio -> Files panel -> More -> Export. Then submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
+
+-->
+<hr />
+</div>
+<div id="Lec04" class="section level1">
 <h1>Lec 4</h1>
 <div id="announcements" class="section level2">
 <h2>Announcements</h2>
@@ -342,8 +414,8 @@ h1{font-weight: 400;}
 <h3>1. Chalk Talk</h3>
 <p>The Grammar of Graphics: the theoretical underpinnings of statistical graphics</p>
 </div>
-<div id="in-class-exercise-1-r-code-scratchpads" class="section level3">
-<h3>2. In-class exercise 1: R code scratchpads</h3>
+<div id="in-class-exercise-r-code-scratchpads" class="section level3">
+<h3>2. In-class exercise: R code scratchpads</h3>
 <p><strong>Question</strong>: Should I be copying/pasting/tweeking code directly in the console window?<br />
 <strong>Answer</strong>: You can, but it makes saving work difficult. Instead, create a “scratchpad”:</p>
 <ol style="list-style-type: decimal">
@@ -358,9 +430,9 @@ h1{font-weight: 400;}
 </ol></li>
 </ol>
 </div>
-<div id="in-class-exercise-2" class="section level3">
-<h3>3. In-class exercise 2</h3>
-<p>As marked in the Schedule at the top of this page, read ModernDive 3-3.3.1 (start of Chapter 3 to the end of 3.3.1).</p>
+<div id="in-class-exercise" class="section level3">
+<h3>3. In-class exercise</h3>
+<p>As marked in the Schedule at the top of this page, read ModernDive 3 - 3.3.1 (start of Chapter 3 to the end of 3.3.1).</p>
 <ul>
 <li>Do not ignore the “Needed Packages” section at the beginning. Recall:
 <ul>
@@ -419,7 +491,7 @@ h1{font-weight: 400;}
 </div>
 <div id="PS01" class="section level1">
 <h1>Problem set 1</h1>
-<p><em>Assigned Wednesday 9/12, due Monday 9/17 at 9pm</em></p>
+<p><em>Assigned Wednesday 9/12, due Monday 9/17 at 9pm Eastern Time</em></p>
 <ol style="list-style-type: decimal">
 <li><strong>DataCamp</strong>
 <ul>
