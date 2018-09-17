@@ -3,7 +3,7 @@ title: "Syllabus"
 output:
   html_document:
     toc: yes
-    toc_depth: 1
+    toc_depth: 2
     toc_float:
       collapsed: no
 ---
@@ -18,9 +18,9 @@ h1{font-weight: 400;}
 * **Course title:** SDS 192: Introduction to Data Science
 * **Instructor:** [Albert Y. Kim](https://rudeboybert.rbind.io/){target="_blank"} - Assistant Professor of Statistical & Data Sciences
 * **Data assistants**: From the [Spinelli Center for Quantitative Learning (QLC)](https://www.smith.edu/qlc/){target="_blank"}
-    + Jordan Moody on Monday + Wednesday
-    + Paige Patrick on Friday
-    + Zixian Li
+    + Jordan Moody on MWF
+    + Paige Patrick on F
+    + Zixian Li on MW
 * **~~Email:~~ Slack team**: Click hashtag icon in navbar for the browser interface or use the [desktop app](https://slack.com/downloads/){target="_blank"}.
 * **Lectures:** Sec 01: MWF 11:00-12:10 - McConnell 103
 * **Outside help**:
@@ -129,11 +129,12 @@ don't know what your voice sounds like.
     1. You should be taking no more than roughly 4 hours per DataCamp assignment.
     1. Please note retention of the material will not be perfect the first time through. The only way to really retain the material is via lots of practice/doing. For now, think of this as a introduction.
     1. You do not need to complete any DataCamp courses in preparation for future lectures; they will always be explicitly assigned and you will subsequently be given time during Tu/Th lab sections to do them. 
-1. **Collaboration**: While I encourage you to work with your peers for problem
+* **R components**
+    1. **Collaboration**: While I encourage you to work with your peers for problem
 sets and labs, you must submit your own answers and not simple rewordings of
 another's work. Furthermore, all collaborations must be explicitly acknowledged
 in your submissions.
-1. **Honor Code**: All your work must follow the [Smith College Academic Honor
+    1. **Honor Code**: All your work must follow the [Smith College Academic Honor
 Code
 Statement](https://www.smith.edu/sao/handbook/socialconduct/honorcode.php){target="_blank"};
 in particular all external sources must be cited in your submissions.

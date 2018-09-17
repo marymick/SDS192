@@ -60,15 +60,11 @@ h1{font-weight: 400;}
 
 # Lec 5
 
-<!--
-
 ## Announcements
 
-* What my `scratchpad.R` looks like after Lec4. Yours shouldn't be *exactly* the same, but close. Note:
-    + Because I saved my work, `scratchpad.R` is written in black. If I had unsaved work, this would be written in red.
-    + `#` are called *comment lines* and are ignored by R when you run them in the console.
+* What my `scratchpad.R` looks like after Lec4. Yours shouldn't be *exactly* the same, but close.  
+Note because I saved my work, `scratchpad.R` is written in black. If I had unsaved work, this would be written in red.  
 ![alt text](static/images/Lec4_scratchpad.png){ width=500px }
-
 * Problem set 02 posted [below](#PS02).
 
 ## Today's Topics/Activities       
@@ -80,12 +76,13 @@ h1{font-weight: 400;}
 
 ### 2. In-class exercise: Comment lines
 
-In your console run both:
+In the screen shot of my `scratchpad.R` above, any line that starts with a `#` are called *comment lines*. They are ignored by R when you run them in the console. Run both these lines in the console separately:
 
-1. `this is a comment line that helps readers (including you!) understand code`
-1. `# this is a comment line that helps readers (including you!) understand code`
+```{r, eval=FALSE, echo=TRUE}
+this is a comment line that R ignores that helps readers (including you!) understand code
 
-Why does one line return an `Error` whereas the other doesn't?
+# this is a comment line that R ignores that helps readers (including you!) understand code
+```
 
 
 ### 3. In-class exercise
@@ -116,16 +113,16 @@ As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (
 
 Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income Inequality](https://fivethirtyeight.com/features/higher-rates-of-hate-crimes-are-tied-to-income-inequality/){target="_blank"}. You'll be analyzing the same data used to write this article. The data is in the `hate_crimes` dataframe, which is included in the `fivethirtyeight` R package. A larger goal of this problem set is to start practicing the "data analysis" workflow.
 
-
 * Download the following R scratchpad: <a href="static/PS02_lastname_firstname.R" download>`PS02_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS02_Kim_Albert.R`.
-* If you are using RStudio Server, "upload" this file to the server by going to RStudio -> Files panel -> Upload.
-* Open `PS02_lastname_firstname.R` and follow the steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
-* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this `PS02_lastname_firstname.R` file and they ran the code as well, then they would get the same results as you.
-    + Restart R: RStudio menu bar -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
+* "Upload" this file to RStudio Server by going to RStudio -> Files panel -> Upload.
+* Open `PS02_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
+* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, woult they get the same results as you?
+    + Save your work and close `PS02_lastname_firstname.R`.
+    + Restart R: RStudio menu bar -> Session -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
+    + Go to the Files panel of RStudio and re-open `PS02_lastname_firstname.R`.
     + Run all your code as described in [Lec4](#Lec04) and make sure that you can replicate the scatterplot.
 * **Submission**: "Download" this file on to your compter by going to RStudio -> Files panel -> More -> Export. Then submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
-
---> 
+* See [syllabus](syllabus.html#evaluation-expectations) for expectations on such submissions.
 
 
 ***
