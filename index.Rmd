@@ -84,6 +84,8 @@ this is a comment line that R ignores that helps readers (including you!) unders
 # this is a comment line that R ignores that helps readers (including you!) understand code
 ```
 
+Why does one line return an `Error` whereas the other doesn't?
+
 
 ### 3. In-class exercise
 
