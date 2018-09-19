@@ -366,7 +366,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">SDS 192: Introduction to Data Science</h1>
 <h4 class="author"><em>Albert Y. Kim</em></h4>
-<h4 class="date"><em>Last updated on 2018-09-17</em></h4>
+<h4 class="date"><em>Last updated on 2018-09-19</em></h4>
 
 </div>
 
@@ -395,9 +395,60 @@ h1{font-weight: 400;}
 </iframe>
 <hr />
 </div>
+<div id="lec-6" class="section level1">
+<h1>Lec 6</h1>
+<div id="announcements" class="section level2">
+<h2>Announcements</h2>
+<ul>
+<li>Curious about a career in data science? Then come for Emily Dodwell (class of 2011)’s talk “The Nuts and Bolts of a Data Science Career” on Monday 9/24; stay for the 🍕lunch! Click <a href="static/dodwell_talk.pdf" target="_blank">here</a> for details.</li>
+<li>Added hints to Problem set 2 R component <a href="#PS02_R">below</a>.</li>
+<li>In above schedule and in <a href="syllabus.html#projects">syllabus</a> project due dates are posted. Details on mini-project 1 on data visualization will be given this Friday.</li>
+<li>RStudio Server update: <a href="http://www.science.smith.edu/cats/" target="_blank">Computing and Technical Services</a> has added 4 additional processors to RStudio Server so things should run smoother!</li>
+<li>Learning check solutions by Friday, promise!</li>
+<li>Slack poll on <code>scratchpad.R</code></li>
+</ul>
+<!--
+/poll "Do you think you understand what the purpose of the `scratchpad.R` file is?" "Sort of" "Not really" anonymous
+
+/poll "What did you think of @SmithCollegeSDS faculty alumna @AmeliaMN visual essay on histograms?" "I love it!" "I like it" "It was alright" "meh" anonymous
+-->
+</div>
+<div id="todays-topicsactivities" class="section level2">
+<h2>Today’s Topics/Activities</h2>
+<div id="chalk-talk" class="section level3">
+<h3>1. Chalk Talk</h3>
+<p>Histograms visualize the <em>distribution</em> of a numerical variable.</p>
+</div>
+<div id="in-class-exercise" class="section level3">
+<h3>2. In-class exercise</h3>
+<ul>
+<li>Read the following requests from Suzanne Palmer in <a href="http://www.science.smith.edu/cats/" target="_blank">Computing and Technical Services</a> about using RStudio Server
+<ul>
+<li>“Please do not have students install packages.” Recall: If you are using RStudio Server, there is no need to <em>install</em> packages, only to <em>load/open</em> them using the <code>library()</code> command. For example <code>library(nycflights13)</code>.</li>
+<li>“Please ask students to limit their number of concurrent sessions.” In other words, when you are done working in RStudio Server, please close your browser window so that it frees up shared computing resources for other people.</li>
+<li>If you would like to do your own work that involves “big data”, for example for a thesis project, please Slack me and we’ll set up a separate account.</li>
+</ul></li>
+<li>Read former Smith College professor <a href="https://twitter.com/ameliamn?lang=en" target="_blank">Dr. Amelia McNamara’s</a> visual essay on <a href="https://tinlizzie.org/histograms/" target="_blank">histograms</a>.</li>
+<li>Then, as marked in the Schedule at the top of this page, read ModernDive 3.5</li>
+</ul>
+</div>
+<div id="tweet-of-the-day" class="section level3">
+<h3>3. Tweet of the day</h3>
+<p>On <em>imposter syndrome</em> is a psychological pattern in which an individual doubts their accomplishments and has a persistent internalized fear of being exposed as a “fraud”. Click below to read full thread.</p>
+<blockquote class="twitter-tweet" data-lang="en">
+<p lang="en" dir="ltr">
+Let's talk about imposter syndrome in tech – specifically, ways we can combat it better, both individually and as a community (a thread) 👇
+</p>
+— Caitlin Hudon👩🏼 💻 (<span class="citation">@beeonaposy</span>) <a href="https://twitter.com/beeonaposy/status/1042161720771395585?ref_src=twsrc%5Etfw">September 18, 2018</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<hr />
+</div>
+</div>
+</div>
 <div id="lec-5" class="section level1">
 <h1>Lec 5</h1>
-<div id="announcements" class="section level2">
+<div id="announcements-1" class="section level2">
 <h2>Announcements</h2>
 <ul>
 <li>What my <code>scratchpad.R</code> looks like after Lec4. Yours shouldn’t be <em>exactly</em> the same, but close.<br />
@@ -406,9 +457,9 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <li>Problem set 02 posted <a href="#PS02">below</a>.</li>
 </ul>
 </div>
-<div id="todays-topicsactivities" class="section level2">
+<div id="todays-topicsactivities-1" class="section level2">
 <h2>Today’s Topics/Activities</h2>
-<div id="chalk-talk" class="section level3">
+<div id="chalk-talk-1" class="section level3">
 <h3>1. Chalk Talk</h3>
 <ul>
 <li>What is overplotting?</li>
@@ -423,7 +474,7 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <a class="sourceLine" id="cb1-3" data-line-number="3"><span class="co"># this is a comment line that R ignores that helps readers (including you!) understand code</span></a></code></pre></div>
 <p>Why does one line return an <code>Error</code> whereas the other doesn’t?</p>
 </div>
-<div id="in-class-exercise" class="section level3">
+<div id="in-class-exercise-1" class="section level3">
 <h3>3. In-class exercise</h3>
 <p>As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (start of Chapter 3.3.2 to the end of 3.4).</p>
 <hr />
@@ -447,11 +498,11 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <li>If you have already completed the “Introduction to the Tidyverse” DataCamp course previously using a DataCamp account based on your Smith email, you do not need to re-do them; they will show up in my logs as completed.</li>
 </ul>
 </div>
-<div id="r-component" class="section level2">
+<div id="PS02_R" class="section level2">
 <h2>2. R component</h2>
 <p>Read the following 538 article <a href="https://fivethirtyeight.com/features/higher-rates-of-hate-crimes-are-tied-to-income-inequality/" target="_blank">Higher Rates Of Hate Crimes Are Tied To Income Inequality</a>. You’ll be analyzing the same data used to write this article. The data is in the <code>hate_crimes</code> dataframe, which is included in the <code>fivethirtyeight</code> R package. A larger goal of this problem set is to start practicing the “data analysis” workflow.</p>
 <ul>
-<li>Download the following R scratchpad: <a href="static/PS02_lastname_firstname.R" download><code>PS02_lastname_firstname.R</code></a> and rename it so that it matches your name. For example in my case: <code>PS02_Kim_Albert.R</code>.</li>
+<li>Download the following R scratchpad: <a href="static/PS/PS02_lastname_firstname.R" download><code>PS02_lastname_firstname.R</code></a> and rename it so that it matches your name. For example in my case: <code>PS02_Kim_Albert.R</code>.</li>
 <li>“Upload” this file to RStudio Server by going to RStudio -&gt; Files panel -&gt; Upload.</li>
 <li>Open <code>PS02_lastname_firstname.R</code> and follow the indicated steps. I <em>highly</em> recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.</li>
 <li>When you are finished, check that your code is <em>reproducible and replicable</em>. Meaning if you were to send someone else this file and they ran the code, woult they get the same results as you?
@@ -462,14 +513,19 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <li>Run all your code as described in <a href="#Lec04">Lec4</a> and make sure that you can replicate the scatterplot.</li>
 </ul></li>
 <li><strong>Submission</strong>: “Download” this file on to your compter by going to RStudio -&gt; Files panel -&gt; More -&gt; Export. Then submit this on <a href="https://moodle.smith.edu/course/view.php?id=29919" target="_blank">Moodle</a>.</li>
-<li>See <a href="syllabus.html#evaluation-expectations">syllabus</a> for expectations on such submissions.</li>
+<li>See <a href="syllabus.html#evaluation-expectations">syllabus</a> for expectations on R component submissions.</li>
+</ul>
+<p><strong>Hints</strong>:</p>
+<ul>
+<li>Everything you need to know for this problem set are based on Lectures 1-4, in particular the ModernDive readings.</li>
+<li>While I encourage you collaborate/help each other out, please make an honest effort to do this problem set. Part of the graders’ and my goal in grading the problem sets is to identify both your <strong>strengths and weaknesses</strong> in preparation for the projects. Don’t forget the lowest two problem set scores are dropped!</li>
 </ul>
 <hr />
 </div>
 </div>
 <div id="Lec04" class="section level1">
 <h1>Lec 4</h1>
-<div id="announcements-1" class="section level2">
+<div id="announcements-2" class="section level2">
 <h2>Announcements</h2>
 <ul>
 <li><strong>Extra office hours today 3:30-5pm in McConnell 215</strong></li>
@@ -478,9 +534,9 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <li>Solutions to previous lecture’s learning checks will be posted directly underneith question. Ex: Look at <a href="https://moderndive.netlify.com/2-getting-started.html#exploredataframes" target="_blank">LC2.1 Solutions</a> I just posted.</li>
 </ul>
 </div>
-<div id="todays-topicsactivities-1" class="section level2">
+<div id="todays-topicsactivities-2" class="section level2">
 <h2>Today’s Topics/Activities</h2>
-<div id="chalk-talk-1" class="section level3">
+<div id="chalk-talk-2" class="section level3">
 <h3>1. Chalk Talk</h3>
 <p>The Grammar of Graphics: the theoretical underpinnings of statistical graphics</p>
 </div>
@@ -500,7 +556,7 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 </ol></li>
 </ol>
 </div>
-<div id="in-class-exercise-1" class="section level3">
+<div id="in-class-exercise-2" class="section level3">
 <h3>3. In-class exercise</h3>
 <p>As marked in the Schedule at the top of this page, read ModernDive 3 - 3.3.1 (start of Chapter 3 to the end of 3.3.1).</p>
 <ul>
@@ -529,7 +585,7 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <li>Added <em>expectations</em> to following sections: Basic Course Information, Topic Schedule and Readings, Evaluation, Accommodations, Code of Conduct</li>
 </ul></li>
 </ul>
-<div id="todays-topicsactivities-2" class="section level2">
+<div id="todays-topicsactivities-3" class="section level2">
 <h2>Today’s Topics/Activities</h2>
 <ol style="list-style-type: decimal">
 <li>Go over ModernDive Chapter 2. Note:

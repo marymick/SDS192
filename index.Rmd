@@ -58,6 +58,53 @@ h1{font-weight: 400;}
 ***
 
 
+# Lec 6
+
+## Announcements
+
+* Curious about a career in data science? Then come for Emily Dodwell (class of 2011)'s talk "The Nuts and Bolts of a Data Science Career" on Monday 9/24; stay for the `r emo::ji("pizza")`lunch! Click [here](static/dodwell_talk.pdf){target="_blank"} for details.
+* Added hints to Problem set 2 R component [below](#PS02_R).
+* In above schedule and in [syllabus](syllabus.html#projects) project due dates are posted. Details on mini-project 1 on data visualization will be given this Friday.
+* RStudio Server update: [Computing and Technical Services ](http://www.science.smith.edu/cats/){target="_blank"} has added 4 additional processors to RStudio Server so things should run smoother!
+* Learning check solutions by Friday, promise!
+* Slack poll on `scratchpad.R`
+
+<!--
+/poll "Do you think you understand what the purpose of the `scratchpad.R` file is?" "Sort of" "Not really" anonymous
+
+/poll "What did you think of @SmithCollegeSDS faculty alumna @AmeliaMN visual essay on histograms?" "I love it!" "I like it" "It was alright" "meh" anonymous
+-->
+
+## Today's Topics/Activities       
+
+### 1. Chalk Talk
+
+Histograms visualize the *distribution* of a numerical variable.
+
+### 2. In-class exercise
+
+* Read the following requests from Suzanne Palmer in [Computing and Technical Services ](http://www.science.smith.edu/cats/){target="_blank"} about using RStudio Server
+    + "Please do not have students install packages." Recall: If you are using RStudio Server, there is no need to *install* packages, only to *load/open* them using the `library()` command. For example `library(nycflights13)`.
+    + "Please ask students to limit their number of concurrent sessions." In other words, when you are done working in RStudio Server, please close your browser window so that it frees up shared computing resources for other people.
+    + If you would like to do your own work that involves "big data", for example for a thesis project, please Slack me and we'll set up a separate account.
+* Read former Smith College professor [Dr. Amelia McNamara's](https://twitter.com/ameliamn?lang=en){target="_blank"} visual essay on [histograms](https://tinlizzie.org/histograms/){target="_blank"}.
+* Then, as marked in the Schedule at the top of this page, read ModernDive 3.5
+
+
+### 3. Tweet of the day
+
+On *imposter syndrome* is a psychological pattern in which an individual doubts their accomplishments and has a persistent internalized fear of being exposed as a "fraud". Click below to read full thread.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Let&#39;s talk about imposter syndrome in tech -- specifically, ways we can combat it better, both individually and as a community (a thread) 👇</p>&mdash; Caitlin Hudon👩🏼
+💻 (@beeonaposy) <a href="https://twitter.com/beeonaposy/status/1042161720771395585?ref_src=twsrc%5Etfw">September 18, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+***
+
+
 # Lec 5
 
 ## Announcements
@@ -111,11 +158,11 @@ As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (
 * If you have already completed the "Introduction to the Tidyverse" DataCamp course previously using a DataCamp account based on your Smith email, you do not need to re-do them; they will show up in my logs as completed.
 
 
-## 2. R component
+## 2. R component {#PS02_R}
 
 Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income Inequality](https://fivethirtyeight.com/features/higher-rates-of-hate-crimes-are-tied-to-income-inequality/){target="_blank"}. You'll be analyzing the same data used to write this article. The data is in the `hate_crimes` dataframe, which is included in the `fivethirtyeight` R package. A larger goal of this problem set is to start practicing the "data analysis" workflow.
 
-* Download the following R scratchpad: <a href="static/PS02_lastname_firstname.R" download>`PS02_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS02_Kim_Albert.R`.
+* Download the following R scratchpad: <a href="static/PS/PS02_lastname_firstname.R" download>`PS02_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS02_Kim_Albert.R`.
 * "Upload" this file to RStudio Server by going to RStudio -> Files panel -> Upload.
 * Open `PS02_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
 * When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, woult they get the same results as you?
@@ -124,7 +171,13 @@ Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income I
     + Go to the Files panel of RStudio and re-open `PS02_lastname_firstname.R`.
     + Run all your code as described in [Lec4](#Lec04) and make sure that you can replicate the scatterplot.
 * **Submission**: "Download" this file on to your compter by going to RStudio -> Files panel -> More -> Export. Then submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
-* See [syllabus](syllabus.html#evaluation-expectations) for expectations on such submissions.
+* See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.
+
+**Hints**:
+
+* Everything you need to know for this problem set are based on Lectures 1-4, in particular the ModernDive readings.
+* While I encourage you collaborate/help each other out, please make an honest effort to do this problem set. Part of the graders' and my goal in grading the problem sets is to identify both your **strengths and weaknesses** in preparation for the projects. Don't forget the lowest two problem set scores are dropped!
+
 
 
 ***
