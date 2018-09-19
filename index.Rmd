@@ -72,6 +72,8 @@ h1{font-weight: 400;}
 <!--
 /poll "Do you think you understand what the purpose of the `scratchpad.R` file is?" "Sort of" "Not really" anonymous
 
+/poll "Had you heard of the term 'imposter syndrome' prior to today's lecture?" "yes & I'm a senior" "yes & I'm a junior" "yes & I'm a sophomore" "yes & I'm a first-year" "no & I'm a senior" "no & I'm a junior" "no & I'm a sophomore" "no & I'm a first-year" anonymous
+
 /poll "What did you think of @SmithCollegeSDS faculty alumna @AmeliaMN visual essay on histograms?" "I love it!" "I like it" "It was alright" "meh" anonymous
 -->
 
