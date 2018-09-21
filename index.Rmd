@@ -15,7 +15,7 @@ h1{font-weight: 400;}
 </style>
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE, eval=FALSE, 
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE, eval=TRUE, 
                       fig.width = 16/2, fig.height = 9/2)
 library(tidyverse)
 library(stringr)
@@ -58,7 +58,105 @@ h1{font-weight: 400;}
 ***
 
 
-# Lec 6
+
+# Lec 7 {#Lec07}
+
+## Announcements
+
+* Go over questions in `#random` Slack channel
+* ModernDive Learning Check solutions are ~~directly under question statement~~ now all in [Appendix D](https://moderndive.netlify.com/d-appendixd){target="_blank"} at the back of the book.
+* Lecture on Monday will end at 11:55am to give people time to comfortably get to Emily Dodwell's talk listed in [Lec06](#Lec06).
+* Mini-project 1: Look at "Projects" tab
+
+
+<!--
+/poll "Are you still encountering issues with RStudio Server?" "No" "Sometimes" "Often" anonymous
+-->
+
+## Today's Topics/Activities       
+
+### 1. Discussion on Histogram Binning
+
+Comparing Figures 3.10 and 3.11 in the ModernDive readings on histograms:
+
+```{r, eval=FALSE, echo=TRUE}
+library(ggplot2)
+library(nycflights13)
+# Code to generate Fig 3.10 with bar border color white
+ggplot(data = weather, mapping = aes(x = temp)) +
+  geom_histogram(color = "white")
+# Code to generate Fig 3.11
+ggplot(data = weather, mapping = aes(x = temp)) +
+  geom_histogram(bins = 60, color = "white")
+```
+```{r, eval=TRUE, echo=FALSE}
+# Code to generate Fig 3.10
+p1 <- ggplot(data = weather, mapping = aes(x = temp)) +
+  geom_histogram(color = "white") +
+  labs(title = "Fig 3.10: 30 bins")
+# Code to generate Fig 3.11
+p2 <- ggplot(data = weather, mapping = aes(x = temp)) +
+  geom_histogram(bins = 60, color = "white") +
+  labs(title = "Fig 3.11: 60 bins")
+p1 + p2
+```
+
+Why the weird up and down spikes in the right-hand histogram? Here is a **random** sample of 99 temperatures of the `r weather %>% filter(50 <= temp & temp < 51) %>% nrow()` temperature recordings between 50 and 51 degrees
+
+```{r, echo=FALSE}
+set.seed(76)
+weather %>% filter(50 <= temp & temp < 51) %>% sample_n(99) %>% pull(temp)
+```
+
+Here is a **random** sample of 99 temperatures of the `r weather %>% filter(55 <= temp & temp < 56) %>% nrow()` temperature recordings between 55 and 56 degrees:
+
+```{r, echo=FALSE}
+set.seed(76)
+weather %>% filter(55 <= temp & temp < 56) %>% sample_n(99) %>% pull(temp)
+```
+
+What is the pattern?
+
+
+### 2. Chalk Talk
+
+Facets and Facetted Histograms. Say you're asking yourself "What kind of jacket (if any) should I bring to my trip to New York?" Which plot is more useful? Fig 3.13 from ModernDive of all `r nrow(weather)` temperature recordings at all three airports in New York City
+
+```{r, eval=TRUE, echo=FALSE}
+library(ggplot2)
+library(nycflights13)
+ggplot(data = weather, mapping = aes(x = temp)) +
+  geom_histogram(binwidth = 10, color = "white")
+```
+
+to Fig 3.14 of the temperature recordings *split by month*.
+
+```{r, eval=TRUE, echo=FALSE}
+ggplot(data = weather, mapping = aes(x = temp)) +
+  geom_histogram(binwidth = 5, color = "white") +
+  facet_wrap(~ month, nrow = 4)
+```
+
+
+### 3. In-class exercise
+
+Read ModernDive 3.6 on Facets
+
+
+### 4. Tweet of the day
+
+ModernDive co-author Chester Ismay [\@old_man_chester](https://twitter.com/old_man_chester){target="_blank"} is Senior Curriculum Lead at DataCamp. If you are curious for a "big picture" view of why we are using DataCamp, read the linked blogpost, in particular look at the image of the "data science pipeline". Remember, you have free access to **all** DataCamp courses for 6 months!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Read this blog post by <a href="https://twitter.com/old_man_chester?ref_src=twsrc%5Etfw">@old_man_chester</a> to learn about our new Tidyverse Fundamentals with R Skill Track! In this track, you’ll learn the skills needed to get you up and running with data science in R using the <a href="https://twitter.com/hashtag/tidyverse?src=hash&amp;ref_src=twsrc%5Etfw">#tidyverse</a>. <a href="https://t.co/4fqAdJgoTX">https://t.co/4fqAdJgoTX</a> <a href="https://t.co/RsYxe4Hpm5">pic.twitter.com/RsYxe4Hpm5</a></p>&mdash; DataCamp (@DataCamp) <a href="https://twitter.com/DataCamp/status/1042851042139025409?ref_src=twsrc%5Etfw">September 20, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+***
+
+
+
+# Lec 6 {#Lec06}
 
 ## Announcements
 
@@ -105,6 +203,7 @@ On *imposter syndrome* is a psychological pattern in which an individual doubts 
 
 
 ***
+
 
 
 # Lec 5
@@ -165,15 +264,20 @@ As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (
 Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income Inequality](https://fivethirtyeight.com/features/higher-rates-of-hate-crimes-are-tied-to-income-inequality/){target="_blank"}. You'll be analyzing the same data used to write this article. The data is in the `hate_crimes` dataframe, which is included in the `fivethirtyeight` R package. A larger goal of this problem set is to start practicing the "data analysis" workflow.
 
 * Download the following R scratchpad: <a href="static/PS/PS02_lastname_firstname.R" download>`PS02_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS02_Kim_Albert.R`.
-* "Upload" this file to RStudio Server by going to RStudio -> Files panel -> Upload.
+* RStudio Server users: "Upload" this file to RStudio Server by going to RStudio -> Files panel -> Upload. (see image below)
 * Open `PS02_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
 * When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, woult they get the same results as you?
     + Save your work and close `PS02_lastname_firstname.R`.
     + Restart R: RStudio menu bar -> Session -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
     + Go to the Files panel of RStudio and re-open `PS02_lastname_firstname.R`.
     + Run all your code as described in [Lec4](#Lec04) and make sure that you can replicate the scatterplot.
-* **Submission**: "Download" this file on to your compter by going to RStudio -> Files panel -> More -> Export. Then submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
-* See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.
+* **Submission**:
+    + RStudio Server users: "Download" this file on to your compter by going to RStudio -> Files panel -> More -> Export. (see image below)
+    + Submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
+* See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
+
+![alt text](static/images/rstudio_server_upload_export.png)
+
 
 **Hints**:
 

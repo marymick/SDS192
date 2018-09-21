@@ -20,6 +20,8 @@ navbar:
   - text: ModernDive
     href: https://moderndive.netlify.com/
   right:
+  - text: Projects
+    href: term_project.html
   - text: Syllabus
     href: syllabus.html
 
