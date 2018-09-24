@@ -14,27 +14,104 @@ h1{font-weight: 400;}
 
 Everything in this course builds up to the final group project, where there is
 only one learning goal: *Engage in the data/science research pipeline in as
-faithful a manner as possible while maintaining a level suitable for novices.*
+faithful a manner as possible while maintaining a level suitable for novices.* To get practice however there will be 3 mini-projects first.
 
 <center>
 <img src="static/images/pipeline.png" alt="Drawing" style="width: 600px;" border="10"/>
 </center>
 
 
-To get practice however there will be 3 mini-projects first.
+
 
 
 ***
 
-# 1. Mini-project 1: Data visualization (Due 10/5)
+# 1. Mini-project 1: Data visualization (Due 10/5) {#miniproj1}
 
-* The format of the project will be exactly the same as [Spring 2018](https://beanumber.github.io/sds192/mod_viz.html){target="_blank"}. In particular the following sections: 
-    + Learning Goal
-    + Technical Skills
-    + Readings: ModernDive as chief readings, Chapters 2 & 3 of "Modern Data Science with R" as supplementary readings if you want more details.
-    + Mini-Project
-    + Data
-* As for the rubric and exact submission format, those will be presented on Monday.
+
+* **Structure** Near identical to as in [Spring 2018](https://beanumber.github.io/sds192/mod_viz.html){target="_blank"}, with a few differences in submission format and grading rubric
+* **Learning Goal** To make informative, appropriate, and compelling data graphics.
+* **Technical Skills** `ggplot2` package
+* **Readings**  ModernDive as chief readings, Chapters 2 & 3 of "Modern Data Science with R" as supplementary readings if you want more details.
+
+## Details
+
+You will work with a partner to write a short blog post that contains (at least) one data graphic. Your goal is to tell us something interesting using a well-crafted, thoughtfully-prepared data graphic. One data graphic should suffice, but you may include more if you choose.
+
+Your blog post should be short. We envision an introductory paragraph that explains your findings and provides some context to your data, the data graphic(s), and then a caption-like paragraph providing more detail about what to look for in the data graphic and how to interpret it. That is it. You will not earn more points by including more words or data graphics. What we are looking for is something that is insightful and well-crafted. As always, you should spend some time thinking about context, scale, color, etc.
+
+Here are some examples of articles that are similar in spirit to yours. Most of these are much longer than yours will be, and may contain multiple graphics, but the idea is similar: use a good data graphic to tell us something we don’t already know.
+
+* [How to Tell Someone’s Age When All You Know Is Her Name](https://fivethirtyeight.com/features/how-to-tell-someones-age-when-all-you-know-is-her-name/){target="_blank"}
+* [A Better Way To Find The Best Flights And Avoid The Worst Airports](https://fivethirtyeight.com/features/fastest-airlines-fastest-airports/){target="_blank"}
+* [NYC Taxis and Uber](http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/){target="_blank"}
+* [Data on people who went to ER for wall-punching](https://flowingdata.com/2016/01/14/data-on-people-who-wall-punching/){target="_blank"}
+
+
+
+## Data
+
+You are free to use whatever data you want. However, the purpose of this exercise is to learn how to make good data graphics – not to wrangle data (don’t worry – we’re headed there next). So we don’t want you to spend much time wrangling data. There are perfectly good data sets available through R packages that are already well-curated:
+
+* `nycflights13`: data about flights leaving from the three major NYC airports in 2013
+* `babynames`: history of baby names from the Social Security Administration
+* `Lahman`: comprehensive historical archive of major league baseball data
+* `fueleconomy`: fuel economy data from the EPA, 1985–2015
+* `fivethirtyeight`: provides access to data sets that drive many articles on FiveThirtyEight. See a list of all datasets [here](https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html#data-sets){target="_blank"}.
+
+To view all the datasets included in a package, the `babynames` dataset for example, run the following in the console:
+
+```{r, eval=FALSE, echo=TRUE}
+# Remember, you need to always load/open the package first!
+library(babynames)
+data(package = "babynames")
+```
+
+
+## What to do
+
+1. As a group:
+    + Identify your group number from the Groups table below.
+    + Download the <a href="static/projects/mini_project_1_template.R" download>`mini_project_1_template.R`</a> template `.R` scratchpad for this project and upload it to RStudio Server as you would a problem set.
+    + Following the format of `mini_project_1_template.R` and the copy/paste/tweak approach to coding, change all elements of the template to create your graphic. Note I've included an example of a scatterplot for illustrative purposes. Your graphic can be anything!
+    + "Export" the image to `.png` format. In the RStudio panel where your plot is, click "Export" -> "Save as Image..."
+    + Include this image in a Google Doc along with your writing.
+1. Designate a team leader who will do the following:
+    + Submit the `mini_project_1_template.R` file for your Group on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}.
+    + Complete the following [Group Leader Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdIITfjUr7rfCefYo8Ojy16lqM8cSx1u7Ky4RLjDZqKkFNFtw/viewform){target="_blank"}
+1. Individually: Complete the following (confidential) [Individual Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfcch_Z8G49TpNA3IbGlprCZWpJSux49WUeANXAKHtfcJzdVw/viewform){target="_blank"} describing your project experience.
+
+
+
+## Grading Rubric
+
+There are 17 possible points for this mini-project.
+
+**Baseline**
+
+* +1 for R code that generates the plot without errors and is *reproducible and replicable*. In other words, if you send the `.R` file to your collaborator, would they be able to recreate your work? See [Problem set 2](index.html#PS02)
+* +1 for describing the dataset
+* +1 for having a data graphic
+* +1 for including the code that generated the data graphic
+* +1 for describing the visual mapping (i.e. a key)
+
+**Average**
+
+* +1 for including a catchy and/or engaging title
+* +1 for having at least 100 words and no more than 300 words
+* +1 for explaining in a single coherent sentence what we can learn from this graphic
+* +1 for explaining the choice of geometric mapping
+* +1 for explaining the color mapping
+* +1 for explaining which variables are mapped to which visual cues, and why
+
+**Advanced**
+
+* +2 blog post text provides context or background useful in interpreting the graphic
+* +0–4 WOW factor: awarded at the grader’s discretion for submissions that are exceptionally compelling
+
+
+
+## Groups
 
 ```{r, echo=FALSE, message=FALSE}
 library(tidyverse)
@@ -44,16 +121,25 @@ names <- paste(roster$given_name, roster$last_name, sep = " ") %>%
   sample() %>% 
   matrix(ncol = 2)
 colnames(names) <- c("Member 1", "Member 2")
-names %>% 
+names <- names %>% 
   data.frame() %>% 
   as_tibble() %>% 
   mutate(team = 1:n()) %>% 
+  mutate(
+    Member.1 = as.character(Member.1),
+    Member.2 = as.character(Member.2),
+    Member.1 = ifelse(Member.2 == "Jane Bang", "Xiruo Zheng", Member.1 ),
+    Member.2 = ifelse(Member.1 == "Rachel Yan", "Ana Porro", Member.2 )
+  ) %>% 
+  filter(Member.2 != "Max Pabilonia") %>% 
   select(team, everything()) %>% 
     rename(
-    Team = team,
+    Group = team,
     `Member 1` = Member.1,
     `Member 2` = Member.2
-  ) %>% 
+  ) 
+
+names %>% 
   knitr::kable()
 ```
 

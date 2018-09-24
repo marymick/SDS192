@@ -369,7 +369,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">SDS 192: Introduction to Data Science</h1>
 <h4 class="author"><em>Albert Y. Kim</em></h4>
-<h4 class="date"><em>Last updated on 2018-09-21</em></h4>
+<h4 class="date"><em>Last updated on 2018-09-24</em></h4>
 
 </div>
 
@@ -398,9 +398,77 @@ h1{font-weight: 400;}
 </iframe>
 <hr />
 </div>
+<div id="Lec08" class="section level1">
+<h1>Lec 8</h1>
+<div id="announcements" class="section level2">
+<h2>Announcements</h2>
+<ul>
+<li>Lecture on today will end at 11:55am to give people time to comfortably get to Emily Dodwell’s talk listed in <a href="#Lec06">Lec06</a>.</li>
+<li>Visitor: <a href="https://www.smith.edu/qlc/tutoring.html?colDataCnslr=open#PanelDataCnslr" target="_blank">Data Counselor Raul Zelada Aprili</a></li>
+<li>Go over question in <code>#random</code>: Most simple, most important, and yet most neglected step in a data analysis, even on my team at Google: just <strong>looking</strong> at your data</li>
+<li>Finishing details of Mini-project 1 in <a href="term_project.html#miniproj1">Projects</a> tab</li>
+<li>Problem sets:
+<ul>
+<li>PS02 due tonite at 9pm</li>
+<li>PS03 posted by tonight at 9pm</li>
+</ul></li>
+</ul>
+<!--
+/poll
+-->
+</div>
+<div id="todays-topicsactivities" class="section level2">
+<h2>Today’s Topics/Activities</h2>
+<div id="chalk-talk" class="section level3">
+<h3>1. Chalk Talk</h3>
+<p>(Slightly longer than usual): Doing by hand what <code>geom_boxplot()</code> automates: drawing a boxplot: say we want to plot a boxplot of the following 12 values which are pre-sorted:</p>
+<blockquote>
+<p>1, 3, 5, 6, 7, 8, 9, 12, 13, 14, 15, 30</p>
+</blockquote>
+<p>They have the following <em>summary statistics</em>. A summary statistic is a single numerical value <em>summarizing</em> many values. Examples include the immediately obvious mean AKA average and median. Other less immediately obvious examples include:</p>
+<ul>
+<li>Quartiles (1st, 2nd, and 3rd) that cut up the data into 4 parts, each containing roughly one quarter = 25% of the data</li>
+<li>Minimum &amp; maximum</li>
+<li>Interquartile-range (IQR): the distance between the 3rd and 1st quartiles</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Min.</th>
+<th>1st Quartile</th>
+<th>Median = 2nd Quartile</th>
+<th>3rd Quartile</th>
+<th>Max.</th>
+<th>IQR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>5.5</td>
+<td>8.5</td>
+<td>13.5</td>
+<td>30</td>
+<td>8 = 13.5 - 5.5</td>
+</tr>
+</tbody>
+</table>
+<!--
+Let's compare the points and the corresponding boxplot side-by-side with the values on the $y$-axis matching:
+
+
+-->
+</div>
+<div id="in-class-exercise" class="section level3">
+<h3>2. In-class exercise</h3>
+<p>Read ModernDive 3.7 on Boxplots</p>
+<hr />
+</div>
+</div>
+</div>
 <div id="Lec07" class="section level1">
 <h1>Lec 7</h1>
-<div id="announcements" class="section level2">
+<div id="announcements-1" class="section level2">
 <h2>Announcements</h2>
 <ul>
 <li>Go over questions in <code>#random</code> Slack channel</li>
@@ -413,7 +481,7 @@ h1{font-weight: 400;}
 /poll "Are you still encountering issues with RStudio Server?" "No" "Sometimes" "Often" anonymous
 -->
 </div>
-<div id="todays-topicsactivities" class="section level2">
+<div id="todays-topicsactivities-1" class="section level2">
 <h2>Today’s Topics/Activities</h2>
 <div id="discussion-on-histogram-binning" class="section level3">
 <h3>1. Discussion on Histogram Binning</h3>
@@ -426,7 +494,7 @@ h1{font-weight: 400;}
 <a class="sourceLine" id="cb1-6" data-line-number="6"><span class="co"># Code to generate Fig 3.11</span></a>
 <a class="sourceLine" id="cb1-7" data-line-number="7"><span class="kw">ggplot</span>(<span class="dt">data =</span> weather, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> temp)) <span class="op">+</span></a>
 <a class="sourceLine" id="cb1-8" data-line-number="8"><span class="st">  </span><span class="kw">geom_histogram</span>(<span class="dt">bins =</span> <span class="dv">60</span>, <span class="dt">color =</span> <span class="st">&quot;white&quot;</span>)</a></code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-2-1.png" width="768" /></p>
+<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" width="768" /></p>
 <p>Why the weird up and down spikes in the right-hand histogram? Here is a <strong>random</strong> sample of 99 temperatures of the 464 temperature recordings between 50 and 51 degrees</p>
 <pre><code>##  [1] 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.54
 ## [12] 50.00 50.00 50.00 50.00 50.90 50.00 50.00 50.00 50.00 50.00 50.00
@@ -449,14 +517,14 @@ h1{font-weight: 400;}
 ## [89] 55.04 55.94 55.94 55.04 55.40 55.04 55.94 55.04 55.94 55.94 55.04</code></pre>
 <p>What is the pattern?</p>
 </div>
-<div id="chalk-talk" class="section level3">
+<div id="chalk-talk-1" class="section level3">
 <h3>2. Chalk Talk</h3>
 <p>Facets and Facetted Histograms. Say you’re asking yourself “What kind of jacket (if any) should I bring to my trip to New York?” Which plot is more useful? Fig 3.13 from ModernDive of all 26115 temperature recordings at all three airports in New York City</p>
-<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" width="768" /></p>
+<p><img src="index_files/figure-html/unnamed-chunk-7-1.png" width="768" /></p>
 <p>to Fig 3.14 of the temperature recordings <em>split by month</em>.</p>
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" width="768" /></p>
+<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" width="768" /></p>
 </div>
-<div id="in-class-exercise" class="section level3">
+<div id="in-class-exercise-1" class="section level3">
 <h3>3. In-class exercise</h3>
 <p>Read ModernDive 3.6 on Facets</p>
 </div>
@@ -476,7 +544,7 @@ Read this blog post by <a href="https://twitter.com/old_man_chester?ref_src=twsr
 </div>
 <div id="Lec06" class="section level1">
 <h1>Lec 6</h1>
-<div id="announcements-1" class="section level2">
+<div id="announcements-2" class="section level2">
 <h2>Announcements</h2>
 <ul>
 <li>Curious about a career in data science? Then come for Emily Dodwell (class of 2011)’s talk “The Nuts and Bolts of a Data Science Career” on Monday 9/24; stay for the 🍕lunch! Click <a href="static/dodwell_talk.pdf" target="_blank">here</a> for details.</li>
@@ -494,13 +562,13 @@ Read this blog post by <a href="https://twitter.com/old_man_chester?ref_src=twsr
 /poll "What did you think of @SmithCollegeSDS faculty alumna @AmeliaMN visual essay on histograms?" "I love it!" "I like it" "It was alright" "meh" anonymous
 -->
 </div>
-<div id="todays-topicsactivities-1" class="section level2">
+<div id="todays-topicsactivities-2" class="section level2">
 <h2>Today’s Topics/Activities</h2>
-<div id="chalk-talk-1" class="section level3">
+<div id="chalk-talk-2" class="section level3">
 <h3>1. Chalk Talk</h3>
 <p>Histograms visualize the <em>distribution</em> of a numerical variable.</p>
 </div>
-<div id="in-class-exercise-1" class="section level3">
+<div id="in-class-exercise-2" class="section level3">
 <h3>2. In-class exercise</h3>
 <ul>
 <li>Read the following requests from Suzanne Palmer in <a href="http://www.science.smith.edu/cats/" target="_blank">Computing and Technical Services</a> about using RStudio Server
@@ -529,7 +597,7 @@ Let's talk about imposter syndrome in tech – specifically, ways we can combat 
 </div>
 <div id="lec-5" class="section level1">
 <h1>Lec 5</h1>
-<div id="announcements-2" class="section level2">
+<div id="announcements-3" class="section level2">
 <h2>Announcements</h2>
 <ul>
 <li>What my <code>scratchpad.R</code> looks like after Lec4. Yours shouldn’t be <em>exactly</em> the same, but close.<br />
@@ -538,9 +606,9 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <li>Problem set 02 posted <a href="#PS02">below</a>.</li>
 </ul>
 </div>
-<div id="todays-topicsactivities-2" class="section level2">
+<div id="todays-topicsactivities-3" class="section level2">
 <h2>Today’s Topics/Activities</h2>
-<div id="chalk-talk-2" class="section level3">
+<div id="chalk-talk-3" class="section level3">
 <h3>1. Chalk Talk</h3>
 <ul>
 <li>What is overplotting?</li>
@@ -555,7 +623,7 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <a class="sourceLine" id="cb4-3" data-line-number="3"><span class="co"># this is a comment line that R ignores that helps readers (including you!) understand code</span></a></code></pre></div>
 <p>Why does one line return an <code>Error</code> whereas the other doesn’t?</p>
 </div>
-<div id="in-class-exercise-2" class="section level3">
+<div id="in-class-exercise-3" class="section level3">
 <h3>3. In-class exercise</h3>
 <p>As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (start of Chapter 3.3.2 to the end of 3.4).</p>
 <hr />
@@ -614,7 +682,7 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 </div>
 <div id="Lec04" class="section level1">
 <h1>Lec 4</h1>
-<div id="announcements-3" class="section level2">
+<div id="announcements-4" class="section level2">
 <h2>Announcements</h2>
 <ul>
 <li><strong>Extra office hours today 3:30-5pm in McConnell 215</strong></li>
@@ -623,9 +691,9 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <li>Solutions to previous lecture’s learning checks will be posted directly underneith question. Ex: Look at <a href="https://moderndive.netlify.com/2-getting-started.html#exploredataframes" target="_blank">LC2.1 Solutions</a> I just posted.</li>
 </ul>
 </div>
-<div id="todays-topicsactivities-3" class="section level2">
+<div id="todays-topicsactivities-4" class="section level2">
 <h2>Today’s Topics/Activities</h2>
-<div id="chalk-talk-3" class="section level3">
+<div id="chalk-talk-4" class="section level3">
 <h3>1. Chalk Talk</h3>
 <p>The Grammar of Graphics: the theoretical underpinnings of statistical graphics</p>
 </div>
@@ -645,7 +713,7 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 </ol></li>
 </ol>
 </div>
-<div id="in-class-exercise-3" class="section level3">
+<div id="in-class-exercise-4" class="section level3">
 <h3>3. In-class exercise</h3>
 <p>As marked in the Schedule at the top of this page, read ModernDive 3 - 3.3.1 (start of Chapter 3 to the end of 3.3.1).</p>
 <ul>
@@ -674,7 +742,7 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <li>Added <em>expectations</em> to following sections: Basic Course Information, Topic Schedule and Readings, Evaluation, Accommodations, Code of Conduct</li>
 </ul></li>
 </ul>
-<div id="todays-topicsactivities-4" class="section level2">
+<div id="todays-topicsactivities-5" class="section level2">
 <h2>Today’s Topics/Activities</h2>
 <ol style="list-style-type: decimal">
 <li>Go over ModernDive Chapter 2. Note:
