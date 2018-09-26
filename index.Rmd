@@ -68,7 +68,7 @@ h1{font-weight: 400;}
     + Friday 9/28
     + Wednesday 10/3
 * Solutions to PS02 [posted](#PS02_R_solutions). Please download the `PS02_solutions.R` file to your computer and open them in RStudio for a brief in-class discussion.
-    + **RStudio Desktop users**: To guarantee `PS02_solutions.R` opens in the RStudio app (AKA a car's dashboard) and not the regular R app (AKA a car's engine), don't double-click `PS02_solutions.R` directly, but rather go to Files panel of RStudio and find/click/open your file from there.
+    + **RStudio Desktop users**: To guarantee the `PS02_solutions.R` file opens in the RStudio app (AKA a car's dashboard) and not the regular R app (AKA a car's engine), don't double-click the `PS02_solutions.R` file directly, but rather go to Files panel of RStudio and find/click/open the file from there.
     + **RStudio Server users**: Download `PS02_solutions.R` to your computer, then upload it to RStudio by clicking "upload" like in this image: ![alt text](static/images/rstudio_server_upload_export.png)
 
     
