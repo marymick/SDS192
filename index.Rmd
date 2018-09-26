@@ -233,10 +233,6 @@ You'll be analyzing the same data used in this study. The data is in the `evals`
 * **Videoconferencing**: In Slack, in a Direct Message, type `/appear SOME_UNIQUE_NAME_ONLY_YOU_WOULD_THINK_OF`
 
 
-<!--
-/poll "Are you still encountering issues with RStudio Server?" "No" "Sometimes" "Often" anonymous
--->
-
 ## Today's Topics/Activities       
 
 ### 1. Discussion on Histogram Binning
@@ -331,13 +327,6 @@ ModernDive co-author Chester Ismay [\@old_man_chester](https://twitter.com/old_m
 * Learning check solutions by Friday, promise!
 * Slack poll on `scratchpad.R`
 
-<!--
-/poll "Do you think you understand what the purpose of the `scratchpad.R` file is?" "Sort of" "Not really" anonymous
-
-/poll "Had you heard of the term 'imposter syndrome' prior to today's lecture?" "yes & I'm a senior" "yes & I'm a junior" "yes & I'm a sophomore" "yes & I'm a first-year" "no & I'm a senior" "no & I'm a junior" "no & I'm a sophomore" "no & I'm a first-year" anonymous
-
-/poll "What did you think of @SmithCollegeSDS faculty alumna @AmeliaMN visual essay on histograms?" "I love it!" "I like it" "It was alright" "meh" anonymous
--->
 
 ## Today's Topics/Activities       
 
