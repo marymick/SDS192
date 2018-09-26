@@ -67,7 +67,11 @@ h1{font-weight: 400;}
     + Wednesday 10/3
 * Solutions to PS02 [posted](#PS02_R_solutions). Please download these to your computer and
 open them in RStudio for a brief in class discussion.
+    + **RStudio Desktop users**: To guarantee `PS02_solutions.R` opens in the RStudio app (AKA a car's dashboard) and not the regular R app (AKA a car's engine), don't double-click `PS02_solutions.R` directly, but rather go to Files panel of RStudio and find/click/open your file from there.
+    + **RStudio Server users**: Download `PS02_solutions.R` to your computer, then upload it to RStudio by clicking "upload" like in this image: ![alt text](static/images/rstudio_server_upload_export.png)
 
+    
+    
 ## Today's Topics/Activities       
 
 ### 1. Chalk Talk
@@ -79,6 +83,15 @@ are pre-computed.
 ### 2. In-class exercise
 
 Read ModernDive 3.8 on barplots
+
+### 3. Tweet of the day
+
+Click here for definition of ["Winging it"](https://www.urbandictionary.com/define.php?term=winging%20it){target="_blank"}.
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Advice for aspiring data scientists: learn SQL, communication is a technical skill, start a blog, teach others, don&#39;t worry about learning everything, find your community, stay curious, have fun, don&#39;t be afraid to use Google, and remember that everyone is winging it.</p>&mdash; Caitlin Hudon👩🏼
+💻 (@beeonaposy) <a href="https://twitter.com/beeonaposy/status/1044426618708643841?ref_src=twsrc%5Etfw">September 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 
