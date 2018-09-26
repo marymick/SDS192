@@ -58,6 +58,34 @@ h1{font-weight: 400;}
 ***
 
 
+# Lec 9 {#Lec09}
+
+## Announcements
+
+* Added to "Event" column in calendar above: Class time to work on mini-project 1:
+    + Friday 9/28
+    + Wednesday 10/3
+* Solutions to PS02 [posted](#PS02_R_solutions). Please download these to your computer and
+open them in RStudio for a brief in class discussion.
+
+## Today's Topics/Activities       
+
+### 1. Chalk Talk
+
+The trickiest of the Five Named Graphs: Barplots. In particular, whether you use
+`geom_bar()` or `geom_col()` to create a barplot depends on whether the sums
+are pre-computed.
+
+### 2. In-class exercise
+
+Read ModernDive 3.8 on barplots
+
+
+
+***
+
+
+
 # Lec 8 {#Lec08}
 
 ## Announcements
@@ -70,14 +98,10 @@ h1{font-weight: 400;}
     + PS02 due tonite at 9pm
     + PS03 posted by tonight at 9pm
 
-<!--
-/poll
--->
 
 ## Today's Topics/Activities       
 
 ### 1. Chalk Talk
-
 
 ```{r, eval=TRUE, echo=FALSE}
 library(ggplot2)
@@ -87,7 +111,7 @@ example <- data_frame(
 )
 ```
 
-(Slightly longer than usual): Doing by hand what `geom_boxplot()` automates: drawing a boxplot: say we want to plot a boxplot of the following `r nrow(example)` values which are pre-sorted: 
+(Slightly longer than usual chalk talk): Doing by hand what `geom_boxplot()` automates: drawing a boxplot: say we want to plot a boxplot of the following `r nrow(example)` values which are pre-sorted: 
 
 > `r example %>% pull(values)`
 
@@ -125,17 +149,13 @@ plot2 <- ggplot(example, aes(x=factor(1), y=values)) +
 plot1 + plot2
 ```
 
-
 ### 2. In-class exercise
 
 Read ModernDive 3.7 on Boxplots
 
 
 
-
-
 ***
-
 
 
 
@@ -170,12 +190,10 @@ You'll be analyzing the same data used in this study. The data is in the `evals`
 * **Submission**: Submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
 * See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
 
-
 **Hints**:
 
 * Everything you need to know for this problem set are based on Lectures 1-8 in particular the ModernDive readings.
 * While I encourage you collaborate/help each other out, please make an honest effort to do this problem set. This is practice for the first mini-project!
-
 
 **RStudio Server users**:
 
@@ -188,7 +206,6 @@ You'll be analyzing the same data used in this study. The data is in the `evals`
 
 
 ***
-
 
 
 
@@ -392,7 +409,6 @@ As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (
 * See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
 * If you have already completed the "Introduction to the Tidyverse" DataCamp course previously using a DataCamp account based on your Smith email, you do not need to re-do them; they will show up in my logs as completed.
 
-
 ## 2. R component {#PS02_R}
 
 Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income Inequality](https://fivethirtyeight.com/features/higher-rates-of-hate-crimes-are-tied-to-income-inequality/){target="_blank"}. You'll be analyzing the same data used to write this article. The data is in the `hate_crimes` dataframe, which is included in the `fivethirtyeight` R package. A larger goal of this problem set is to start practicing the "data analysis" workflow.
@@ -412,11 +428,16 @@ Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income I
 
 ![alt text](static/images/rstudio_server_upload_export.png)
 
-
 **Hints**:
 
 * Everything you need to know for this problem set are based on Lectures 1-4, in particular the ModernDive readings.
 * While I encourage you collaborate/help each other out, please make an honest effort to do this problem set. Part of the graders' and my goal in grading the problem sets is to identify both your **strengths and weaknesses** in preparation for the projects. Don't forget the lowest two problem set scores are dropped!
+
+
+## 3. R component solutions {#PS02_R_solutions}
+
+<a href="static/PS/PS02_solutions.R" download>`PS02_solutions.R`</a>
+
 
 
 
