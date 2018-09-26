@@ -84,12 +84,12 @@ Say the following piecharts represent results of an election poll at time points
 * Who gained more support between time point A and time point B, candidate 2 or candidate 4?
 
 ![](static/images/piecharts.png){ width=600px }
-<!--
+
 Compare that to using barplots. Which do you *prefer*?
 
 ![](static/images/barplots.png){ width=600px }
 
--->
+
 
 
 
