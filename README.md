@@ -1,15 +1,16 @@
 # SDS 192
 
-Homepage source code for 2018-09 Fall Smith College SDS 192: Introduction to Data Science <https://rudeboybert.github.io/SDS192/>. Most of the content is in either:
+[R Markdown Websites](https://rmarkdown.rstudio.com/rmarkdown_websites.htm) source code to generated the webpage for 2018-09 Fall Smith College SDS 192: Introduction to Data Science <https://rudeboybert.github.io/SDS192/>. Most of the content is in either:
 
-* `index.Rmd`: a single Moodle-style page that lists all announcements, lectures notes, and problem sets/homeworks in chronological order.
-* `syllabus.Rmd`
+* `index.Rmd`: A single Moodle-style page that lists all announcements, lectures notes, and problem sets/homeworks in reverse-chronological order.
+* `projects.Rmd`: Details on the 3 mini-projects and term project for this course
+* `syllabus.Rmd`: Course info/description, topics, materials, evaluation, and expectations.
 
 
 ## How to build this webpage
 
 This webpage is built/compiled using [R Markdown
-websites](http://rmarkdown.rstudio.com/rmarkdown_websites.html). To compile this
+Websites](https://rmarkdown.rstudio.com/rmarkdown_websites.htm). To compile this
 webpage for yourself, do the following:
 
 1. Get the contents of this directory/repository:

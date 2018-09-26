@@ -21,7 +21,9 @@ navbar:
     href: https://moderndive.netlify.com/
   right:
   - text: Projects
-    href: term_project.html
+    href: projects.html
   - text: Syllabus
     href: syllabus.html
+  - icon: fa-github fa-lg
+    href: https://github.com/rudeboybert/SDS192
 
