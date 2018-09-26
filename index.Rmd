@@ -58,15 +58,16 @@ h1{font-weight: 400;}
 ***
 
 
+
 # Lec 9 {#Lec09}
 
 ## Announcements
 
+* A reminder that the Data Assistants in our lectures (Jordan and Paige) are also the Sunday thru Thursday 7-9pm McConnell Hall 301 [tutors](https://www.smith.edu/qlc/tutoring.html?colStats=open#PanelStats){target="_blank"}.
 * Added to "Event" column in calendar above: Class time to work on mini-project 1:
     + Friday 9/28
     + Wednesday 10/3
-* Solutions to PS02 [posted](#PS02_R_solutions). Please download these to your computer and
-open them in RStudio for a brief in class discussion.
+* Solutions to PS02 [posted](#PS02_R_solutions). Please download the `PS02_solutions.R` file to your computer and open them in RStudio for a brief in-class discussion.
     + **RStudio Desktop users**: To guarantee `PS02_solutions.R` opens in the RStudio app (AKA a car's dashboard) and not the regular R app (AKA a car's engine), don't double-click `PS02_solutions.R` directly, but rather go to Files panel of RStudio and find/click/open your file from there.
     + **RStudio Server users**: Download `PS02_solutions.R` to your computer, then upload it to RStudio by clicking "upload" like in this image: ![alt text](static/images/rstudio_server_upload_export.png)
 
@@ -74,17 +75,37 @@ open them in RStudio for a brief in class discussion.
     
 ## Today's Topics/Activities       
 
-### 1. Chalk Talk
+### 1. Mini-Discussion on pie charts
+
+Say the following piecharts represent results of an election poll at time points A = September, B = October, then C = November. At each time point we present the proportion of the poll respondents who say they will support one of 5 candidates: 1 through 5. Based on these 3 piecharts, answer the following questions:
+
+* At time point A, is candidate 5 doing better than candidate 4?
+* Did candidate 3 do better at time point B or time point C?
+* Who gained more support between time point A and time point B, candidate 2 or candidate 4?
+
+![](static/images/piecharts.png){ width=600px }
+<!--
+Compare that to using barplots. Which do you *prefer*?
+
+![](static/images/barplots.png){ width=600px }
+
+-->
+
+
+
+
+
+### 2. Chalk Talk
 
 The trickiest of the Five Named Graphs: Barplots. In particular, whether you use
 `geom_bar()` or `geom_col()` to create a barplot depends on whether the sums
 are pre-computed.
 
-### 2. In-class exercise
+### 3. In-class exercise
 
 Read ModernDive 3.8 on barplots
 
-### 3. Tweet of the day
+### 4. Tweet of the day
 
 Click here for definition of ["Winging it"](https://www.urbandictionary.com/define.php?term=winging%20it){target="_blank"}.
 
