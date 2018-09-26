@@ -114,32 +114,7 @@ There are 17 possible points for this mini-project.
 ## Groups
 
 ```{r, echo=FALSE, message=FALSE}
-library(tidyverse)
-roster <- read_csv("static/roster.csv")
-set.seed(76)
-names <- paste(roster$given_name, roster$last_name, sep = " ") %>% 
-  sample() %>% 
-  matrix(ncol = 2)
-colnames(names) <- c("Member 1", "Member 2")
-names <- names %>% 
-  data.frame() %>% 
-  as_tibble() %>% 
-  mutate(team = 1:n()) %>% 
-  mutate(
-    Member.1 = as.character(Member.1),
-    Member.2 = as.character(Member.2),
-    Member.1 = ifelse(Member.2 == "Jane Bang", "Xiruo Zheng", Member.1 ),
-    Member.2 = ifelse(Member.1 == "Rachel Yan", "Ana Porro", Member.2 )
-  ) %>% 
-  filter(Member.2 != "Max Pabilonia") %>% 
-  select(team, everything()) %>% 
-    rename(
-    Group = team,
-    `Member 1` = Member.1,
-    `Member 2` = Member.2
-  ) 
-
-names %>% 
+readr::read_csv("static/projects/groups_1.csv") %>% 
   knitr::kable()
 ```
 
