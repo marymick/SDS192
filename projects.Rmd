@@ -78,6 +78,7 @@ data(package = "babynames")
     + Include this image in a Google Doc. You will write your blogpost in this Google Doc.
 1. Designate a team leader who will do the following:
     + Submit the `mini_project_1_template.R` file for your Group on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}.
+    + **Added**: If you are using data that included in a separate file (like an Excel or `.csv` file), submit this too. If you do not, I will not be able to *reproduce and replicate* your results.
     + Complete the following [Group Leader Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdIITfjUr7rfCefYo8Ojy16lqM8cSx1u7Ky4RLjDZqKkFNFtw/viewform){target="_blank"}
 1. Individually: Complete the following (confidential) [Individual Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfcch_Z8G49TpNA3IbGlprCZWpJSux49WUeANXAKHtfcJzdVw/viewform){target="_blank"} describing your project experience.
 
@@ -101,7 +102,7 @@ There are 17 possible points for this mini-project.
 * +1 for having at least 100 words and no more than 300 words
 * +1 for explaining in a single coherent sentence what we can learn from this graphic
 * +1 for explaining the choice of geometric mapping
-* +1 for explaining the color mapping
+* +1 for ~~explaining the color mapping~~ justifying/explaining the choice of color mapping, even if none. In other words, do not add color for sake of adding color (this is called [chartjunk](https://en.wikipedia.org/wiki/Chartjunk){target="_blank"}). Rather use color only if you feel it adds value to your plot.
 * +1 for explaining which variables are mapped to which visual cues, and why
 
 **Advanced**

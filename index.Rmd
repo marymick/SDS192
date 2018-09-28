@@ -159,7 +159,7 @@ ggplot(toy_data, aes(x = group, y = count, fill = group)) +
 
 ### 3. Tweet of the day
 
-Advice from [\@hadleywickham](http://hadley.nz/){target="_blank"}, creator of the `ggplot2` R package:
+Advice from [\@hadleywickham](http://hadley.nz/){target="_blank"}, creator of the `ggplot2` and `dplyr` R packages:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This is the best advice from <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a>. True of learning R. True of learning anything. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/Qh8SuRuBUk">https://t.co/Qh8SuRuBUk</a> <a href="https://t.co/sOeoQQOYye">pic.twitter.com/sOeoQQOYye</a></p>&mdash; Aaron Williams (@awunderground) <a href="https://twitter.com/awunderground/status/1033417868673724418?ref_src=twsrc%5Etfw">August 25, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
