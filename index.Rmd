@@ -58,6 +58,120 @@ h1{font-weight: 400;}
 ***
 
 
+# Lec 10 {#Lec10}
+
+## Announcements
+
+In preparation for today's lecture, copy/paste all the following code to your `scratchpad.R` on color theory. I'll be covering these examples one-by-one during the chalk talk today.
+
+```{r, eval=FALSE}
+# Lec 10 Code:
+# Mapping the color aesthetic of scatterplots/barplots to a categorical variable
+
+# Load packages:
+library(dplyr)
+library(ggplot2)
+
+# 1. Manually create a toy data frame ----
+toy_data <- data_frame(
+  x = c(1, 2, 3, 4, 5),
+  y = c(5, 4, 3, 2, 1),
+  count = c(10, 20, 30, 40, 50),
+  group = c("A", "B", "C", "D", "E")
+)
+toy_data
+
+# 2. Scatterplots: mapping group to color aesthetic ----
+# 2.a) Simple scatterplot with size set to 5 for all points (i.e. not mapping
+# to a variable in toy_data)
+ggplot(toy_data, aes(x = x, y = y)) +
+  geom_point(size = 5)
+
+# 2.b) Default color scheme: map group variable to color
+ggplot(toy_data, aes(x = x, y = y, color = group)) +
+  geom_point(size = 5)
+
+# 2.c) Change color palette from default to "Set2": No assumed ordering to group
+ggplot(toy_data, aes(x = x, y = y, color = group)) +
+  geom_point(size = 5) +
+  scale_color_brewer(palette = "Set2")
+
+# 2.d) Change color palette from default to "Blues": Assumed ordering to group
+ggplot(toy_data, aes(x = x, y = y, color = group)) +
+  geom_point(size = 5) +
+  scale_color_brewer(palette = "Blues")
+
+# 3. Barplots: mapping group to fill aesthetic ----
+# 3.a) Simple barplot
+ggplot(toy_data, aes(x = group, y = count)) +
+  geom_col()
+
+# 3.b) color aesthetic is the outline of bars
+ggplot(toy_data, aes(x = group, y = count, color = group)) +
+  geom_col()
+
+# 3.c) The color of bars corresponds to fill aesthetic
+ggplot(toy_data, aes(x = group, y = count, fill = group)) +
+  geom_col()
+
+# 3.d) Change color palette from default to "Set2": No assumed ordering to group
+ggplot(toy_data, aes(x = group, y = count, fill = group)) +
+  geom_col() +
+  scale_fill_brewer(palette = "Set1")
+
+# 3.e) Change color palette from default to "YlOrBr": Assumed ordering to group
+ggplot(toy_data, aes(x = group, y = count, fill = group)) +
+  geom_col() +
+  scale_fill_brewer(palette = "YlOrBr")
+```
+
+    
+    
+## Today's Topics/Activities       
+
+### 1. Chalk Talk
+
+**Topic 1**: Default `ggplot` color "palette" for categorical variables (we'll cover color "gradients" for numerical variables later). Notice location of 5 dots on [color wheel](https://stackoverflow.com/questions/21490210/how-to-plot-a-colour-wheel-by-using-ggplot){target="_blank"}.
+
+<center>
+![alt text](https://github.com/hadley/ggplot2-book/raw/master/diagrams/colour-wheel.png){ width=300px}
+</center>
+
+**Topic 2**: Changing default color "palette" for categorical variables based on [Prof. Cynthia A. Brewer's](http://www.personal.psu.edu/cab38/){target="_blank"} research on cartography. Click on this link: [Color Brewer 2.0](http://colorbrewer2.org/){target="_blank"}. Note the areas highlighted in red below, in particular the `BuGn` color palette code.
+
+<center>
+![alt text](static/images/colorbrewer.png){ width=600px }
+</center>
+
+  
+  
+  
+
+### 2. In-class exercise
+
+* Class time to work on mini-project 1
+* **Start memorizing** Table 3.5 in ModernDive 3.9: Summary of when to use which of the "Five Named Graphs (5NG)"  
+<center>
+![alt text](static/images/5NG_table.png){ width=600px }
+</center>
+
+
+
+### 3. Tweet of the day
+
+Advice from [\@hadleywickham](http://hadley.nz/){target="_blank"}, creator of the `ggplot2` R package:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">This is the best advice from <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a>. True of learning R. True of learning anything. <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://t.co/Qh8SuRuBUk">https://t.co/Qh8SuRuBUk</a> <a href="https://t.co/sOeoQQOYye">pic.twitter.com/sOeoQQOYye</a></p>&mdash; Aaron Williams (@awunderground) <a href="https://twitter.com/awunderground/status/1033417868673724418?ref_src=twsrc%5Etfw">August 25, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+***
+
+
+
 
 # Lec 9 {#Lec09}
 
