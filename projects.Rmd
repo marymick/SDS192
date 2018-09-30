@@ -26,7 +26,7 @@ faithful a manner as possible while maintaining a level suitable for novices.* T
 
 ***
 
-# 1. Mini-project 1: Data visualization (Due 10/5) {#miniproj1}
+# 1. Mini-project 1: Data visualization (Due 10/5 5pm) {#miniproj1}
 
 
 * **Structure** Near identical to as in [Spring 2018](https://beanumber.github.io/sds192/mod_viz.html){target="_blank"}, with a few differences in submission format and grading rubric

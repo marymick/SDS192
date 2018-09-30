@@ -58,6 +58,33 @@ h1{font-weight: 400;}
 ***
 
 
+# Lec 11: Mon 10/1 {#Lec11}
+
+## Announcements
+
+* Office hours this week. Please Slack me if this disrupts your plans.
+    + Monday 10/1: ~~3-6pm~~ 3-4:45pm
+    + Tuesday 10/2: ~~3-6pm~~ 2-4:30pm
+* 
+    
+    
+## Today's Topics/Activities       
+
+### 1. Chalk Talk
+  
+
+### 2. In-class exercise
+
+
+
+### 3. Tweet of the day
+
+
+***
+
+
+
+
 # Lec 10 {#Lec10}
 
 ## Announcements
@@ -329,7 +356,7 @@ You'll be analyzing the same data used in this study. The data is in the `evals`
 
 * Download the following R scratchpad: <a href="static/PS/PS03_lastname_firstname.R" download>`PS03_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS03_Kim_Albert.R`.
 * Open `PS03_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
-* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, woult they get the same results as you?
+* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, would they get the same results as you?
     + Save your work. The filename `PS03_lastname_firstname.R` should change from red to black.
     + Close `PS03_lastname_firstname.R`.
     + Restart R: RStudio menu bar -> Session -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
@@ -553,7 +580,7 @@ Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income I
 * Download the following R scratchpad: <a href="static/PS/PS02_lastname_firstname.R" download>`PS02_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS02_Kim_Albert.R`.
 * RStudio Server users: "Upload" this file to RStudio Server by going to RStudio -> Files panel -> Upload. (see image below)
 * Open `PS02_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
-* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, woult they get the same results as you?
+* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, would they get the same results as you?
     + Save your work and close `PS02_lastname_firstname.R`.
     + Restart R: RStudio menu bar -> Session -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
     + Go to the Files panel of RStudio and re-open `PS02_lastname_firstname.R`.
