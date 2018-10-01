@@ -69,7 +69,8 @@ h1{font-weight: 400;}
 * Office hours this week. Please Slack me if this disrupts your plans.
     + Monday 10/1: ~~3-6pm~~ 2:30-4:30pm
     + Tuesday 10/2: ~~3-6pm~~ 2-4:30pm
-* Problem set 04 to be posted tomorrow morning.
+* Problem set 04 to be posted tomorrow morning
+* Wednesday's lecture: Class time for projects
     
     
 ## Today's Topics/Activities       
