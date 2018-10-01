@@ -86,7 +86,7 @@ h1{font-weight: 400;}
     + "Tidy" = Narrow AKA stacked AKA tall
     + Rectangular data that is not "tidy" = Wide AKA unstacked
 * Why do we care about "tidy" data format?
-    + Short answer: Because all the functions in the `ggplot2` and `dplyr` R packages for data visualization and data wrangling *assume* that the input data is in "tidy" format and all output data are "tidy" as well. *This is for consistency*.
+    + Short answer: Because all the functions in the `ggplot2` and `dplyr` R packages for data visualization and data wrangling are *designed* so that all inputs and outputs are in "tidy" format; *this is for consistency*.
     + Longer answer (only if you're curious): Because the `ggplot2` and `dplyr` packages are part of the [`tidyverse`](https://www.tidyverse.org/){target="_blank"}: an opinionated collection of R packages designed for data science. See [tidy tools manifesto](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html){target="_blank"} for more details (in particular the "Design for humans" section).
 
 ### 2. In-class exercise
