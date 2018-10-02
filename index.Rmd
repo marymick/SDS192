@@ -113,30 +113,22 @@ Read ModernDive from the beginning of Chapter 4 to the end of Chapter 4.3 on "ti
 
 *Assigned Tuesday 10/2, due Monday 10/8 at 9pm Eastern Time*
 
-<!--
 ## 1. DataCamp
 
+No DataCamp this week.
+
 ## 2. R component {#PS04_R}
-```{r, eval=FALSE}
-library(dplyr)
-set.seed(76)
-poll_results <- data_frame(
-  heard_of_imposter_syndrome = 
-    c(rep("yes", times = 8 + 8 + 6 +12), rep("no", times = 3 + 2 + 4 + 2)),
-  year = c(
-    rep("senior", times = 8),
-    rep("junior", times = 8),
-    rep("sophomore", times = 6),
-    rep("first-year", times = 12),
-    rep("senior", times = 3),
-    rep("junior", times = 2),
-    rep("sophomore", times = 4),
-    rep("first-year", times = 2)
-  )
-) %>% 
-  sample_frac(1)
-```
--->
+
+![](static/images/imposter_syndrome.png){ width=500px }
+
+Above are the results of the Slack poll in the `#polls` channel from Wed 9/19 on "imposter syndrome". You'll be analyzing this data via barplots
+
+* View the following [PDF of 5 barplots](static/PS/Figures.pdf){target="_blank"}. You will be recreating this barplots in R. 
+* Download the following R scratchpad: <a href="static/PS/PS04_lastname_firstname.R" download>`PS04_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS04_Kim_Albert.R`.
+* Open `PS04_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
+* When you are finished, check that your code is *reproducible and replicable*.
+* **Submission**: Submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
+* See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
 
 
 

@@ -375,7 +375,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">SDS 192: Introduction to Data Science</h1>
 <h4 class="author"><em>Albert Y. Kim</em></h4>
-<h4 class="date"><em>Last updated on 2018-10-01</em></h4>
+<h4 class="date"><em>Last updated on 2018-10-02</em></h4>
 
 </div>
 
@@ -466,32 +466,24 @@ NEW POST: The Life-Changing Magic of Tidying Text <a href="https://t.co/CUQJZNHs
 <div id="PS04" class="section level1">
 <h1>Problem set 4</h1>
 <p><em>Assigned Tuesday 10/2, due Monday 10/8 at 9pm Eastern Time</em></p>
-<!--
-## 1. DataCamp
-
-## 2. R component {#PS04_R}
-
-```r
-library(dplyr)
-set.seed(76)
-poll_results <- data_frame(
-  heard_of_imposter_syndrome = 
-    c(rep("yes", times = 8 + 8 + 6 +12), rep("no", times = 3 + 2 + 4 + 2)),
-  year = c(
-    rep("senior", times = 8),
-    rep("junior", times = 8),
-    rep("sophomore", times = 6),
-    rep("first-year", times = 12),
-    rep("senior", times = 3),
-    rep("junior", times = 2),
-    rep("sophomore", times = 4),
-    rep("first-year", times = 2)
-  )
-) %>% 
-  sample_frac(1)
-```
--->
+<div id="datacamp" class="section level2">
+<h2>1. DataCamp</h2>
+<p>No DataCamp this week.</p>
+</div>
+<div id="PS04_R" class="section level2">
+<h2>2. R component</h2>
+<p><img src="static/images/imposter_syndrome.png" width="500" /></p>
+<p>Above are the results of the Slack poll in the <code>#polls</code> channel from Wed 9/19 on “imposter syndrome”. You’ll be analyzing this data via barplots</p>
+<ul>
+<li>View the following <a href="static/PS/Figures.pdf" target="_blank">PDF of 5 barplots</a>. You will be recreating this barplots in R.</li>
+<li>Download the following R scratchpad: <a href="static/PS/PS04_lastname_firstname.R" download><code>PS04_lastname_firstname.R</code></a> and rename it so that it matches your name. For example in my case: <code>PS04_Kim_Albert.R</code>.</li>
+<li>Open <code>PS04_lastname_firstname.R</code> and follow the indicated steps. I <em>highly</em> recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.</li>
+<li>When you are finished, check that your code is <em>reproducible and replicable</em>.</li>
+<li><strong>Submission</strong>: Submit this on <a href="https://moodle.smith.edu/course/view.php?id=29919" target="_blank">Moodle</a>.</li>
+<li>See <a href="syllabus.html#evaluation-expectations">syllabus</a> for expectations on R component submissions.</li>
+</ul>
 <hr />
+</div>
 </div>
 <div id="Lec10" class="section level1">
 <h1>Lec 10</h1>
@@ -702,7 +694,7 @@ Advice for aspiring data scientists: learn SQL, communication is a technical ski
 </tbody>
 </table>
 <p>Let’s compare the points and the corresponding boxplot side-by-side with the values on the <span class="math inline">\(y\)</span>-axis matching:</p>
-<p><img src="index_files/figure-html/unnamed-chunk-4-1.png" width="768" /></p>
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" width="768" /></p>
 </div>
 <div id="in-class-exercise-3" class="section level3">
 <h3>2. In-class exercise</h3>
@@ -714,7 +706,7 @@ Advice for aspiring data scientists: learn SQL, communication is a technical ski
 <div id="PS03" class="section level1">
 <h1>Problem set 3</h1>
 <p><em>Assigned Tuesday 9/25, due Monday 10/1 at 9pm Eastern Time</em></p>
-<div id="datacamp" class="section level2">
+<div id="datacamp-1" class="section level2">
 <h2>1. DataCamp</h2>
 <ul>
 <li>Complete <em>only</em> the following two chapters from the “Introduction to the Tidyverse” course, which you should see in the following <a href="https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments" target="_blank">link</a>:
@@ -786,7 +778,7 @@ Advice for aspiring data scientists: learn SQL, communication is a technical ski
 <a class="sourceLine" id="cb2-6" data-line-number="6"><span class="co"># Code to generate Fig 3.11</span></a>
 <a class="sourceLine" id="cb2-7" data-line-number="7"><span class="kw">ggplot</span>(<span class="dt">data =</span> weather, <span class="dt">mapping =</span> <span class="kw">aes</span>(<span class="dt">x =</span> temp)) <span class="op">+</span></a>
 <a class="sourceLine" id="cb2-8" data-line-number="8"><span class="st">  </span><span class="kw">geom_histogram</span>(<span class="dt">bins =</span> <span class="dv">60</span>, <span class="dt">color =</span> <span class="st">&quot;white&quot;</span>)</a></code></pre></div>
-<p><img src="index_files/figure-html/unnamed-chunk-6-1.png" width="768" /></p>
+<p><img src="index_files/figure-html/unnamed-chunk-5-1.png" width="768" /></p>
 <p>Why the weird up and down spikes in the right-hand histogram? Here is a <strong>random</strong> sample of 99 temperatures of the 464 temperature recordings between 50 and 51 degrees</p>
 <pre><code>##  [1] 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.00 50.54
 ## [12] 50.00 50.00 50.00 50.00 50.90 50.00 50.00 50.00 50.00 50.00 50.00
@@ -812,9 +804,9 @@ Advice for aspiring data scientists: learn SQL, communication is a technical ski
 <div id="chalk-talk-4" class="section level3">
 <h3>2. Chalk Talk</h3>
 <p>Facets and Facetted Histograms. Say you’re asking yourself “What kind of jacket (if any) should I bring to my trip to New York?” Which plot is more useful? Fig 3.13 from ModernDive of all 26115 temperature recordings at all three airports in New York City</p>
-<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" width="768" /></p>
+<p><img src="index_files/figure-html/unnamed-chunk-8-1.png" width="768" /></p>
 <p>to Fig 3.14 of the temperature recordings <em>split by month</em>.</p>
-<p><img src="index_files/figure-html/unnamed-chunk-10-1.png" width="768" /></p>
+<p><img src="index_files/figure-html/unnamed-chunk-9-1.png" width="768" /></p>
 </div>
 <div id="in-class-exercise-4" class="section level3">
 <h3>3. In-class exercise</h3>
@@ -918,7 +910,7 @@ Note because I saved my work, <code>scratchpad.R</code> is written in black. If 
 <div id="PS02" class="section level1">
 <h1>Problem set 2</h1>
 <p><em>Assigned Monday 9/17, due Monday 9/24 at 9pm Eastern Time</em></p>
-<div id="datacamp-1" class="section level2">
+<div id="datacamp-2" class="section level2">
 <h2>1. DataCamp</h2>
 <ul>
 <li>Complete <em>only</em> the following two chapters from the “Introduction to the Tidyverse” course, which you should see in the following <a href="https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments" target="_blank">link</a>:
