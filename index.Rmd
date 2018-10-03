@@ -82,7 +82,7 @@ h1{font-weight: 400;}
 ## Today's Topics/Activities       
 
 ### 1. Discussion on color "chartjunk"
-<!--
+
 What constitutes "chartjunk"? Look at the following faceted scatterplot of "Median household income" 
 and "Number of coffee shops per 1000 people" where we facet by two types of coffee shops: Dunkin Donuts and Starbucks.
 
@@ -100,7 +100,7 @@ Note there is also a blue regression "trend line" that tries to summarize the ov
 
 * The relationship is positive: as the median income of census tracts goes up, the number of shops in a census tract tends to go up as well. This is the case for Starbucks. **The story the right facet is telling**: This graphical analysis is suggesting Starbucks tend to locate in higher income areas. 
 * The relationship is negative: as the median income of census tracts goes up, the number of shops in a census tract tends to go down. This is the case Dunkin Donuts. **The story the left facet is telling**: This graphical analysis is suggesting Dunkin Donuts tend to locate in lower income areas. 
--->
+
 
 ### 2. In-class exercise
 
