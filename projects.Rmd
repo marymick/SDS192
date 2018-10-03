@@ -36,9 +36,9 @@ faithful a manner as possible while maintaining a level suitable for novices.* T
 
 ## Details
 
-You will work with a partner to write a short blog post that contains (at least) one data graphic. Your goal is to tell us something interesting using a well-crafted, thoughtfully-prepared data graphic. One data graphic should suffice, but you may include more if you choose.
+**Edited 10/3**: ~~You will work with a partner to write a short blog post that contains (at least) one data graphic. Your goal is to tell us something interesting using a well-crafted, thoughtfully-prepared data graphic. One data graphic should suffice, but you may include more if you choose.~~ You will work with a partner to write a short blog post that contains one data graphic. Your goal is to tell us something interesting using a well-crafted, thoughtfully-prepared data graphic.
 
-Your blog post should be short. We envision an introductory paragraph that explains your findings and provides some context to your data, the data graphic(s), and then a caption-like paragraph providing more detail about what to look for in the data graphic and how to interpret it. That is it. You will not earn more points by including more words or data graphics. What we are looking for is something that is insightful and well-crafted. As always, you should spend some time thinking about context, scale, color, etc.
+Your blog post should be short. We envision an introductory paragraph that explains your findings and provides some context to your data, the data graphic, and then a caption-like paragraph providing more detail about what to look for in the data graphic and how to interpret it. That is it. You will not earn more points by including more words or data graphics. What we are looking for is something that is insightful and well-crafted. As always, you should spend some time thinking about context, scale, color, etc.
 
 Here are some examples of articles that are similar in spirit to yours. Most of these are much longer than yours will be, and may contain multiple graphics, but the idea is similar: use a good data graphic to tell us something we don’t already know.
 
@@ -46,7 +46,6 @@ Here are some examples of articles that are similar in spirit to yours. Most of 
 * [A Better Way To Find The Best Flights And Avoid The Worst Airports](https://fivethirtyeight.com/features/fastest-airlines-fastest-airports/){target="_blank"}
 * [NYC Taxis and Uber](http://toddwschneider.com/posts/analyzing-1-1-billion-nyc-taxi-and-uber-trips-with-a-vengeance/){target="_blank"}
 * [Data on people who went to ER for wall-punching](https://flowingdata.com/2016/01/14/data-on-people-who-wall-punching/){target="_blank"}
-
 
 
 ## Data
@@ -86,31 +85,35 @@ data(package = "babynames")
 
 ## Grading Rubric
 
-There are 17 possible points for this mini-project.
+There are 17 possible points for this mini-project. 
 
 **Baseline**
 
 * +1 for R code that generates the plot without errors and is *reproducible and replicable*. In other words, if you send the `.R` file to your collaborator, would they be able to recreate your work? See [Problem set 2](index.html#PS02)
 * +1 for describing the dataset
 * +1 for having a data graphic
-* +1 for including the code that generated the data graphic
-* +1 for describing the visual mapping (i.e. a key)
+* +1 for including the code that generated the data graphic. **Added on 10/3**: This code should be in the `mini_project_1_template.R` file and not the Google Doc
+* +1 for describing the visual mapping (i.e. a key). **Added on 10/3**: What this means is describing the mapping of variables to aesthetic attributes. 
 
 **Average**
 
 * +1 for including a catchy and/or engaging title
-* +1 for having at least 100 words and no more than 300 words
+* +1 for having at least 100 words and no more than 300 words of text. **Added on 10/3**: To keep things simple, let's have no footnotes. Also words in the graphic itself do not count in the word count.
 * +1 for explaining in a single coherent sentence what we can learn from this graphic
 * +1 for explaining the choice of geometric mapping
-* **Edited on 9/28**: +1 for ~~explaining the color mapping~~ justifying/explaining the choice of color mapping, even if none. In other words, do not add color for sake of adding color (this is called [chartjunk](https://en.wikipedia.org/wiki/Chartjunk){target="_blank"}). Rather use color only if you feel it adds value to your plot.
-* +1 for explaining which variables are mapped to which visual cues, and why
+* **Edited on 9/28**: ~~+1 for explaining the color mapping~~ +1 for justifying/explaining the choice of color mapping, even if none. In other words, do not add color for sake of adding color (this is called [chartjunk](https://en.wikipedia.org/wiki/Chartjunk){target="_blank"}). Rather use color only if you feel it adds value to your plot. **Added on 10/10**: It's subjective! 
+* **Edited on 10/3**: ~~+1 for explaining which variables are mapped to which visual cues, and why.~~  +1 for explaining any additional variables that are mapped to any visual cues, such as facets, if you choose to use them.
 
 **Advanced**
 
 * +2 blog post text provides context or background useful in interpreting the graphic
-* +0–4 WOW factor: awarded at the grader’s discretion for submissions that are exceptionally compelling
-
-
+* +0–4 "wow" factor: awarded at the grader’s discretion for submissions that are exceptionally compelling. 
+* **Added on 10/3**: What does "wow" factor mean? Ask yourself:
+    + What is a checklist of criteria for a "great" calculus assignment?
+    + What is a checklist of criteria for a "great" essay?
+    + Guess what this mini-project blogpost is more like? A calculus assignment or an essay?
+* **Added on 10/3**: After the project feedback is returned, I will present a few examples of mini-projects that I found satisfied the "wow" criteria. 
+* **Added on 10/3**: Recall this mini-project is weighted much less than the others (5%). The mini-projects are a series of practice rounds building up to the final project.
 
 ## Groups
 
