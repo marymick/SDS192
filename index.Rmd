@@ -59,7 +59,7 @@ h1{font-weight: 400;}
 
 
 
-# Lec 12: Wed 10/3 {#Lec12}
+# Lec 13: Fri 10/5 {#Lec13}
 
 ## Announcements
 
