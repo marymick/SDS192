@@ -74,7 +74,7 @@ data(package = "babynames")
     + Download the <a href="static/projects/mini_project_1_template.R" download>`mini_project_1_template.R`</a> template `.R` scratchpad for this project and upload it to RStudio Server as you would a problem set.
     + Following the format of `mini_project_1_template.R` and the copy/paste/tweak approach to coding, change all elements of the template to create your graphic. Note I've included an example of a scatterplot for illustrative purposes. Your graphic can be anything!
     + "Export" the image to `.png` format. In the RStudio panel where your plot is, click "Export" -> "Save as Image..."
-    + Include this image in a Google Doc. You will write your blogpost in this Google Doc.
+    + Include this image in a Google Doc. You will write your blogpost in this Google Doc. **Added on 10/4**: Share this Google Doc with your partner and with me: `akim04@smith.edu`
 1. Designate a team leader who will do the following:
     + Submit the `mini_project_1_template.R` file for your Group on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}.
     + **Added on 9/28**: If you are using data that included in a separate file (like an Excel or `.csv` file), submit this too. If you do not, I will not be able to *reproduce and replicate* your results.
