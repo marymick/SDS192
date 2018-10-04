@@ -63,6 +63,36 @@ h1{font-weight: 400;}
 
 ## Announcements
 
+* PS03 solutions [posted](#PS03_R_solutions)
+* Interested in majoring in SDS? Check out our presentation of the major on Tuesday 10/23 from 12:15-1:05pm in Ford Hall.
+
+<center>
+![](static/images/SDS_major.png){ width=800px }
+</center>  
+
+<br>
+
+
+
+
+## Today's Topics/Activities       
+
+### 1. Chalk Talk
+
+
+### 2. In-class exercise
+
+
+
+
+***
+
+
+
+# Lec 12: Wed 10/3 {#Lec12}
+
+## Announcements
+
 * Please vote in Starbucks vs Dunkin Donuts poll in Slack `#polls`.
 * ModernDive learning check solutions for Chapter 4 + 5 now posted in Appendix D. 
 * PS04 is not due Monday, but Wednesday after the break.
@@ -188,6 +218,14 @@ Above are the results of the Slack poll in the `#polls` channel from Wed 9/19 on
 
 ***
 
+
+
+
+<!--
+## 3. R component solutions {#PS04_R_solutions}
+
+<a href="static/PS/PS04_solutions.R" download>`PS04_solutions.R`</a>
+-->
 
 
 # Lec 10 {#Lec10}
@@ -482,6 +520,13 @@ You'll be analyzing the same data used in this study. The data is in the `evals`
 * See image below
 
 ![](static/images/rstudio_server_upload_export.png)
+
+
+
+## 3. R component solutions {#PS03_R_solutions}
+
+<a href="static/PS/PS03_solutions.R" download>`PS03_solutions.R`</a>
+
 
 
 
