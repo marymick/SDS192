@@ -63,7 +63,18 @@ h1{font-weight: 400;}
 
 ## Announcements
 
-* PS03 solutions [posted](#PS03_R_solutions)
+* Two `#polls` today:
+    + Webpage redesign?
+    + Look at tweet of the day below and vote, do you like the building?
+* Projects:
+    + Mini-Project 1 due today at 5pm!
+    + Next mini-Project 2 is on data wrangling; details next week.
+    + Added more class time for projects into schedule above: Wed 10/31, Wed 11/28, and Wed 12/12
+* Problem sets:
+    + Giving personalized feedback to 68 students over approximately 13 problem sets is near impossible given the resources I have. **It is your responsibility to do a "self-evaluation" after solutions are posted.**
+    + PS02 (imperfect) grading rubric [posted](#PS02_R_solutions).
+    + PS03 solutions and (imperfect) gradic rubric [posted](#PS03_R_solutions).
+    + (Due Wednesday after break) PS04 (imperfect) grading rubric [posted](#PS04_R_solutions).
 * Interested in majoring in SDS? Check out our presentation of the major on Tuesday 10/23 from 12:15-1:05pm in Ford Hall.
 
 <center>
@@ -76,8 +87,22 @@ h1{font-weight: 400;}
 
 ### 1. Chalk Talk
 
+* Pipes `%>%`, pronounced "THEN". To quickly type this in RStudio, hold down
+    + macOS: COMMAND + SHIFT + M
+    + Windows, UNIX, Chromebooke: CTRL + SHIFT + M
+* Functions
+* Data wrangling verb: `filter()`
 
 ### 2. In-class exercise
+
+Read ModernDive 5.1-5.3.
+
+### 3. Tweet of the day
+
+Boston University is going to build a new 17-floor "Data Sciences Center" on Commonwealth Avenue, designed to look like a stack of books. `r emo::ji("thumbs up")` or `r emo::ji("thumbs down")`?
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Boston University unveils plans for book-inspired data sciences center on Comm. Ave. <a href="https://t.co/XpnDGATpnE">https://t.co/XpnDGATpnE</a> <a href="https://t.co/A8LMpYoB7K">pic.twitter.com/A8LMpYoB7K</a></p>&mdash; Boston.com (@BostonDotCom) <a href="https://twitter.com/BostonDotCom/status/1047534467257184256?ref_src=twsrc%5Etfw">October 3, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
@@ -212,18 +237,20 @@ Above are the results of the Slack poll in the `#polls` channel from Wed 9/19 on
 * See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
 
 
-
-***
-
-
-
+## 3. R component solutions & (imperfect) rubric {#PS04_R_solutions}
 
 <!--
-## 3. R component solutions {#PS04_R_solutions}
-
-<a href="static/PS/PS04_solutions.R" download>`PS04_solutions.R`</a>
+<a href="static/PS/PS03_solutions.R" download>`PS04_solutions.R`</a>
 -->
 
+
+**(Imperfect) rubric**:
+
+* Out of 1+1+1+1+1+1+1+1+4 = 12 points, one for each question. 
+* This problem set has little to no ambiguity.
+
+
+***
 
 # Lec 10 {#Lec10}
 
@@ -520,9 +547,17 @@ You'll be analyzing the same data used in this study. The data is in the `evals`
 
 
 
-## 3. R component solutions {#PS03_R_solutions}
+## 3. R component solutions & (imperfect) rubric {#PS03_R_solutions}
 
 <a href="static/PS/PS03_solutions.R" download>`PS03_solutions.R`</a>
+
+**(Imperfect) rubric**:
+
+* 8/10 or lower: At least one plot or more wasn't not valid.
+* 9/10: If all 5 plots work.
+* 10/10 If all 5 plots work and you did something "exceptional". I agree this is super subjective, but think of it as 10/10 = a great essay.
+* Again, each point is worth roughly 0.23% of final grade, not accounting for fact that two lowest grades are dropped.
+
 
 
 
@@ -745,9 +780,16 @@ Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income I
 * While I encourage you collaborate/help each other out, please make an honest effort to do this problem set. Part of the graders' and my goal in grading the problem sets is to identify both your **strengths and weaknesses** in preparation for the projects. Don't forget the lowest two problem set scores are dropped!
 
 
-## 3. R component solutions {#PS02_R_solutions}
+## 3. R component solutions & (imperfect) rubric {#PS02_R_solutions}
 
 <a href="static/PS/PS02_solutions.R" download>`PS02_solutions.R`</a>
+
+**(Imperfect) Rubric**:
+
+* 8/10 or lower: If something didn't work. Example: submitted a blank file or code doesn't run.
+* 9/10: If you did everything as asked. Example: Make a working plot using the correct variable `avg_hatecrimes_per_100k_fbi` on the y-axis. **Most students got 9/10**.
+* 10/10: The extra point was for doing something "extra" or "exceptional". Example: added labels to axes to plot or anything to make it more interpretable.
+* Each point is roughly worth 0.23% of final grade (this is not accounting for fact that lowest two problem set grades are dropped).
 
 
 
