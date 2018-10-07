@@ -4,8 +4,7 @@ output:
   html_document:
     toc: yes
     toc_depth: 2
-    toc_float:
-      collapsed: no
+    toc_float: true
 ---
 
 <style>
@@ -21,18 +20,34 @@ faithful a manner as possible while maintaining a level suitable for novices.* T
 </center>
 
 
+***
+
+# 2. Mini-project 2: Data wrangling {#miniproj2}
+
+* **Due**: Friday 11/2 5pm
+
+
+
+## Groups
+
+```{r, echo=FALSE, message=FALSE, cache=TRUE}
+readr::read_csv("static/projects/groups_2.csv") %>% 
+  knitr::kable()
+```
 
 
 
 ***
 
-# 1. Mini-project 1: Data visualization (Due 10/5 5pm) {#miniproj1}
 
 
-* **Structure** Near identical to as in [Spring 2018](https://beanumber.github.io/sds192/mod_viz.html){target="_blank"}, with a few differences in submission format and grading rubric
-* **Learning Goal** To make informative, appropriate, and compelling data graphics.
-* **Technical Skills** `ggplot2` package
-* **Readings**  ModernDive as chief readings, Chapters 2 & 3 of "Modern Data Science with R" as supplementary readings if you want more details.
+# 1. Mini-project 1: Data visualization {#miniproj1}
+
+* **Due**: Friday 10/5 5pm
+* **Structure**: Near identical to as in [Spring 2018](https://beanumber.github.io/sds192/mod_viz.html){target="_blank"}, with a few differences in submission format and grading rubric
+* **Learning Goal**: To make informative, appropriate, and compelling data graphics.
+* **Technical Skills**: `ggplot2` package
+* **Readings**:  ModernDive as chief readings, Chapters 2 & 3 of "Modern Data Science with R" as supplementary readings if you want more details.
 
 ## Details
 
@@ -124,3 +139,7 @@ readr::read_csv("static/projects/groups_1.csv") %>%
 
 
 
+<!--
+TODO
+## Gallery
+-->

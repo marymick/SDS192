@@ -15,8 +15,8 @@ h1{font-weight: 400;}
 </style>
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE, eval=TRUE, 
-                      fig.width = 16/2, fig.height = 9/2)
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE, eval = TRUE, 
+                      cache = TRUE, fig.width = 16/2, fig.height = 9/2)
 library(tidyverse)
 library(stringr)
 library(knitr)
@@ -59,6 +59,34 @@ h1{font-weight: 400;}
 
 
 
+# Lec 14: Wed 10/10 {#Lec14}
+
+## Announcements
+
+* Reminder that unless you give me a prior heads up you stay the full lecture as it is *very* disruptive to get up and leave.
+* Practice tidy exercise
+
+
+## Today's Topics/Activities
+
+### 1. Chalk Talk
+
+* Summary statistics
+* `summarize()` data
+
+### 2. In-class exercise
+
+* Read ModernDive 5.4
+
+
+### 3. Tweet of the day
+
+
+
+***
+
+
+
 # Lec 13: Fri 10/5 {#Lec13}
 
 ## Announcements
@@ -72,9 +100,9 @@ h1{font-weight: 400;}
     + Added more class time for projects into schedule above: Wed 10/31, Wed 11/28, and Wed 12/12
 * Problem sets:
     + Giving personalized feedback to 68 students over approximately 13 problem sets is near impossible given the resources I have. **It is your responsibility to do a "self-evaluation" after solutions are posted.**
-    + PS02 (imperfect) grading rubric [posted](#PS02_R_solutions).
-    + PS03 solutions and (imperfect) gradic rubric [posted](#PS03_R_solutions).
-    + (Due Wednesday after break) PS04 (imperfect) grading rubric [posted](#PS04_R_solutions).
+    + PS02 (imperfect) grading rubric [posted](PS.html#PS02_R_solutions).
+    + PS03 solutions and (imperfect) gradic rubric [posted](PS.html#PS03_R_solutions).
+    + (Due Wednesday after break) PS04 (imperfect) grading rubric [posted](PS.html#PS04_R_solutions).
 * Interested in majoring in SDS? Check out our presentation of the major on Tuesday 10/23 from 12:15-1:05pm in Ford Hall.
 
 <center>
@@ -106,7 +134,6 @@ Boston University is going to build a new 17-floor "Data Sciences Center" on Com
 
 
 
-
 ***
 
 
@@ -124,11 +151,8 @@ Boston University is going to build a new 17-floor "Data Sciences Center" on Com
 
 <center>
 ![](static/images/Craigie_Poster_Wide.png){ width=800px }
-</center>  
-
+</center>
 <br>
-
-
 
 
 ## Today's Topics/Activities       
@@ -209,48 +233,10 @@ Read ModernDive from the beginning of Chapter 4 to the end of Chapter 4.3 on "ti
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-***
-
-
-
-
-
-# Problem set 4 {#PS04}
-
-*Assigned Tuesday 10/2, due **Wednesday** 10/10 at 9pm Eastern Time*
-
-## 1. DataCamp
-
-No DataCamp this week.
-
-## 2. R component {#PS04_R}
-
-![](static/images/imposter_syndrome.png){ width=500px }
-
-Above are the results of the Slack poll in the `#polls` channel from Wed 9/19 on "imposter syndrome". You'll be analyzing this data via barplots
-
-* View the following [PDF of 5 barplots](static/PS/Figures.pdf){target="_blank"}. You will be recreating this barplots in R. 
-* Download the following R scratchpad: <a href="static/PS/PS04_lastname_firstname.R" download>`PS04_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS04_Kim_Albert.R`.
-* Open `PS04_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
-* When you are finished, check that your code is *reproducible and replicable*.
-* **Submission**: Submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
-* See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
-
-
-## 3. R component solutions & (imperfect) rubric {#PS04_R_solutions}
-
-<!--
-<a href="static/PS/PS03_solutions.R" download>`PS04_solutions.R`</a>
--->
-
-
-**(Imperfect) rubric**:
-
-* Out of 1+1+1+1+1+1+1+1+4 = 12 points, one for each question. 
-* This problem set has little to no ambiguity.
-
 
 ***
+
+
 
 # Lec 10 {#Lec10}
 
@@ -319,8 +305,7 @@ ggplot(toy_data, aes(x = group, y = count, fill = group)) +
   scale_fill_brewer(palette = "YlOrBr")
 ```
 
-    
-    
+
 ## Today's Topics/Activities       
 
 ### 1. Chalk Talk
@@ -337,9 +322,6 @@ ggplot(toy_data, aes(x = group, y = count, fill = group)) +
 ![alt text](static/images/colorbrewer.png){ width=600px }
 </center>
 
-  
-  
-  
 
 ### 2. In-class exercise
 
@@ -348,7 +330,6 @@ ggplot(toy_data, aes(x = group, y = count, fill = group)) +
 <center>
 ![alt text](static/images/5NG_table.png){ width=600px }
 </center>
-
 
 
 ### 3. Tweet of the day
@@ -360,10 +341,7 @@ Advice from [\@hadleywickham](http://hadley.nz/){target="_blank"}, creator of th
 
 
 
-
-
 ***
-
 
 
 
@@ -375,12 +353,11 @@ Advice from [\@hadleywickham](http://hadley.nz/){target="_blank"}, creator of th
 * Added to "Event" column in calendar above: Class time to work on mini-project 1:
     + Friday 9/28
     + Wednesday 10/3
-* Solutions to PS02 [posted](#PS02_R_solutions). Please download the `PS02_solutions.R` file to your computer and open them in RStudio for a brief in-class discussion.
+* Solutions to PS02 posted. Please download the `PS02_solutions.R` file to your computer and open them in RStudio for a brief in-class discussion.
     + **RStudio Desktop users**: To guarantee the `PS02_solutions.R` file opens in the RStudio app (AKA a car's dashboard) and not the regular R app (AKA a car's engine), don't double-click the `PS02_solutions.R` file directly, but rather go to Files panel of RStudio and find/click/open the file from there.
     + **RStudio Server users**: Download `PS02_solutions.R` to your computer, then upload it to RStudio by clicking "upload" like in this image: ![alt text](static/images/rstudio_server_upload_export.png)
 
-    
-    
+
 ## Today's Topics/Activities       
 
 ### 1. Mini-Discussion on pie charts
@@ -396,11 +373,6 @@ Say the following piecharts represent results of an election poll at time points
 Compare that to using barplots. Which do you *prefer*?
 
 ![](static/images/barplots.png){ width=600px }
-
-
-
-
-
 
 
 ### 2. Chalk Talk
@@ -420,7 +392,6 @@ Click here for definition of ["Winging it"](https://www.urbandictionary.com/defi
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Advice for aspiring data scientists: learn SQL, communication is a technical skill, start a blog, teach others, don&#39;t worry about learning everything, find your community, stay curious, have fun, don&#39;t be afraid to use Google, and remember that everyone is winging it.</p>&mdash; Caitlin Hudon👩🏼
 💻 (@beeonaposy) <a href="https://twitter.com/beeonaposy/status/1044426618708643841?ref_src=twsrc%5Etfw">September 25, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 
 
@@ -445,7 +416,7 @@ Click here for definition of ["Winging it"](https://www.urbandictionary.com/defi
 
 ### 1. Chalk Talk
 
-```{r, eval=TRUE, echo=FALSE}
+```{r, eval=TRUE, echo=FALSE, cache=TRUE}
 library(ggplot2)
 library(dplyr)
 example <- data_frame(
@@ -462,7 +433,6 @@ They have the following *summary statistics*. A summary statistic is a single nu
 * Quartiles (1st, 2nd, and 3rd) that cut up the data into 4 parts, each containing roughly one quarter = 25% of the data
 * Minimum & maximum
 * Interquartile-range (IQR): the distance between the 3rd and 1st quartiles
-
 
 Min. | 1st Quartile | Median = 2nd Quartile  | 3rd Quartile  |  Max. | IQR
 ---- | ------- | ------  |  ------- | --- | ---
@@ -501,71 +471,6 @@ Read ModernDive 3.7 on Boxplots
 
 
 
-# Problem set 3 {#PS03}
-
-*Assigned Tuesday 9/25, due Monday 10/1 at 9pm Eastern Time*
-
-## 1. DataCamp
-
-* Complete *only* the following two chapters from the "Introduction to the Tidyverse" course, which you should see in the following [link](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments){target="_blank"}:
-    * Chapter 3: "Grouping and summarizing"
-    * Chapter 4: "Types of visualizations"
-* See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
-
-
-## 2. R component {#PS03_R}
-
-Read the following Chance Magazine article [Looking Good on Course Evaluations](http://chance.amstat.org/2013/04/looking-good/){target="_blank"} up to and including Table 1. In particular, note the introductory paragraph:
-
-> At the end of each semester, students provide feedback on their courses via anonymous course evaluations. However, use of student evaluations as indicators of quality of the course and teaching effectiveness is often criticized since these measures may be reflecting biases in favor of nonteaching-related characteristics, such as the physical appearance of the instructor.
-
-You'll be analyzing the same data used in this study. The data is in the `evals` data frame, which is included in the `moderndive` R package. A larger goal of this problem set is to start practicing answering questions with data visualizations
-
-* Download the following R scratchpad: <a href="static/PS/PS03_lastname_firstname.R" download>`PS03_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS03_Kim_Albert.R`.
-* Open `PS03_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
-* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, would they get the same results as you?
-    + Save your work. The filename `PS03_lastname_firstname.R` should change from red to black.
-    + Close `PS03_lastname_firstname.R`.
-    + Restart R: RStudio menu bar -> Session -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
-    + Go to the Files panel of RStudio and re-open `PS03_lastname_firstname.R`.
-    + Run all your code as described in [Lec4](#Lec04) and make sure that you can replicate all images.
-* **Submission**: Submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
-* See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
-
-**Hints**:
-
-* Everything you need to know for this problem set are based on Lectures 1-8 in particular the ModernDive readings.
-* While I encourage you collaborate/help each other out, please make an honest effort to do this problem set. This is practice for the first mini-project!
-
-**RStudio Server users**:
-
-* To "Upload" the `PS03_Kim_Albert.R` file from your computer to RStudio Server so you can work on it: Go to RStudio -> Files panel -> Upload.
-* To "Download" the `PS03_Kim_Albert.R` file from RStudio Server to your computer so you can submit it on Moodle: Go to RStudio -> Files panel -> More -> Export.
-* See image below
-
-![](static/images/rstudio_server_upload_export.png)
-
-
-
-## 3. R component solutions & (imperfect) rubric {#PS03_R_solutions}
-
-<a href="static/PS/PS03_solutions.R" download>`PS03_solutions.R`</a>
-
-**(Imperfect) rubric**:
-
-* 8/10 or lower: At least one plot or more wasn't not valid.
-* 9/10: If all 5 plots work.
-* 10/10 If all 5 plots work and you did something "exceptional". I agree this is super subjective, but think of it as 10/10 = a great essay.
-* Again, each point is worth roughly 0.23% of final grade, not accounting for fact that two lowest grades are dropped.
-
-
-
-
-
-***
-
-
-
 # Lec 7 {#Lec07}
 
 ## Announcements
@@ -593,7 +498,7 @@ ggplot(data = weather, mapping = aes(x = temp)) +
 ggplot(data = weather, mapping = aes(x = temp)) +
   geom_histogram(bins = 60, color = "white")
 ```
-```{r, eval=TRUE, echo=FALSE}
+```{r, eval=TRUE, echo=FALSE, cache=TRUE}
 # Code to generate Fig 3.10
 p1 <- ggplot(data = weather, mapping = aes(x = temp)) +
   geom_histogram(color = "white") +
@@ -621,7 +526,6 @@ weather %>% filter(55 <= temp & temp < 56) %>% sample_n(99) %>% pull(temp)
 
 What is the pattern?
 
-
 ### 2. Chalk Talk
 
 Facets and Facetted Histograms. Say you're asking yourself "What kind of jacket (if any) should I bring to my trip to New York?" Which plot is more useful? Fig 3.13 from ModernDive of all `r nrow(weather)` temperature recordings at all three airports in New York City
@@ -641,11 +545,9 @@ ggplot(data = weather, mapping = aes(x = temp)) +
   facet_wrap(~ month, nrow = 4)
 ```
 
-
 ### 3. In-class exercise
 
 Read ModernDive 3.6 on Facets
-
 
 ### 4. Tweet of the day
 
@@ -698,12 +600,11 @@ On *imposter syndrome* is a psychological pattern in which an individual doubts 
 
 
 
-
 ***
 
 
 
-# Lec 5
+# Lec 5 {#Lec05}
 
 ## Announcements
 
@@ -711,6 +612,7 @@ On *imposter syndrome* is a psychological pattern in which an individual doubts 
 Note because I saved my work, `scratchpad.R` is written in black. If I had unsaved work, this would be written in red.  
 ![alt text](static/images/Lec4_scratchpad.png){ width=500px }
 * Problem set 02 posted [below](#PS02).
+
 
 ## Today's Topics/Activities       
 
@@ -731,66 +633,9 @@ this is a comment line that R ignores that helps readers (including you!) unders
 
 Why does one line return an `Error` whereas the other doesn't?
 
-
 ### 3. In-class exercise
 
 As marked in the Schedule at the top of this page, read ModernDive 3.3.2 - 3.4 (start of Chapter 3.3.2 to the end of 3.4).
-
-
-***
-
-
-
-# Problem set 2 {#PS02}
-
-*Assigned Monday 9/17, due Monday 9/24 at 9pm Eastern Time*
-
-## 1. DataCamp
-
-* Complete *only* the following two chapters from the "Introduction to the Tidyverse" course, which you should see in the following [link](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments){target="_blank"}:
-    * Chapter 1: "Data wrangling".
-    * Chapter 2: "Data visualization"
-    * Skip Chapters 3-4 on "Grouping and summarizing" and "Types of visualizations" for now.
-* Note: DataCamp does things in a slightly order, data wrangling first then data visualization. ModernDive however does data visualization first in Chapter 3 then data wrangling in Chapter 5. Reading ModernDive Chapter 5 is not a pre-requisite for completing this problem set.
-* See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
-* If you have already completed the "Introduction to the Tidyverse" DataCamp course previously using a DataCamp account based on your Smith email, you do not need to re-do them; they will show up in my logs as completed.
-
-## 2. R component {#PS02_R}
-
-Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income Inequality](https://fivethirtyeight.com/features/higher-rates-of-hate-crimes-are-tied-to-income-inequality/){target="_blank"}. You'll be analyzing the same data used to write this article. The data is in the `hate_crimes` dataframe, which is included in the `fivethirtyeight` R package. A larger goal of this problem set is to start practicing the "data analysis" workflow.
-
-* Download the following R scratchpad: <a href="static/PS/PS02_lastname_firstname.R" download>`PS02_lastname_firstname.R`</a> and rename it so that it matches your name. For example in my case: `PS02_Kim_Albert.R`.
-* RStudio Server users: "Upload" this file to RStudio Server by going to RStudio -> Files panel -> Upload. (see image below)
-* Open `PS02_lastname_firstname.R` and follow the indicated steps. I *highly* recommend you copy and paste existing code from ModernDive and then tweak it to achieve your goal.
-* When you are finished, check that your code is *reproducible and replicable*. Meaning if you were to send someone else this file and they ran the code, would they get the same results as you?
-    + Save your work and close `PS02_lastname_firstname.R`.
-    + Restart R: RStudio menu bar -> Session -> Restart R. This "reboots R" by deleting all previously saved data frames and shuts down all loaded packages.
-    + Go to the Files panel of RStudio and re-open `PS02_lastname_firstname.R`.
-    + Run all your code as described in [Lec4](#Lec04) and make sure that you can replicate the scatterplot.
-* **Submission**:
-    + RStudio Server users: "Download" this file on to your compter by going to RStudio -> Files panel -> More -> Export. (see image below)
-    + Submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
-* See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
-
-![alt text](static/images/rstudio_server_upload_export.png)
-
-**Hints**:
-
-* Everything you need to know for this problem set are based on Lectures 1-4, in particular the ModernDive readings.
-* While I encourage you collaborate/help each other out, please make an honest effort to do this problem set. Part of the graders' and my goal in grading the problem sets is to identify both your **strengths and weaknesses** in preparation for the projects. Don't forget the lowest two problem set scores are dropped!
-
-
-## 3. R component solutions & (imperfect) rubric {#PS02_R_solutions}
-
-<a href="static/PS/PS02_solutions.R" download>`PS02_solutions.R`</a>
-
-**(Imperfect) Rubric**:
-
-* 8/10 or lower: If something didn't work. Example: submitted a blank file or code doesn't run.
-* 9/10: If you did everything as asked. Example: Make a working plot using the correct variable `avg_hatecrimes_per_100k_fbi` on the y-axis. **Most students got 9/10**.
-* 10/10: The extra point was for doing something "extra" or "exceptional". Example: added labels to axes to plot or anything to make it more interpretable.
-* Each point is roughly worth 0.23% of final grade (this is not accounting for fact that lowest two problem set grades are dropped).
-
 
 
 
@@ -806,6 +651,7 @@ Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income I
 * For those of you with interests in Biology: Reed College's Prof Derek Applewhite ["The Spatial and Temporal Regulation of Non-muscle Myosin II Contractility"](https://twitter.com/rudeboybert/status/1040272556991959041){target="_blank"} talk on Monday afternoon.
 * Added note about when to do DataCamp courses to [syllabus](syllabus.html#evaluation-expectations): *You do not need to complete any DataCamp courses in preparation for future lectures; they will always be explicitly assigned*.
 * Solutions to previous lecture's learning checks will be posted directly underneith question. Ex: Look at [LC2.1 Solutions](https://moderndive.netlify.com/2-getting-started.html#exploredataframes){target="_blank"} I just posted.
+
 
 ## Today's Topics/Activities       
 
@@ -839,13 +685,11 @@ As marked in the Schedule at the top of this page, read ModernDive 3 - 3.3.1 (st
 
 
 
-
-
 ***
 
 
 
-# Lec 3
+# Lec 3 {#Lec03}
 
 * Go over previous Slack `#general_announcements`
 * If you haven't already, **please** complete the [Intro Survey](https://docs.google.com/forms/d/e/1FAIpQLSdTI6UM9OlYygbZQU_gQPtQPGplFIXzmE_YCMPT_1bSkDd3Zw/viewform){target="_blank"} from Lec 1.
@@ -854,12 +698,14 @@ As marked in the Schedule at the top of this page, read ModernDive 3 - 3.3.1 (st
     + Added office hours
     + Added *expectations* to following sections: Basic Course Information, Topic Schedule and Readings, Evaluation, Accommodations, Code of Conduct
 
+
 ## Today's Topics/Activities       
         
 1. Go over ModernDive Chapter 2. Note:
     + You can skip all videos and linked DataCamp courses.
     + "Learning checks": These are practice problems that you do not need to submit. Should you write your answers down? If you feel like you would benefit, then yes! I will post solutions to the learning checks before the next lecture!
 1. Start Problem set 1 below. I will discuss the DataCamp interface at 11:55am.
+
 
 ## Getting help
 
@@ -884,33 +730,7 @@ A big part of learning data science tools is learning how to get help effectivel
 
 
 
-# Problem set 1 {#PS01}
-
-*Assigned Wednesday 9/12, due Monday 9/17 at 9pm Eastern Time*
-
-1. **DataCamp**
-    * Complete the following chapters from the "Introduction to R" course, which you should see in the following [link](https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments){target="_blank"}:
-        * Chapter 1: "Intro to basics"
-        * Chapter 2: "Vectors"
-        * Chapter 4: "Factors"
-        * Chapter 5: "Data Frames"
-    * See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
-    * If you have already completed the "Intro to R" DataCamp course previously using a DataCamp account based on your Smith email, you do not need to re-do them; they will show up in my logs as completed.
-1. **Administrative stuff**: To receive full credit for this portion simply ensure
-    * On Slack:
-        1. Your full name is listed: full name = how you would like to be addressed in class & last name.  
-        1. You have added a profile picture with your face visible. This will help me learn your names.
-        1. Hint: Start relying on Google! "How do I change my name and profile picture on Slack?"
-        1. You are a member of the `#moderndive_typoes`, `#r_questions`, and `random` channels.
-    * On DataCamp: Your full name is listed in your [profile](https://www.datacamp.com/profile/account_settings){target="_blank"}; the rest is optional.
-
-
-
-***
-
-
-
-# Lec 2
+# Lec 2 {#Lec02}
 
 1. **Background** Based on n=61 responses so far:  
 ![alt text](static/images/background.png){ width=600px }
@@ -936,7 +756,7 @@ A big part of learning data science tools is learning how to get help effectivel
 
 
 
-# Lec 1
+# Lec 1 {#Lec01}
 
 1. **Data viz**
     1. [Comparison](http://www.bbc.com/culture/story/20150720-the-london-underground-map-the-design-that-shaped-a-city){target="_blank"} of Beck's original (1933) and today's London Underground map.
@@ -949,6 +769,7 @@ A big part of learning data science tools is learning how to get help effectivel
     1. Interactive maps via the [leaflet JavaScript library](https://leafletjs.com/){target="_blank"}, which we'll interface with using the [`leaflet` R package](https://rstudio.github.io/leaflet/){target="_blank"}.
 1. **Text data**
     1. Who wrote the New York Times anonymous opinion editorial ["I Am Part of the Resistance Inside the Trump Administration"](https://www.nytimes.com/2018/09/05/opinion/trump-white-house-anonymous-resistance.html){target="_blank"}? A [text analysis approach](http://varianceexplained.org/r/op-ed-text-analysis/){target="_blank"} to answering this question.
+
 
 ## TODO's {#Lec1TODO}
 
