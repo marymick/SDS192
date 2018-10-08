@@ -3,9 +3,8 @@ title: "Problem Sets"
 output:
   html_document:
     toc: yes
-    toc_depth: 1
-    toc_float:
-      collapsed: no
+    toc_depth: 2
+    toc_float: true
 ---
 
 <style>
@@ -31,7 +30,7 @@ Working with data in the Tidyverse
 * See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
 
 
-## 3. R component solutions & (imperfect) rubric {#PS05_R_solutions}
+## 3. R solutions & (imperfect) rubric {#PS05_R_solutions}
 
 <!--
 <a href="static/PS/PS05_solutions.R" download>`PS05_solutions.R`</a>
@@ -73,7 +72,7 @@ Above are the results of the Slack poll in the `#polls` channel from Wed 9/19 on
 * See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
 
 
-## 3. R component solutions & (imperfect) rubric {#PS04_R_solutions}
+## 3. R solutions & (imperfect) rubric {#PS04_R_solutions}
 
 <!--
 <a href="static/PS/PS04_solutions.R" download>`PS04_solutions.R`</a>
@@ -136,7 +135,7 @@ You'll be analyzing the same data used in this study. The data is in the `evals`
 
 
 
-## 3. R component solutions & (imperfect) rubric {#PS03_R_solutions}
+## 3. R solutions & (imperfect) rubric {#PS03_R_solutions}
 
 <a href="static/PS/PS03_solutions.R" download>`PS03_solutions.R`</a>
 
@@ -192,7 +191,7 @@ Read the following 538 article [Higher Rates Of Hate Crimes Are Tied To Income I
 * While I encourage you collaborate/help each other out, please make an honest effort to do this problem set. Part of the graders' and my goal in grading the problem sets is to identify both your **strengths and weaknesses** in preparation for the projects. Don't forget the lowest two problem set scores are dropped!
 
 
-## 3. R component solutions & (imperfect) rubric {#PS02_R_solutions}
+## 3. R solutions & (imperfect) rubric {#PS02_R_solutions}
 
 <a href="static/PS/PS02_solutions.R" download>`PS02_solutions.R`</a>
 
