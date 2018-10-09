@@ -27,6 +27,7 @@ faithful a manner as possible while maintaining a level suitable for novices.* T
 * **Due**: Friday 11/2 5pm
 
 
+<!--
 
 ## Groups
 
@@ -35,6 +36,7 @@ readr::read_csv("static/projects/groups_2.csv") %>%
   knitr::kable()
 ```
 
+-->
 
 
 ***
