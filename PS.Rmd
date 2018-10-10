@@ -20,7 +20,8 @@ h1{font-weight: 400;}
 # Problem set 5 {#PS05}
 
 *Assigned Wednesday 10/10, due Monday 10/15 at 9pm Eastern Time*
-<!--
+
+
 ## 1. DataCamp
 
 From DataCamp's [Working with Data in the Tidyverse](https://www.datacamp.com/courses/working-with-data-in-the-tidyverse){target="_blank"}:
@@ -45,10 +46,9 @@ No R component this week.
 
 * As usual, you will be credited for completion of the DataCamp course in the "Quizzes & Labs" portion of the grade.
 * Google Forms for Chapter 1 and Chapter 2:
-    + Full credit for completing them.
-    + No credit for not completing them.
+    + Full credit for completing both.
+    + No credit for not completing both.
 
--->
 
 
 
