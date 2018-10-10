@@ -6,3 +6,5 @@
 index_files/*
 index_cache/*
 scratchpad.R
+projects_cache/
+
