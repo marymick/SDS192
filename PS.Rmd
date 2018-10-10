@@ -20,32 +20,34 @@ h1{font-weight: 400;}
 # Problem set 5 {#PS05}
 
 *Assigned Wednesday 10/10, due Monday 10/15 at 9pm Eastern Time*
-
+<!--
 ## 1. DataCamp
 
-Working with data in the Tidyverse
+From DataCamp's [Working with Data in the Tidyverse](https://www.datacamp.com/courses/working-with-data-in-the-tidyverse){target="_blank"}:
 
+* Chapter 1: "Explore your data"
+    + Read the following [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSewLIbRfpGK6J_XtDr4TrgJWP3G8fnkVYh22X0FJz1dOkGYjQ/viewform){target="_blank"} first.
+    + Complete the DataCamp chapter.
+    + Complete the above Google Form.
+* Chapter 2: "Tame your data"  
+    + Read the following [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeFya3HHC8wbFH1RdevIdi327mZcC1e3fV7TF2mNytENpPZTA/viewform){target="_blank"} first. Note this form is different than the Google Form for Chapter 1.
+    + Complete the DataCamp chapter.
+    + Complete the above Google Form.    
+* See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
 
 ## 2. R component {#PS05_R}
 
-* Download the following R scratchpad: <a href="static/PS/PS05_lastname_firstname.R" download>`PS05_lastname_firstname.R`</a> and rename it appropriately.
-* When you are finished, check that your code is *reproducible and replicable*.
-* **Submission**: Submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
-* See [syllabus](syllabus.html#evaluation-expectations) for expectations on R component submissions.  
-
+No R component this week.
 
 ## 3. R solutions & (imperfect) rubric {#PS05_R_solutions}
 
-<!--
-<a href="static/PS/PS05_solutions.R" download>`PS05_solutions.R`</a>
--->
+**Rubric**:
 
-**(Imperfect) rubric**:
+* As usual, you will be credited for completion of the DataCamp course in the "Quizzes & Labs" portion of the grade.
+* Google Forms for Chapter 1 and Chapter 2:
+    + Full credit for completing them.
+    + No credit for not completing them.
 
-* 
-
-<!--
-TODO
 -->
 
 
