@@ -63,6 +63,7 @@ h1{font-weight: 400;}
 
 ## Announcements
 
+* Please only access ModernDive using the link on the top left of the course webpage. Because of webpage problems in the last few weeks, I've had to change the website ModernDive is hosted on a few times. So if you've bookmarked the old website, your information may be out of date. 
 * Guest lecturer on Friday 10/19 (next week): Prof. Randi Garcia. I will be away at the [2018 Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2018/){target="_blank"} along with Prof. Miles Ott and five Smith students who will be presenting
 * Reminder tonight is: 
 
@@ -73,25 +74,20 @@ h1{font-weight: 400;}
 
 ## Today's Topics/Activities
 
-<!--
-### 1. In-class exercise
+### 1. Chalk Talk
 
-In groups, make this [data](static/images/tidy.pdf){target="_blank"} "tidy"!
+* What is metadata?
+* `group_by()` adds "grouping" meta-data.
+* `group_by() %>% summarize()` returns group-by-group summary statistics.
 
-### 2. Chalk Talk
-
-* Summary statistics
-* `summarize()` data
-
-![](https://github.com/moderndive/moderndive_book/raw/master/images/summary.png){ width=600px }
+![](https://github.com/moderndive/moderndive_book/raw/master/images/group_summary.png){ width=600px }
 
 
 ### 3. In-class exercise
 
-* Read ModernDive 5.4
+* Read ModernDive 5.5
 
-### 4. Tweet of the day
--->
+
 
 
 
