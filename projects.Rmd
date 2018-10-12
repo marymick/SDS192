@@ -24,6 +24,16 @@ faithful a manner as possible while maintaining a level suitable for novices.* T
 
 # 2. Mini-project 2: Data wrangling {#miniproj2}
 
+
+## Groups
+
+```{r, echo=FALSE, message=FALSE, cache=TRUE}
+readr::read_csv("static/projects/groups_2.csv") %>% 
+  knitr::kable()
+```
+
+## Administrative Notes
+
 > **NOTE: All of the below is subject to change! I will do my best to ensure that all instructions are consistent and clear and to notify you of any changes with ample notice. Thank you for your patience and understanding!**
 
 * **Due**: Friday 11/2 5pm
@@ -92,20 +102,14 @@ There are 14 possible points for this mini-project.
     + Guess what this mini-project is more like? A calculus assignment or an essay?
 
 
-## Groups
-
-```{r, echo=FALSE, message=FALSE, cache=TRUE}
-readr::read_csv("static/projects/groups_2.csv") %>% 
-  knitr::kable()
-```
-
-
 
 ***
 
 
 
 # 1. Mini-project 1: Data visualization {#miniproj1}
+
+## Administrative Notes
 
 * **Due**: Friday 10/5 5pm
 * **Structure**: Near identical to as in [Spring 2018](https://beanumber.github.io/sds192/mod_viz.html){target="_blank"}, with a few differences in submission format and grading rubric
