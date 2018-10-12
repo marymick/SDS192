@@ -63,8 +63,9 @@ h1{font-weight: 400;}
 
 ## Announcements
 
+* Go to Slack `#general_announcments` and download the `data.zip` file and "unzip" it.
 * Please only access ModernDive using the link on the top left of the course webpage. Because of webpage problems in the last few weeks, I've had to change the website ModernDive is hosted on a few times. So if you've bookmarked the old website, your information may be out of date. 
-* Guest lecturer on Friday 10/19 (next week): Prof. Randi Garcia. I will be away at the [2018 Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2018/){target="_blank"} along with Prof. Miles Ott and five Smith students who will be presenting
+* Guest lecturer on Friday 10/19 (next week): Prof. Randi Garcia. I will be away at the [2018 Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2018/){target="_blank"} along with Prof. Miles Ott and a group of Smithies who will be presenting.
 * Reminder tonight is: 
 
 <center>
@@ -86,10 +87,7 @@ h1{font-weight: 400;}
 ### 3. In-class exercise
 
 * Read ModernDive 5.5
-
-
-
-
+* Mini-Project 2 discussion starting at 11:55
 
 
 ***
