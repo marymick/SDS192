@@ -59,6 +59,47 @@ h1{font-weight: 400;}
 
 
 
+# Lec 15: Fri 10/12 {#Lec15}
+
+## Announcements
+
+* Guest lecturer on Friday 10/19 (next week): Prof. Randi Garcia. I will be away at the [2018 Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2018/){target="_blank"} along with Prof. Miles Ott and five Smith students who will be presenting
+* Reminder tonight is: 
+
+<center>
+![](static/images/Craigie_Poster_Wide.png){ width=800px }
+</center>
+<br>
+
+## Today's Topics/Activities
+
+<!--
+### 1. In-class exercise
+
+In groups, make this [data](static/images/tidy.pdf){target="_blank"} "tidy"!
+
+### 2. Chalk Talk
+
+* Summary statistics
+* `summarize()` data
+
+![](https://github.com/moderndive/moderndive_book/raw/master/images/summary.png){ width=600px }
+
+
+### 3. In-class exercise
+
+* Read ModernDive 5.4
+
+### 4. Tweet of the day
+-->
+
+
+
+
+***
+
+
+
 # Lec 14: Wed 10/10 {#Lec14}
 
 ## Announcements
@@ -155,13 +196,8 @@ Boston University is going to build a new 17-floor "Data Sciences Center" on Com
 * ModernDive learning check solutions for Chapter 4 + 5 now posted in Appendix D. 
 * PS04 is not due Monday, but Wednesday after the break.
 * Discussion on PS03 on Friday.
-* Talk on Friday 10/12 5:30pm in Seelye Hall 106. See poster below.
 * Project update
 
-<center>
-![](static/images/Craigie_Poster_Wide.png){ width=800px }
-</center>
-<br>
 
 
 ## Today's Topics/Activities       
