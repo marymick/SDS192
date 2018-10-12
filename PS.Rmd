@@ -80,9 +80,7 @@ Above are the results of the Slack poll in the `#polls` channel from Wed 9/19 on
 
 ## 3. R solutions & (imperfect) rubric {#PS04_R_solutions}
 
-<!--
 <a href="static/PS/PS04_solutions.R" download>`PS04_solutions.R`</a>
--->
 
 
 **(Imperfect) rubric**:
