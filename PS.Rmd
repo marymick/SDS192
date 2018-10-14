@@ -16,7 +16,7 @@ h1{font-weight: 400;}
 ***
 
 
-
+<!--
 # Problem set 6 {#PS06}
 
 *Assigned Monday 10/15, due Monday 10/22 at 9pm Eastern Time*
@@ -52,7 +52,7 @@ From DataCamp's [Working with Data in the Tidyverse](https://www.datacamp.com/co
 
 
 ***
-
+-->
 
 
 # Problem set 5 {#PS05}
