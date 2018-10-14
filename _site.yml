@@ -1,5 +1,7 @@
 name: sds192
 output_dir: docs
+# The website theme was chosen from
+# https://rmarkdown.rstudio.com/html_document_format#appearance_and_style
 output:
   html_document:
     toc: yes
@@ -10,6 +12,7 @@ output:
     df_print: paged
     lib_dir: site_libs
     self_contained: no
+# All icons were obtained from https://fontawesome.com/icons?d=gallery
 navbar:
   title: SDS192
   left:

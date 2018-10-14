@@ -17,6 +17,8 @@ h1{font-weight: 400;}
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE, eval = TRUE, 
                       cache = TRUE, fig.width = 16/2, fig.height = 9/2)
+
+# CRAN R packages:
 library(tidyverse)
 library(stringr)
 library(knitr)
@@ -27,14 +29,21 @@ library(nycflights13)
 library(gapminder)
 library(babynames)
 library(scales)
-# devtools::install_github("hadley/emo")
-library(emo)
 library(moderndive)
 
+# Install emo package from GitHub for emoji functionality:
+# devtools::install_github("hadley/emo")
+library(emo)
+
+# Install patchwork package from GitHub for composing ggplots:
 # devtools::install_github("thomasp85/patchwork")
 library(patchwork)
+
+# Set seed value of random number generator to get "replicable" random numbers.
+# Why 76? Because of https://www.youtube.com/watch?v=xjJ7FheCkCU
 set.seed(76)
 ```
+
 <style>
 h1{font-weight: 400;}
 </style>
@@ -57,6 +66,140 @@ h1{font-weight: 400;}
 
 ***
 
+
+<!--
+https://twitter.com/grrrck/status/1029567123029467136
+-->
+
+<!--
+# Lec 18: Fri 10/18 {#Lec18}
+
+## Announcements
+
+* Follow what's going on at the [2018 Women in Statistics and Data Science Conference](https://ww2.amstat.org/meetings/wsds/2018/){target="_blank"} on Twitter at [\@smithcollegesds](https://twitter.com/smithcollegesds){target="_blank"}.
+
+
+## Today's Topics/Activities
+
+### 1. Chalk Talk
+
+* Joining AKA merging two separate data frames into one by matching them along a "key" variable
+* Many types of joins: `left_join()`, `right_join()`, `inner_join()`, `full_join()`, `anti_join()`
+
+### 2. In-class exercise
+
+Read ModernDive 5.8 and do learning checks. Pay close attention to Figure 5.7 (shown below) illustrating how you would join all the data frames in the `nycflights13` package. In particular, run the following in the console to view all the data frames and convince yourselves that the arrows indeed indicate "key" variables. 
+
+```{r, eval=FALSE}
+library(nycflights13)
+library(dplyr)
+View(flights)
+View(airports)
+View(planes)
+View(weather)
+View(airlines)
+```
+
+<center>
+![](https://moderndive.netlify.com/images/relational-nycflights.png){ width=600px }
+</center>
+
+<br>
+
+### 3. Tweet of the day
+
+All the `_join()` functions can be thought of as Venn diagrams. Click on image to see all 6:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I created a cheat sheet of <a href="https://twitter.com/hashtag/dplyr?src=hash&amp;ref_src=twsrc%5Etfw">#dplyr</a>&#39;s join functions, inspired by this: <a href="http://t.co/40wMQDP0J4">http://t.co/40wMQDP0J4</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="http://t.co/P4XOLs5ov3">pic.twitter.com/P4XOLs5ov3</a></p>&mdash; Hiroaki Yutani (@yutannihilation) <a href="https://twitter.com/yutannihilation/status/551572539697143808?ref_src=twsrc%5Etfw">January 4, 2015</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+***
+
+
+
+# Lec 17: Wed 10/17 {#Lec17}
+
+## Announcements
+
+* Guest lecturer tomorrow: Prof. Randi Garcia in SDS.
+* 
+
+
+## Today's Topics/Activities
+
+### 1. Chalk Talk
+
+* Create new variables using `mutate()`  
+![](https://moderndive.netlify.com/images/mutate.png){ width=600px }
+* Reorder rows in ascesding order using `arrange()` or descending order using `arrange(desc())`
+
+
+### 2. In-class exercise
+
+* Read ModernDive 5.6 + 5.7 and do learning checks
+
+### 3. Tweet of the day
+
+
+
+
+***
+
+
+
+# Lec 16: Mon 10/15 {#Lec16}
+
+## Announcements
+
+* 
+
+
+## Today's Topics/Activities
+
+### 1. Chalk Talk
+
+What is R Markdown?
+
+**Input**: An `.Rmd` file  | **Output**: An `.html` webpage
+------------- | -------------
+![](static/images/rmd_input.png){ width=800px }  | ![](static/images/rmd_output.png){ width=800px }
+
+
+### 2. In-class exercise: R Markdown
+
+At a couple of steps in this process, you may be asked to install packages. Say yes to all of them. 
+
+1. **Fiddle with RStudio settings**:
+    + Go to RStudio menu bar -> Tools -> Global Options... -> R Markdown
+    + Uncheck box next to "Show output inline for all R Markdown Documents"
+1. **Create new R Markdown `.Rmd` file**:
+    + Go to RStudio menu bar -> File -> New File -> R Markdown 
+    + Set "Title" to "My first R Markdown report" and "Author" as your name.
+1. **"Knit" a report**:
+    + Click on the disk icon and save this file as `firstname_lastname` somewhere on your computer. This will create a file called `firstname_lastname.Rmd`
+    + Click the arrow next to "Knit" -> "Knit to HTML". An HTML webpage should pop up.
+1. **Publish this report on web**:
+    + Click on blue "Publish" button on top right
+    + If you haven't previously, create an account on Rpubs.com. If you have previously, login.
+    + Set "Title" to "My first R Markdown report" and "Slug" to "testing"
+    + You should end up with a webpage that looks like this [one](http://rpubs.com/rudeboybert/testing){target="_blank"}. This is live on the web!
+1. **Update your report on web**:
+    + Make some trivial change to your `testing.Rmd` file.
+    + "Re-knit" your report and make sure your trivial change is reflected.
+    + The blue "Publish" button should now read "Republish"
+    + Click "Update existing"
+    + Your updates are now live on the web!
+
+
+### 3. Mini-Project 2
+
+
+
+
+***
+-->
 
 
 # Lec 15: Fri 10/12 {#Lec15}
@@ -84,7 +227,7 @@ h1{font-weight: 400;}
 ![](https://github.com/moderndive/moderndive_book/raw/master/images/group_summary.png){ width=600px }
 
 
-### 3. In-class exercise
+### 2. In-class exercise
 
 * Read ModernDive 5.5
 * Mini-Project 2 discussion starting at 11:55

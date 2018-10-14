@@ -24,14 +24,6 @@ faithful a manner as possible while maintaining a level suitable for novices.* T
 
 # 2. Mini-project 2: Data wrangling {#miniproj2}
 
-
-## Groups
-
-```{r, echo=FALSE, message=FALSE, cache=TRUE}
-readr::read_csv("static/projects/groups_2.csv") %>% 
-  knitr::kable()
-```
-
 ## Administrative Notes
 
 > **NOTE: All of the below is subject to change! I will do my best to ensure that all instructions are consistent and clear and to notify you of any changes with ample notice. Thank you for your patience and understanding!**
@@ -100,6 +92,14 @@ There are 14 possible points for this mini-project.
     + What is a checklist of criteria for a "great" calculus assignment?
     + What is a checklist of criteria for a "great" essay?
     + Guess what this mini-project is more like? A calculus assignment or an essay?
+    
+    
+## Groups
+
+```{r, echo=FALSE, message=FALSE, cache=TRUE}
+readr::read_csv("static/projects/groups_2.csv") %>% 
+  knitr::kable()
+```
 
 
 

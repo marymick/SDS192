@@ -5,8 +5,10 @@ source code to generate the course webpage for 2018-09 Fall Smith College SDS
 192: Introduction to Data Science <https://rudeboybert.github.io/SDS192/>. Most
 of the content is in either:
 
-* `index.Rmd`: A single Moodle-style page that lists all announcements, lectures notes, and problem sets/homeworks in reverse-chronological order.
-* `projects.Rmd`: Details on the 3 mini-projects and term project for this course
+* `_site.yml`: Set theme of webpage along with links in navigational bar.
+* `index.Rmd`: A single Moodle-style page that lists all announcements and lectures notes in reverse-chronological order.
+* `PS.Rmd`: All problem sets/homeworks.
+* `projects.Rmd`: Details on the 3 mini-projects and term project.
 * `syllabus.Rmd`: Course info/description, topics, materials, evaluation, and expectations.
 
 
@@ -20,9 +22,12 @@ webpage for yourself, do the following:
     + If you are not familiar with GitHub, click the green "Clone or download" button on the top-right -> Download ZIP -> Unzip `SDS192-master.zip`.
     + If you are familiar with GitHub, clone this repository.
 1. Double-click the `SDS192.Rproj` to open RStudio.
-1. If you haven't already, install the R Markdown package by typing `install.packages("rmarkdown")` in the console.
+1. If you haven't already, install the following R packages:
+    * `rmarkdown` and `devtools`
+    * At the top of `index.Rmd`: all CRAN R packages listed .
+    * At the top of `index.Rmd`: the `emo` and `patchwork` packages must be installed from GitHub using the `devtools::install_github()` function.
 1. Go to the "Build" pane of RStudio -> More -> Configure Build Tools... -> Ensure that "Project build tools" is set to "Webpage".
-1. Click "Build Website". You may need to install some additional R pacakges listed at the top of `index.Rmd`.
+1. Click "Build Website". 
 1. The website will display in the Viewer pane. The resulting `index.html` file and all other files for the webpage will be saved in the `docs/` folder.
 
 

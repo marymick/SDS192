@@ -11,7 +11,7 @@
 
 
 
-<title>README.utf8.md</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -312,8 +312,10 @@ div.tocify {
 <h1>SDS 192</h1>
 <p><a href="https://rmarkdown.rstudio.com/rmarkdown_websites.htm">R Markdown Websites</a> source code to generate the course webpage for 2018-09 Fall Smith College SDS 192: Introduction to Data Science <a href="https://rudeboybert.github.io/SDS192/" class="uri">https://rudeboybert.github.io/SDS192/</a>. Most of the content is in either:</p>
 <ul>
-<li><code>index.Rmd</code>: A single Moodle-style page that lists all announcements, lectures notes, and problem sets/homeworks in reverse-chronological order.</li>
-<li><code>projects.Rmd</code>: Details on the 3 mini-projects and term project for this course</li>
+<li><code>_site.yml</code>: Set theme of webpage along with links in navigational bar.</li>
+<li><code>index.Rmd</code>: A single Moodle-style page that lists all announcements and lectures notes in reverse-chronological order.</li>
+<li><code>PS.Rmd</code>: All problem sets/homeworks.</li>
+<li><code>projects.Rmd</code>: Details on the 3 mini-projects and term project.</li>
 <li><code>syllabus.Rmd</code>: Course info/description, topics, materials, evaluation, and expectations.</li>
 </ul>
 <div id="how-to-build-this-webpage" class="section level2">
@@ -326,9 +328,14 @@ div.tocify {
 <li>If you are familiar with GitHub, clone this repository.</li>
 </ul></li>
 <li>Double-click the <code>SDS192.Rproj</code> to open RStudio.</li>
-<li>If you haven’t already, install the R Markdown package by typing <code>install.packages(&quot;rmarkdown&quot;)</code> in the console.</li>
+<li>If you haven’t already, install the following R packages:
+<ul>
+<li><code>rmarkdown</code> and <code>devtools</code></li>
+<li>At the top of <code>index.Rmd</code>: all CRAN R packages listed .</li>
+<li>At the top of <code>index.Rmd</code>: the <code>emo</code> and <code>patchwork</code> packages must be installed from GitHub using the <code>devtools::install_github()</code> function.</li>
+</ul></li>
 <li>Go to the “Build” pane of RStudio -&gt; More -&gt; Configure Build Tools… -&gt; Ensure that “Project build tools” is set to “Webpage”.</li>
-<li>Click “Build Website”. You may need to install some additional R pacakges listed at the top of <code>index.Rmd</code>.</li>
+<li>Click “Build Website”.</li>
 <li>The website will display in the Viewer pane. The resulting <code>index.html</code> file and all other files for the webpage will be saved in the <code>docs/</code> folder.</li>
 </ol>
 </div>
