@@ -183,7 +183,7 @@ All the `_join()` functions can be thought of as Venn diagrams. Click on image t
     + Click the arrow next to "Knit" -> "Knit to HTML".
     + An HTML webpage should pop up. However, it may be blocked by your browser. If so, in your browser's URL bar on the right, click on "Always allow pop-ups".
 1. **Publish this report on web**:
-    + Click on blue "Publish" button on top right.
+    + Click on blue "Publish" button on top right of the resulting **pop-up html**.
     + Select RPubs.
     + If you haven't previously, create an account on Rpubs.com. If you have previously, login.
     + Set "Title" to "My first R Markdown report" and "Slug" to "testing"
