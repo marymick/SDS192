@@ -16,14 +16,14 @@ h1{font-weight: 400;}
 ***
 
 
-<!--
+
 # Problem set 6 {#PS06}
 
 *Assigned Monday 10/15, due Monday 10/22 at 9pm Eastern Time*
 
 ## 1. DataCamp
 
-From DataCamp's [Working with Data in the Tidyverse](https://www.datacamp.com/courses/working-with-data-in-the-tidyverse){target="_blank"}:
+You'll be completing the rest of DataCamp's [Working with Data in the Tidyverse](https://www.datacamp.com/courses/working-with-data-in-the-tidyverse){target="_blank"} that you started in PS05:
 
 * Chapter 3: "Tidy your data"
     + Read the following [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfaMJtpRHMFBimCXSTHtBaqRypY28ycnrfe3DbN7hQHTbcZnw/viewform){target="_blank"} first.
@@ -38,6 +38,7 @@ From DataCamp's [Working with Data in the Tidyverse](https://www.datacamp.com/co
 
 ## 2. R Markdown component {#PS06_R}
 
+To be posted Tuesday 10/16.
 
 
 ## 3. R Markdown solutions & (imperfect) rubric {#PS06_R_solutions}
@@ -48,11 +49,11 @@ From DataCamp's [Working with Data in the Tidyverse](https://www.datacamp.com/co
 * Google Forms for Chapter 1 and Chapter 2:
     + Full credit for completing both.
     + No credit for not completing both.
-* 
+* R Markdown component
 
 
 ***
--->
+
 
 
 # Problem set 5 {#PS05}

@@ -59,42 +59,63 @@ Look at the `#general_annoucements` post on Slack from Friday 10/12 for the `dat
 > **Be sure to read the [supporting documentation for these data](http://www.fec.gov/finance/disclosure/ftpdet.shtml#archive_link)!!** It is your responsibility to know what you are looking at!
 
 
-## What to do
+## What to do {#what-to-do-2}
 
-* You will create an R Markdown HTML report based on a template `.Rmd` file that you will fill in (template file to be posted in Lec16 on Monday 10/15)
-* Details how to use R Markdown will be introduced in Lec16 on Monday 10/15.
+**Write your report**:
+
+1. Download the `MP2.zip` file from the `#general_annoucements` post on Slack from Monday 10/15.
+    * RStudio Server users: Go to the Files panel -> Upload `MP2.zip` -> Click on the new MP2 folder -> Click on `MP2.Rproj` to open the "Mini Project 2 RStudio Project" file
+    * RStudio Desktop users: Move the `MP2.zip` file to where your 192 files are and click it -> Click on the new MP2 folder -> Click on `MP2.Rproj` to open the "Mini Project 2 RStudio Project" file.
+1. Knit the `MP2.Rmd` file which has a template example. Compare the contents of `MP2.Rmd` and the outputted html webpage file. 
+1. Switch out the template example with your work.
+1. Keep in mind the R Markdown tips:
+    * Knit early, knit often! 
+    * If you have an error, check the [**6 R Markdown Fixes**](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/){target="_blank"} first. These 6 fixes resolve 85% of issues in my experience.
+    * For different text formatting tools available to you in R Markdown, go to:
+        * RStudio menu bar -> Help -> Markdown quick reference
+        * RStudio menu bar -> Help -> Cheatsheets -> R Markdown Cheat Sheet
+
+
+**Submit your report**:
+
+1. Designate a team leader who will do the following:
+    + Submit the `MP2.Rmd` file for your group on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. *Do not* submit any of the other files included in the template `MP2.zip` file; you can assume I have access to those. 
+    + If you are using files (data, images, etc) that are not included in the template `MP2.zip` file, submit these as well. If you do not, I will not be able to *reproduce and replicate* your results.
+1. Individually: Complete the following (confidential) [Individual Google Form](https://docs.google.com/forms/d/e/1FAIpQLSellDcr8VFJA2JQ63h3QHT1X5uNH2Uye9VEorlsnmPohFdQgg/viewform){target="_blank"} describing your project experience.
 
 
 
 ## Grading Rubric
 
-There are 14 possible points for this mini-project.
+There are 16 possible points for this mini-project.
 
 **Baseline**
 
- * +1 for an `.Rmd` that compiles without errors
- * +1 for using [code folding](http://rmarkdown.rstudio.com/html_document_format.html#code_folding) to keep your code hidden, but still make it available.
- * +1 for using at least two of the five basic verbs (i.e., `select()`, `mutate()`, etc.)
- * +1 for annotating your data wrangling pipeline (this can be in a few sentences in text surrounding the R code chunks, or some informative comments inside the R code chunks)
- * +1 unnecessary messages from R are hidden from being displayed in the HTML
+
+* +1 for an `.Rmd` that compiles without errors and is **replicable and reproducible** by someone else who has the same `MP2.zip` starting point of files.
+* +2 for both group members completing the Individual Google Form
+* +1 for using [code folding](https://bookdown.org/yihui/rmarkdown/html-document.html#code-folding) to keep your code hidden, but still make it available.
+* +1 for using at least two of the five basic verbs (i.e., `select()`, `mutate()`, etc.)
+* +1 for annotating your data wrangling pipeline (this can be in a few sentences in text surrounding the R code chunks, or some informative comments inside the R code chunks)
+* +1 unnecessary messages from R are hidden from being displayed in the HTML
 
 **Average**
 
- * +1 for having **at least 400** words and **no more than 600** words (use [the word count add-in](https://github.com/benmarwick/wordcountaddin))
- * +1 for explaining in a single coherent sentence what we can learn from these data
- * +1 for using at least one join (e.g. `left_join()`, `inner_join()`, etc.)
- * +1 for providing context or background useful in interpreting the graphic
+* +1 for having **at least 400** words and **no more than 600** words (use [the word count add-in](https://github.com/benmarwick/wordcountaddin))
+* +1 for explaining in a single coherent sentence what we can learn from these data
+* +1 for using at least one join (e.g. `left_join()`, `inner_join()`, etc.)
+* +1 for providing context or background useful in interpreting the graphic
 
 **Advanced**
 
- * +1 for writing a function to generalize your analysis rather than re-writing the same code multiple times
+* +1 for writing a function to generalize your analysis rather than re-writing the same code multiple times
 * +0–4 "wow" factor: awarded at the grader’s discretion for submissions that are exceptionally compelling. What does "wow" factor mean? Ask yourself:
     + What is a checklist of criteria for a "great" calculus assignment?
     + What is a checklist of criteria for a "great" essay?
     + Guess what this mini-project is more like? A calculus assignment or an essay?
     
     
-## Groups
+## Groups {#groups2}
 
 ```{r, echo=FALSE, message=FALSE, cache=TRUE}
 readr::read_csv("static/projects/groups_2.csv") %>% 

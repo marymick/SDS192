@@ -146,31 +146,32 @@ All the `_join()` functions can be thought of as Venn diagrams. Click on image t
 
 
 ***
-
+-->
 
 
 # Lec 16: Mon 10/15 {#Lec16}
 
 ## Announcements
 
-* 
+* Sit next to your [Mini-Project 2 group partner](projects.html#groups2)
+* PS06: DataCamp portion posted; R Markdown component to be posted by tomorrow.
 
 
 ## Today's Topics/Activities
 
 ### 1. Chalk Talk
 
-What is R Markdown?
+* What are RStudio projects?
+* What is R Markdown?
 
 **Input**: An `.Rmd` file  | **Output**: An `.html` webpage
 ------------- | -------------
-![](static/images/rmd_input.png){ width=800px }  | ![](static/images/rmd_output.png){ width=800px }
+![](static/images/rmd_input.png){ width=800px } | ![](static/images/rmd_output.png){ width=800px }
 
 
 ### 2. In-class exercise: R Markdown
 
-At a couple of steps in this process, you may be asked to install packages. Say yes to all of them. 
-
+1. At a couple of steps in this process, you will be asked to install packages. Say yes to all of them!
 1. **Fiddle with RStudio settings**:
     + Go to RStudio menu bar -> Tools -> Global Options... -> R Markdown
     + Uncheck box next to "Show output inline for all R Markdown Documents"
@@ -179,9 +180,11 @@ At a couple of steps in this process, you may be asked to install packages. Say 
     + Set "Title" to "My first R Markdown report" and "Author" as your name.
 1. **"Knit" a report**:
     + Click on the disk icon and save this file as `firstname_lastname` somewhere on your computer. This will create a file called `firstname_lastname.Rmd`
-    + Click the arrow next to "Knit" -> "Knit to HTML". An HTML webpage should pop up.
+    + Click the arrow next to "Knit" -> "Knit to HTML".
+    + An HTML webpage should pop up. However, it may be blocked by your browser. If so, in your browser's URL bar on the right, click on "Always allow pop-ups".
 1. **Publish this report on web**:
-    + Click on blue "Publish" button on top right
+    + Click on blue "Publish" button on top right.
+    + Select RPubs.
     + If you haven't previously, create an account on Rpubs.com. If you have previously, login.
     + Set "Title" to "My first R Markdown report" and "Slug" to "testing"
     + You should end up with a webpage that looks like this [one](http://rpubs.com/rudeboybert/testing){target="_blank"}. This is live on the web!
@@ -192,14 +195,24 @@ At a couple of steps in this process, you may be asked to install packages. Say 
     + Click "Update existing"
     + Your updates are now live on the web!
 
+**Tips on R Markdown**:
 
-### 3. Mini-Project 2
+1. Knit early, knit often! If you wait until only after you've added a ton of code to knit and something doesn't work, you'll have a hard time figuring out where the error is. If you make incremental changes and knit after every step, you'll better able to isolate where errors are.
+1. If you get stuck, **go through these [6 R Markdown Fixes](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/){target="_blank"} first**, then seek assistance. These 6 fixes resolve 85% of issues in my experience.
+1. For different text formatting tools available to you in R Markdown, go to:
+    * RStudio menu bar -> Help -> Markdown quick reference
+    * RStudio menu bar -> Help -> Cheatsheets -> R Markdown Cheat Sheet
+
+
+### 3. In-class exercise: Mini-Project 2 R Markdown
+
+Get started on mini-project 2 based on the [What to do](projects.html#what-to-do-2) instructions.
 
 
 
 
 ***
--->
+
 
 
 # Lec 15: Fri 10/12 {#Lec15}
@@ -212,7 +225,7 @@ At a couple of steps in this process, you may be asked to install packages. Say 
 * Reminder tonight is: 
 
 <center>
-![](static/images/Craigie_Poster_Wide.png){ width=800px }
+![](static/images/Craigie_Poster_Wide.png){ width=600px }
 </center>
 <br>
 
