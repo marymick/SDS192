@@ -71,7 +71,7 @@ h1{font-weight: 400;}
 https://twitter.com/grrrck/status/1029567123029467136
 -->
 
-
+<!--
 # Lec 18: Fri 10/18 {#Lec18}
 
 ## Announcements
@@ -116,7 +116,7 @@ All the `_join()` functions can be thought of as Venn diagrams. Click on image t
 
 
 ***
-
+-->
 
 
 # Lec 17: Wed 10/17 {#Lec17}

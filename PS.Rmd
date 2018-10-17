@@ -38,7 +38,7 @@ You'll be completing the rest of DataCamp's [Working with Data in the Tidyverse]
 
 ## 2. R Markdown component {#PS06_R}
 
-* Download the following Rmd template file: <a href="static/PS/PS06_lastname_firstname.Rmd" download>`PS06_lastname_firstname.Rmd`</a> and rename it appropriately.
+* Download the following Rmd template file: <a href="static/PS/PS06_lastname_firstname.Rmd" download>`PS06_lastname_firstname.Rmd`</a> and rename it appropriately. If you work with RStudio Server, upload this file to the server.
 * R Markdown Knitting strategies:
     + Knit the `PS06_lastname_firstname.Rmd` file once and read all the questions.
     + Knit early, knit often! This will help pinpoint errors as they happen.
