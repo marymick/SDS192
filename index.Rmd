@@ -124,7 +124,8 @@ All the `_join()` functions can be thought of as Venn diagrams. Click on image t
 ## Announcements
 
 * Guest lecturer tomorrow: Prof. Randi Garcia in SDS.
-* 
+* RStudio Projects
+* What is pseudocode?
 
 
 ## Today's Topics/Activities
