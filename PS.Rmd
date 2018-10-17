@@ -85,9 +85,6 @@ No R component this week.
 
 ## 3. R solutions & (imperfect) rubric {#PS05_R_solutions}
 
-<a href="static/PS/PS05_solutions.Rmd" download>`PS05_solutions.Rmd`</a>
-
-
 **Rubric**:
 
 * As usual, you will be credited for completion of the DataCamp course in the "Quizzes & Labs" portion of the grade.
