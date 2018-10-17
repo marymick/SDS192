@@ -30,7 +30,7 @@ You'll be completing the rest of DataCamp's [Working with Data in the Tidyverse]
     + Complete the DataCamp chapter.
     + Complete the above Google Form.
 * Chapter 4: "Transform your data"  
-    + Read the following [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScNT11Dv8aSirruTwRLjUdhNqGbJSnlpDdqf8fgY8DvNcMu9w/viewform){target="_blank"} first. Note this form is different than the Google Form for Chapter 4.
+    + Read the following [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScNT11Dv8aSirruTwRLjUdhNqGbJSnlpDdqf8fgY8DvNcMu9w/viewform){target="_blank"} first. Note this form is different than the Google Form for Chapter 3.
     + Complete the DataCamp chapter.
     + Complete the above Google Form.    
 * See the [syllabus](syllabus.html#evaluation-expectations) for expectations on DataCamp assignments.
