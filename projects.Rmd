@@ -219,6 +219,7 @@ There are 17 possible points for this mini-project.
 * **Added on 10/3**: After the project feedback is returned, I will present a few examples of mini-projects that I found satisfied the "wow" criteria. 
 * **Added on 10/3**: Recall this mini-project is weighted much less than the others (5%). The mini-projects are a series of practice rounds building up to the final project.
 
+
 ## Groups
 
 ```{r, echo=FALSE, message=FALSE}
@@ -226,6 +227,16 @@ readr::read_csv("static/projects/groups_1.csv") %>%
   knitr::kable()
 ```
 
+
+## Feedback appointments {#feedback1}
+
+* Of my [appointment slots](https://rudeboybert.youcanbook.me/service/jsps/cal.jsp?cal=4e3d341c-d9d3-480f-b0ca-2dbc2dc4ec56&ini=1539778564833&jumpDate=2018-10-22){target="_blank"} on either Tue 10/23 or Thu 10/25, figure out a time where **both** group members can attend.
+* Group leader: book the appointment using the link above. You will receive an email where you can reschedule the appointment if need be.
+* **Both** group members will attend the appointment in my office in McConnell 215, where I will record a QuickTime screencast of our feedback. Afterwards, I will Slack you the `.mov` movie file.
+* If none of these times work for both of you, follow these steps: 
+    1. Do not panic! Everyone will get their feedback next week!
+    1. Group leader: create a Slack DM including your partner and myself telling me no time slots work.
+    1. We will figure something out.
 
 
 <!--

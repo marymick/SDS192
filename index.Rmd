@@ -123,18 +123,18 @@ All the `_join()` functions can be thought of as Venn diagrams. Click on image t
 
 ## Announcements
 
-* Guest lecturer tomorrow: Prof. Randi Garcia who is joint SDS/psychology faculty.
-* RStudio Projects 
-* What is pseudocode?
+* Guest lecturer on Friday: Prof. Randi Garcia, who is jointly appointed between SDS and psychology.
+* Link to Mini-project 1 feedback appointment sign-up form posted on projects page [here](projects.html#feedback1).
 
 
 ## Today's Topics/Activities
 
 ### 1. Chalk Talk
 
-* Create new variables using `mutate()`  
-![](https://moderndive.netlify.com/images/mutate.png){ width=600px }
-* Reorder rows in ascesding order using `arrange()` or descending order using `arrange(desc())`
+* What are RStudio projects?
+* Create new variables using `mutate()`.
+* Reorder rows in ascesding order using `arrange()` or descending order using `arrange(desc())`.
+* What is pseudocode?
 
 
 ### 2. In-class exercise
@@ -143,6 +143,10 @@ All the `_join()` functions can be thought of as Venn diagrams. Click on image t
 
 ### 3. Tweet of the day
 
+Want to see data science *as it really happens*? "Introduction to the Tidyverse" DataCamp instructor David Robinson recently recorded a screencast analyzing the [538 college majors dataset](https://github.com/fivethirtyeight/data/tree/master/college-majors){target="_blank"}. In particular, note how messy the process can be:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">OVER TWELVE MINUTES WITHOUT SAVING Untitled1, it was harrowing</p>&mdash; Jenny Bryan (@JennyBryan) <a href="https://twitter.com/JennyBryan/status/1052349636847910912?ref_src=twsrc%5Etfw">October 17, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
