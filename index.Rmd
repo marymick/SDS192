@@ -123,7 +123,7 @@ All the `_join()` functions can be thought of as Venn diagrams. Click on image t
 
 ## Announcements
 
-* Guest lecturer tomorrow: Prof. Randi Garcia in SDS.
+* Guest lecturer tomorrow: Prof. Randi Garcia who is joint SDS/psychology faculty.
 * RStudio Projects
 * What is pseudocode?
 
