@@ -1,0 +1,62 @@
+
+---
+title: "Problem Set 06"
+author: "WRITE YOUR NAME HERE"
+date: "2018-10-22"
+output:
+  html_document:
+    highlight: tango
+    theme: cosmo
+    toc: no
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+    df_print: kable
+---
+
+```{r, include=FALSE}
+# Do not edit this code block/chunk
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE, fig.width = 16/2, fig.height = 9/2)
+```
+
+
+Load necessary packages:
+
+```{r}
+library(ggplot2)
+library(dplyr)
+# For reading spreadsheets, CSV files, and Excel files:
+library(readr)
+```
+
+# Question 1: Titanic
+
+Load the titanic dataset from the internet and take a look at it's contents. It contains demographic information about the 2201 passenengers on the Titanic disaster and information on whether they survived. Note there are 2201 rows in this data, one for each passenger:
+
+```{r}
+titanic <- read_csv("https://rudeboybert.github.io/SDS220/static/PS/titanic.csv")
+```
+
+## a) Overall survival
+
+Using dplyr commands, output a table that displays the overall survival & death counts of the disaster. Your code should print out a table with two columns and two rows of data, along with a "header" row of the variable names.
+
+```{r}
+
+```
+
+## b) Survival split by sex
+
+Survival split by sex. Using dplyr commands, output a table that displays the overall survival & death counts of the disaster split by recorded sex. Your code should print out a table with three columns and four rows of data, along with a "header" row of the variable names.
+
+```{r}
+
+```
+
+## c) Passenger ID
+
+Passenger ID. Using dplyr commands, output a table that displays only the passenger number of all 3rd class female children aboard the ship who died. Your code should print out a table with one column and number of rows corresponding to the number of 3rd class female children aboard the ship who died, along with a "header" row of the variable names.
+
+```{r}
+
+```
