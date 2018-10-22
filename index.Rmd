@@ -67,7 +67,7 @@ h1{font-weight: 400;}
 
 ***
 
-# Lec 19: Mon 10/19 {#Lec19}
+# Lec 19: Mon 10/22 {#Lec19}
 
 ## Announcements
 
