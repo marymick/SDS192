@@ -10,6 +10,7 @@ output:
     df_print: kable
 ---
 
+
 <style>
 h1{font-weight: 400;}
 </style>
@@ -53,7 +54,7 @@ h1{font-weight: 400;}
 # Schedule 
 
 * **Topics**:
-    1. Tools of the trade (orange): R, RStudio, R packages, R Markdown, Git & GitHub.
+    1. Tools of the trade (orange): R, RStudio, R packages, R Markdown, Git & GitHub
     1. Data visualization (pink): Grammar of Graphics, Five Named Graphs (5NG), color theory.
     1. Working with data (blue): Tidy data, data wrangling, data importing. 
     1. Maps and spatial data (green): Map and geospatial data.
