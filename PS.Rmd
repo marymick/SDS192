@@ -34,7 +34,7 @@ None
     + If you get stuck, **go through these [6 R Markdown Fixes](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/){target="_blank"} first**, then seek assistance. These 6 fixes resolve 85% of issues in my experience.
 * Submission: Submit this on [Moodle](https://moodle.smith.edu/course/view.php?id=29919){target="_blank"}. 
 * **Hints**: Read these!
-    1. **Crucial**: Unless you are very confident in what you are doing, it is worthwhile to not starting coding right away, but rather first sketch out on paper all the necessary data wrangling steps not using exact code, but rather high-level *pseudocode* that is informal yet detailed enough to articulate what you are doing. This way you won't confuse *what* you are trying to do (the algorithm) with *how* you are going to do it (writing `dplyr` code). This can even involve pictures!
+    1. **Crucial**: Unless you are very confident in what you are doing, it is worthwhile to not starting coding right away, but rather first sketch out on paper all the necessary data wrangling steps not using exact code, but rather high-level *pseudocode* that is informal yet detailed enough to articulate what you are doing. This way you won't confuse *what* you are trying to do (the algorithm) with *how* you are going to do it (writing `dplyr` code). This can even involve hand-drawn diagrams!
     1. Take a close look at all the datasets using the `View()` function: `flights`, `weather`, `planes`, `airports`, and `airlines` to identify which variables are necessary to compute available seat miles.
     1. Look at the "relational diagram" of the above datasets shown in Lec18 to understand how you would join them.
     1. Use all 7 verbs in [ModernDive Table 5.1](https://moderndive.netlify.com/5-wrangling.html#putting-it-all-together-available-seat-miles){target="_blank"} as your toolbox. 
@@ -53,7 +53,9 @@ read_csv("static/PS/ASM.csv") %>%
 
 **Rubric**:
 
-* R Markdown component: 
+* R Markdown component: Another "very little subjectivity" problem set. 7pts:
+    + 6 pts for getting table with carrier code and available seat miles
+    + 1 pt for also having airline name column. For example, not everyone knows what carrier WN is, but more people will know what "Southwest Airlines" is.
 
 
 

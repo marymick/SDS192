@@ -1,0 +1,39 @@
+
+---
+title: "Problem Set 07"
+author: "WRITE YOUR NAME HERE"
+date: "2018-10-29"
+output:
+  html_document:
+    highlight: tango
+    theme: cosmo
+    toc: no
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+    df_print: kable
+---
+
+```{r, include=FALSE}
+# Do not edit this code block/chunk
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning = FALSE, fig.width = 16/2, fig.height = 9/2)
+```
+
+Load necessary packages:
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(nycflights13)
+```
+
+# Question 1: Compute Available Seat Miles
+
+Let's now put your newly acquired data wrangling skills to the test! An airline industry measure of a passenger airline's capacity is the [available seat miles](https://en.wikipedia.org/wiki/Available_seat_miles), which is equal to the number of seats available multiplied by the number of miles or kilometers flown. So for example say an airline had 2 flights using a plane with 10 seats that flew 500 miles and 3 flights using a plane with 20 seats that flew 1000 miles, the available seat miles would be 2 $\times$ 10 $\times$ 500 $+$ 3 $\times$ 20 $\times$ 1000 = 70,000 seat miles.
+
+Using the datasets included in the `nycflights13` package, compute the available seat miles for each airline sorted in descending order. After completing all the necessary data wrangling steps.
+
+
+```{r}
+
+```

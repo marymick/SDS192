@@ -316,10 +316,142 @@ div.tocify {
 h1{font-weight: 400;}
 </style>
 <hr />
+<div id="PS07" class="section level1">
+<h1>Problem set 7</h1>
+<p><em>Assigned Monday 10/22, due Monday 10/29 at 9pm Eastern Time</em></p>
+<div id="datacamp" class="section level2">
+<h2>1. DataCamp</h2>
+<p>None</p>
+</div>
+<div id="PS07_R" class="section level2">
+<h2>2. R Markdown component</h2>
+<ul>
+<li>Download the following Rmd template file: <a href="static/PS/PS07_lastname_firstname.Rmd" download><code>PS07_lastname_firstname.Rmd</code></a> and rename it appropriately. If you work with RStudio Server, upload this file to the server.</li>
+<li>R Markdown Knitting strategies:
+<ul>
+<li>Knit the <code>PS07_lastname_firstname.Rmd</code> file once and read all the questions.</li>
+<li>Knit early, knit often! This will help pinpoint errors as they happen.</li>
+<li>If you get stuck, <strong>go through these <a href="https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/" target="_blank">6 R Markdown Fixes</a> first</strong>, then seek assistance. These 6 fixes resolve 85% of issues in my experience.</li>
+</ul></li>
+<li>Submission: Submit this on <a href="https://moodle.smith.edu/course/view.php?id=29919" target="_blank">Moodle</a>.</li>
+<li><strong>Hints</strong>: Read these!
+<ol style="list-style-type: decimal">
+<li><strong>Crucial</strong>: Unless you are very confident in what you are doing, it is worthwhile to not starting coding right away, but rather first sketch out on paper all the necessary data wrangling steps not using exact code, but rather high-level <em>pseudocode</em> that is informal yet detailed enough to articulate what you are doing. This way you won’t confuse <em>what</em> you are trying to do (the algorithm) with <em>how</em> you are going to do it (writing <code>dplyr</code> code). This can even involve hand-drawn diagrams!</li>
+<li>Take a close look at all the datasets using the <code>View()</code> function: <code>flights</code>, <code>weather</code>, <code>planes</code>, <code>airports</code>, and <code>airlines</code> to identify which variables are necessary to compute available seat miles.</li>
+<li>Look at the “relational diagram” of the above datasets shown in Lec18 to understand how you would join them.</li>
+<li>Use all 7 verbs in <a href="https://moderndive.netlify.com/5-wrangling.html#putting-it-all-together-available-seat-miles" target="_blank">ModernDive Table 5.1</a> as your toolbox.</li>
+<li><strong>Mega-mega ultra hint</strong>:</li>
+</ol></li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">carrier</th>
+<th align="left">name</th>
+<th align="right">ASM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">UA</td>
+<td align="left">United Air Lines Inc.</td>
+<td align="right">15516377526</td>
+</tr>
+<tr class="even">
+<td align="left">DL</td>
+<td align="left">Delta Air Lines Inc.</td>
+<td align="right">10532885801</td>
+</tr>
+<tr class="odd">
+<td align="left">B6</td>
+<td align="left">JetBlue Airways</td>
+<td align="right">9618222135</td>
+</tr>
+<tr class="even">
+<td align="left">AA</td>
+<td align="left">American Airlines Inc.</td>
+<td align="right">3677292231</td>
+</tr>
+<tr class="odd">
+<td align="left">US</td>
+<td align="left">US Airways Inc.</td>
+<td align="right">2533505829</td>
+</tr>
+<tr class="even">
+<td align="left">VX</td>
+<td align="left">Virgin America</td>
+<td align="right">2296680778</td>
+</tr>
+<tr class="odd">
+<td align="left">EV</td>
+<td align="left">ExpressJet Airlines Inc.</td>
+<td align="right">1817236275</td>
+</tr>
+<tr class="even">
+<td align="left">WN</td>
+<td align="left">Southwest Airlines Co.</td>
+<td align="right">1718116857</td>
+</tr>
+<tr class="odd">
+<td align="left">9E</td>
+<td align="left">Endeavor Air Inc.</td>
+<td align="right">776970310</td>
+</tr>
+<tr class="even">
+<td align="left">HA</td>
+<td align="left">Hawaiian Airlines Inc.</td>
+<td align="right">642478122</td>
+</tr>
+<tr class="odd">
+<td align="left">AS</td>
+<td align="left">Alaska Airlines Inc.</td>
+<td align="right">314104736</td>
+</tr>
+<tr class="even">
+<td align="left">FL</td>
+<td align="left">AirTran Airways Corporation</td>
+<td align="right">219628520</td>
+</tr>
+<tr class="odd">
+<td align="left">F9</td>
+<td align="left">Frontier Airlines Inc.</td>
+<td align="right">184832280</td>
+</tr>
+<tr class="even">
+<td align="left">YV</td>
+<td align="left">Mesa Airlines Inc.</td>
+<td align="right">20163632</td>
+</tr>
+<tr class="odd">
+<td align="left">MQ</td>
+<td align="left">Envoy Air</td>
+<td align="right">7162420</td>
+</tr>
+<tr class="even">
+<td align="left">OO</td>
+<td align="left">SkyWest Airlines Inc.</td>
+<td align="right">1299835</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="PS07_R_solutions" class="section level2">
+<h2>3. R Markdown solutions &amp; (imperfect) rubric</h2>
+<p><strong>Rubric</strong>:</p>
+<ul>
+<li>R Markdown component: Another “very little subjectivity” problem set. 7pts:
+<ul>
+<li>6 pts for getting table with carrier code and available seat miles</li>
+<li>1 pt for also having airline name column. For example, not everyone knows what carrier WN is, but more people will know what “Southwest Airlines” is.</li>
+</ul></li>
+</ul>
+<hr />
+</div>
+</div>
 <div id="PS06" class="section level1">
 <h1>Problem set 6</h1>
 <p><em>Assigned Monday 10/15, due Monday 10/22 at 9pm Eastern Time</em></p>
-<div id="datacamp" class="section level2">
+<div id="datacamp-1" class="section level2">
 <h2>1. DataCamp</h2>
 <p>You’ll be completing the rest of DataCamp’s <a href="https://www.datacamp.com/courses/working-with-data-in-the-tidyverse" target="_blank">Working with Data in the Tidyverse</a> that you started in PS05:</p>
 <ul>
@@ -371,7 +503,7 @@ h1{font-weight: 400;}
 <div id="PS05" class="section level1">
 <h1>Problem set 5</h1>
 <p><em>Assigned Wednesday 10/10, due Monday 10/15 at 9pm Eastern Time</em></p>
-<div id="datacamp-1" class="section level2">
+<div id="datacamp-2" class="section level2">
 <h2>1. DataCamp</h2>
 <p>From DataCamp’s <a href="https://www.datacamp.com/courses/working-with-data-in-the-tidyverse" target="_blank">Working with Data in the Tidyverse</a>:</p>
 <ul>
@@ -412,7 +544,7 @@ h1{font-weight: 400;}
 <div id="PS04" class="section level1">
 <h1>Problem set 4</h1>
 <p><em>Assigned Tuesday 10/2, due <strong>Wednesday</strong> 10/10 at 9pm Eastern Time</em></p>
-<div id="datacamp-2" class="section level2">
+<div id="datacamp-3" class="section level2">
 <h2>1. DataCamp</h2>
 <p>No DataCamp this week.</p>
 </div>
@@ -443,7 +575,7 @@ h1{font-weight: 400;}
 <div id="PS03" class="section level1">
 <h1>Problem set 3</h1>
 <p><em>Assigned Tuesday 9/25, due Monday 10/1 at 9pm Eastern Time</em></p>
-<div id="datacamp-3" class="section level2">
+<div id="datacamp-4" class="section level2">
 <h2>1. DataCamp</h2>
 <ul>
 <li>Complete <em>only</em> the following two chapters from the “Introduction to the Tidyverse” course, which you should see in the following <a href="https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments" target="_blank">link</a>:
@@ -504,7 +636,7 @@ h1{font-weight: 400;}
 <div id="PS02" class="section level1">
 <h1>Problem set 2</h1>
 <p><em>Assigned Monday 9/17, due Monday 9/24 at 9pm Eastern Time</em></p>
-<div id="datacamp-4" class="section level2">
+<div id="datacamp-5" class="section level2">
 <h2>1. DataCamp</h2>
 <ul>
 <li>Complete <em>only</em> the following two chapters from the “Introduction to the Tidyverse” course, which you should see in the following <a href="https://www.datacamp.com/enterprise/2018-09-sds192-intro-to-data-science/assignments" target="_blank">link</a>:
