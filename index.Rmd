@@ -70,6 +70,10 @@ h1{font-weight: 400;}
 
 ## Announcements
 
+* Lesley talk
+* presentation of major tomorrow
+* office hours tomorrow
+
 ### 1. Chalk Talk
 
 ### 2. In-class exercise
