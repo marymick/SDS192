@@ -454,7 +454,8 @@ h1{font-weight: 400;}
 <a class="sourceLine" id="cb1-20" data-line-number="20"></a>
 <a class="sourceLine" id="cb1-21" data-line-number="21"><span class="co"># 5. Make dodged barplot as seen in ModernDive 3.8.3</span></a>
 <a class="sourceLine" id="cb1-22" data-line-number="22"><span class="kw">ggplot</span>(drinks_smaller_tidy, <span class="kw">aes</span>(<span class="dt">x=</span>country, <span class="dt">y=</span>servings, <span class="dt">fill=</span>type)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb1-23" data-line-number="23"><span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb1-23" data-line-number="23"><span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-24" data-line-number="24"><span class="st">  </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot;country&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;number of servings&quot;</span>, <span class="dt">title =</span> <span class="st">&quot;Alcohol consumption in 4 countries&quot;</span>)</a></code></pre></div>
 <p><img src="index_files/figure-html/unnamed-chunk-2-1.png" width="768" /></p>
 </div>
 <div id="in-class-exercise" class="section level3">
