@@ -100,7 +100,9 @@ library(fivethirtyeight)
 View(drinks)
 ?drinks
 
-# 3. filter rows corresponding to only 4 countries and look at data
+# 3. filter rows corresponding to only 4 countries and look at data.
+# What is this %in% code? Check out the ModernDive 5.3 on filter() for the 
+# example that involves "BTV", "SEA", "PDX", "SFO", "BDL"
 drinks_smaller <- drinks %>% 
   filter(country %in% c("USA", "China", "Italy", "Saudi Arabia"))
 View(drinks_smaller)
@@ -141,6 +143,11 @@ Practice converting the following datasets from the `fivethirtyeight` datasets!
 
 **Hints**:
 
+* In the `drinks` example above, stare closely at the
+    + The before: `View(drinks_smaller)`
+    + The after: `View(drinks_smaller_tidy)`
+    + The code that "tidied" `drinks_smaller`: `gather(type, servings, -c(country, total_litres_of_pure_alcohol))`
+* Note while for the above example involving drinks we did a `filter()` to only consider 4 countries out of 192, for `airline_safety`, `bob_ross`, and `love_actually_appearance` you won't have to use a `filter()`
 * Read the help files for all datasets, in particular skim the corresponding 538 article to get a sense of the data's context. Ex: `?airline_safety`
 * All solutions to the above exercise are at the bottom of the help files under "Examples"
 

@@ -442,20 +442,22 @@ h1{font-weight: 400;}
 <a class="sourceLine" id="cb1-8" data-line-number="8"><span class="kw">View</span>(drinks)</a>
 <a class="sourceLine" id="cb1-9" data-line-number="9">?drinks</a>
 <a class="sourceLine" id="cb1-10" data-line-number="10"></a>
-<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="co"># 3. filter rows corresponding to only 4 countries and look at data</span></a>
-<a class="sourceLine" id="cb1-12" data-line-number="12">drinks_smaller &lt;-<span class="st"> </span>drinks <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="st">  </span><span class="kw">filter</span>(country <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;USA&quot;</span>, <span class="st">&quot;China&quot;</span>, <span class="st">&quot;Italy&quot;</span>, <span class="st">&quot;Saudi Arabia&quot;</span>))</a>
-<a class="sourceLine" id="cb1-14" data-line-number="14"><span class="kw">View</span>(drinks_smaller)</a>
-<a class="sourceLine" id="cb1-15" data-line-number="15"></a>
-<a class="sourceLine" id="cb1-16" data-line-number="16"><span class="co"># 4. Convert to tidy format using the gather() function in the tidyr package!</span></a>
-<a class="sourceLine" id="cb1-17" data-line-number="17">drinks_smaller_tidy &lt;-<span class="st"> </span>drinks_smaller <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb1-18" data-line-number="18"><span class="st">  </span><span class="kw">gather</span>(type, servings, <span class="op">-</span><span class="kw">c</span>(country, total_litres_of_pure_alcohol))</a>
-<a class="sourceLine" id="cb1-19" data-line-number="19"><span class="kw">View</span>(drinks_smaller_tidy)</a>
-<a class="sourceLine" id="cb1-20" data-line-number="20"></a>
-<a class="sourceLine" id="cb1-21" data-line-number="21"><span class="co"># 5. Make dodged barplot as seen in ModernDive 3.8.3</span></a>
-<a class="sourceLine" id="cb1-22" data-line-number="22"><span class="kw">ggplot</span>(drinks_smaller_tidy, <span class="kw">aes</span>(<span class="dt">x=</span>country, <span class="dt">y=</span>servings, <span class="dt">fill=</span>type)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb1-23" data-line-number="23"><span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>) <span class="op">+</span></a>
-<a class="sourceLine" id="cb1-24" data-line-number="24"><span class="st">  </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot;country&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;number of servings&quot;</span>, <span class="dt">title =</span> <span class="st">&quot;Alcohol consumption in 4 countries&quot;</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb1-11" data-line-number="11"><span class="co"># 3. filter rows corresponding to only 4 countries and look at data.</span></a>
+<a class="sourceLine" id="cb1-12" data-line-number="12"><span class="co"># What is this %in% code? Check out the ModernDive 5.3 on filter() for the </span></a>
+<a class="sourceLine" id="cb1-13" data-line-number="13"><span class="co"># example that involves &quot;BTV&quot;, &quot;SEA&quot;, &quot;PDX&quot;, &quot;SFO&quot;, &quot;BDL&quot;</span></a>
+<a class="sourceLine" id="cb1-14" data-line-number="14">drinks_smaller &lt;-<span class="st"> </span>drinks <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-15" data-line-number="15"><span class="st">  </span><span class="kw">filter</span>(country <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;USA&quot;</span>, <span class="st">&quot;China&quot;</span>, <span class="st">&quot;Italy&quot;</span>, <span class="st">&quot;Saudi Arabia&quot;</span>))</a>
+<a class="sourceLine" id="cb1-16" data-line-number="16"><span class="kw">View</span>(drinks_smaller)</a>
+<a class="sourceLine" id="cb1-17" data-line-number="17"></a>
+<a class="sourceLine" id="cb1-18" data-line-number="18"><span class="co"># 4. Convert to tidy format using the gather() function in the tidyr package!</span></a>
+<a class="sourceLine" id="cb1-19" data-line-number="19">drinks_smaller_tidy &lt;-<span class="st"> </span>drinks_smaller <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb1-20" data-line-number="20"><span class="st">  </span><span class="kw">gather</span>(type, servings, <span class="op">-</span><span class="kw">c</span>(country, total_litres_of_pure_alcohol))</a>
+<a class="sourceLine" id="cb1-21" data-line-number="21"><span class="kw">View</span>(drinks_smaller_tidy)</a>
+<a class="sourceLine" id="cb1-22" data-line-number="22"></a>
+<a class="sourceLine" id="cb1-23" data-line-number="23"><span class="co"># 5. Make dodged barplot as seen in ModernDive 3.8.3</span></a>
+<a class="sourceLine" id="cb1-24" data-line-number="24"><span class="kw">ggplot</span>(drinks_smaller_tidy, <span class="kw">aes</span>(<span class="dt">x=</span>country, <span class="dt">y=</span>servings, <span class="dt">fill=</span>type)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-25" data-line-number="25"><span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">position =</span> <span class="st">&quot;dodge&quot;</span>) <span class="op">+</span></a>
+<a class="sourceLine" id="cb1-26" data-line-number="26"><span class="st">  </span><span class="kw">labs</span>(<span class="dt">x =</span> <span class="st">&quot;country&quot;</span>, <span class="dt">y =</span> <span class="st">&quot;number of servings&quot;</span>, <span class="dt">title =</span> <span class="st">&quot;Alcohol consumption in 4 countries&quot;</span>)</a></code></pre></div>
 <p><img src="index_files/figure-html/unnamed-chunk-2-1.png" width="768" /></p>
 </div>
 <div id="in-class-exercise" class="section level3">
@@ -480,6 +482,13 @@ h1{font-weight: 400;}
 </ul>
 <p><strong>Hints</strong>:</p>
 <ul>
+<li>In the <code>drinks</code> example above, stare closely at the
+<ul>
+<li>The before: <code>View(drinks_smaller)</code></li>
+<li>The after: <code>View(drinks_smaller_tidy)</code></li>
+<li>The code that “tidied” <code>drinks_smaller</code>: <code>gather(type, servings, -c(country, total_litres_of_pure_alcohol))</code></li>
+</ul></li>
+<li>Note while for the above example involving drinks we did a <code>filter()</code> to only consider 4 countries out of 192, for <code>airline_safety</code>, <code>bob_ross</code>, and <code>love_actually_appearance</code> you won’t have to use a <code>filter()</code></li>
 <li>Read the help files for all datasets, in particular skim the corresponding 538 article to get a sense of the data’s context. Ex: <code>?airline_safety</code></li>
 <li>All solutions to the above exercise are at the bottom of the help files under “Examples”</li>
 </ul>
