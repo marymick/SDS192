@@ -80,18 +80,67 @@ h1{font-weight: 400;}
     1. MTH 211: Linear Algebra
 * **Course descriptions**: Check out Smith Course Search for [SDS courses](https://www.smith.edu/academics/academic-program/curriculum/course-search?term=Spring+2019&dept=Statistical+and+Data+Sciences&instr=&credits=&course_numb=&course_keywd=&op=Submit&form_build_id=form-FjEA1i8POuiCUrY4KeFdU3um3UTFlX78jICWJ25ggGU&form_id=campus_course_search_basic_search_form){target="_blank"}, [CSC courses](https://www.smith.edu/academics/academic-program/curriculum/course-search?term=Spring+2019&dept=Computer+Science&instr=&credits=&course_numb=&course_keywd=&op=Submit&form_build_id=form-wroGqwD8PoEpDGC6bbuWoTDEXmsGKhg_QI-YQHuT_Ug&form_id=campus_course_search_basic_search_form){target="_blank"}, and [MTH courses](https://www.smith.edu/academics/academic-program/curriculum/course-search?term=Spring+2019&dept=Mathematics+%26+Statistics&instr=&credits=&course_numb=&course_keywd=&op=Submit&form_build_id=form-LetzAvSraLo4Xpnsuc0eCv32W_Y_V4Uadf0oauMwViU&form_id=campus_course_search_basic_search_form){target="_blank"}.
     
-
 <center>
 ![](static/images/flowchart.png){ width=600px }
 </center>
 
 ### 1. Chalk Talk
 
+* Look at RStudio [Cheatsheets page](https://www.rstudio.com/resources/cheatsheets/){target="_blank"} -> "Data Import Cheat Sheet" -> 2nd page -> Middle column.
+* Copy the following code in your scratchpad:
 
+```{r, eval=FALSE}
+# 1. Load packages
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(fivethirtyeight)
 
+# 2. Get a feel for the drinks data frame and look at help file
+View(drinks)
+?drinks
+
+# 3. filter rows corresponding to only 4 countries and look at data
+drinks_smaller <- drinks %>% 
+  filter(country %in% c("USA", "China", "Italy", "Saudi Arabia"))
+View(drinks_smaller)
+
+# 4. Convert to tidy format using the gather() function in the tidyr package!
+drinks_smaller_tidy <- drinks_smaller %>% 
+  gather(type, servings, -c(country, total_litres_of_pure_alcohol))
+View(drinks_smaller_tidy)
+
+# 5. Make dodged barplot as seen in ModernDive 3.8.3
+ggplot(drinks_smaller_tidy, aes(x=country, y=servings, fill=type)) +
+  geom_col(position = "dodge")
+```
+
+```{r, echo=FALSE, cache=TRUE}
+drinks %>% 
+  filter(country %in% c("USA", "China", "Italy", "Saudi Arabia")) %>% 
+  gather(type, servings, -c(country, total_litres_of_pure_alcohol)) %>% 
+  ggplot(aes(x=country, y=servings, fill=type)) +
+  geom_col(position = "dodge")
+```
 
 ### 2. In-class exercise
 
+Practice converting the following datasets from the `fivethirtyeight` datasets!
+
+* Convert `airline_safety` to a new tidy data frame that has
+    + a new categorical variable `type` that has 6 levels: `"incidents_85_99"`, `"fatal_accidents_85_99"`, `"fatalities_85_99"`, `"incidents_00_14"`, `"fatal_accidents_00_14"`, `"fatalities_00_14"` 
+    + a new numerical variable `count` of the count of incidents
+* Convert `bob_ross` to a new tidy data frame that has
+    + a new categorical variable `object` that includes all objects ever painted by Bob Ross
+    + a new binary variable `present` that has `1` if the `object` is present in a given episode, or `0` if not.
+* Convert `love_actually_appearance` to a new tidy data frame that has
+    + a new categorical variable `actor` of the actor
+    + a new logical variable `appears` which is `TRUE` if the `actor` appears in a scene   
+
+**Hints**:
+
+* Read the help files for all datasets, in particular skim the corresponding 538 article to get a sense of the data's context. Ex: `?airline_safety`
+* All solutions to the above exercise are at the bottom of the help files under "Examples"
 
 
 
