@@ -130,7 +130,7 @@ drinks %>%
 Practice converting the following datasets from the `fivethirtyeight` datasets!
 
 * Convert `airline_safety` to a new tidy data frame that has
-    + a new categorical variable `type` that has 6 levels: `"incidents_85_99"`, `"fatal_accidents_85_99"`, `"fatalities_85_99"`, `"incidents_00_14"`, `"fatal_accidents_00_14"`, `"fatalities_00_14"` 
+    + a new categorical variable `type` that has 6 levels (in other words, the column `type` in the new "tidy" data frame will have 6 possible values): `"incidents_85_99"`, `"fatal_accidents_85_99"`, `"fatalities_85_99"`, `"incidents_00_14"`, `"fatal_accidents_00_14"`, `"fatalities_00_14"` 
     + a new numerical variable `count` of the count of incidents
 * Convert `bob_ross` to a new tidy data frame that has
     + a new categorical variable `object` that includes all objects ever painted by Bob Ross
