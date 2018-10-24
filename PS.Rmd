@@ -95,6 +95,9 @@ You'll be completing the rest of DataCamp's [Working with Data in the Tidyverse]
 
 ## 3. R Markdown solutions & (imperfect) rubric {#PS06_R_solutions}
 
+* <a href="static/PS/PS06_solutions.Rmd" download>`PS06_solutions.Rmd`</a> "source code" to create html report output. 
+* Resulting [`PS06_solutions.html`](static/PS/PS06_solutions.html){target="_blank"} output.
+
 **Rubric**:
 
 * As usual, you will be credited for completion of the DataCamp course in the "Quizzes & Labs" portion of the grade.
