@@ -74,13 +74,13 @@ h1{font-weight: 400;}
 From [Smithies in SDS](https://www.facebook.com/SmithiesInSDS/){target="_blank"}. Entirely student-run data science day! Saturday, November 3rd 10am-2pm! **RSVP through the Smith Social Network [here](https://socialnetwork.smith.edu/event/2876976){target="_blank"}!**
 
 <center>
-![](static/images/DSD_SLIDE.png){ width=600px }
+![](static/images/DSD_SLIDE.png){ width=500px }
 </center>
 <br>
 
-## Today's Topics/Activities
+## Class time to work on Mini-Project 2 
 
-Class time to work on Mini-Project 2. Some suggestions from me (not absolute truths) based on my experiences:
+Some suggestions (not absolute truths) from me based on my experiences:
 
 * Draw out on paper what you would like your graphic to look like! In other words, set a goal!
 * Write your pseudocode! In other words, figure out **what** you need to do. After you've set your plan, then starting working on **how** you will achieve your goal i.e. writing the `dplyr` and `ggplot2` code.
