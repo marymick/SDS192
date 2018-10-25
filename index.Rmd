@@ -71,7 +71,7 @@ h1{font-weight: 400;}
 
 ## Announcements
 
-* From [Smithies in SDS](https://www.facebook.com/SmithiesInSDS/){target="_blank"}. Entirely student-run data science day! Saturday, November 3rd 10am-2pm! **RSVP through the Smith Social Network [here](https://socialnetwork.smith.edu/event/2876976){target="_blank"}!**
+From [Smithies in SDS](https://www.facebook.com/SmithiesInSDS/){target="_blank"}. Entirely student-run data science day! Saturday, November 3rd 10am-2pm! **RSVP through the Smith Social Network [here](https://socialnetwork.smith.edu/event/2876976){target="_blank"}!**
 
 <center>
 ![](static/images/DSD_SLIDE.png){ width=600px }
@@ -80,11 +80,7 @@ h1{font-weight: 400;}
 
 ## Today's Topics/Activities
 
-### 1. Chalk Talk
-
-
-
-### 2. In-class exercise
+Class time to work on projects!
 
 
 
@@ -219,9 +215,6 @@ Next, click on tweet to see animations involving all joins in from Lec20 using t
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Getting ready to teach dplyr joins to new <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> users tomorrow, so naturally I productively procrastinated by getting to know the new gganimate. It is the coolest! <a href="https://t.co/1kkOi5D5TK">pic.twitter.com/1kkOi5D5TK</a></p>&mdash; Garrick Aden-Boo-Eee (@grrrck) <a href="https://twitter.com/grrrck/status/1029567123029467136?ref_src=twsrc%5Etfw">August 15, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-
 
 
 
