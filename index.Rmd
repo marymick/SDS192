@@ -80,7 +80,21 @@ From [Smithies in SDS](https://www.facebook.com/SmithiesInSDS/){target="_blank"}
 
 ## Today's Topics/Activities
 
-Class time to work on projects!
+Class time to work on Mini-Project 2. Some suggestions from me (not absolute truths) based on my experiences:
+
+* Draw out on paper what you would like your graphic to look like! In other words, set a goal!
+* Write your pseudocode! In other words, figure out **what** you need to do. After you've set your plan, then starting working on **how** you will achieve your goal i.e. writing the `dplyr` and `ggplot2` code.
+* Consider `select()`ing (from MD 5.9.1) only the variables you'll need from each dataset. In other words, get rid of information you don't need, so that you can declutter your mind and all `View()`'s.
+* **Start simple!** Don't try to do things perfectly from the very beginning, but instead follow the [Build, Measure, Learn](http://theleanstartup.com/principles){target="_blank"} cycle espoused by certain individuals in the startup world:
+    1. **Build**: Start by building a [minimially viable product](https://www.forbes.com/sites/quora/2018/02/27/what-is-a-minimum-viable-product-and-why-do-companies-need-them/#178bd8a2382c){target="_blank"}. 
+    1. **Measure**: Collect feedback and perform assessments on your product.
+    1. **Learn**: Learn from this data to figure out what improvements can be made, what complexity can be added, what should be removed in the next version of your product.
+    1. Repeat the above and **iterate** to perfection!
+* In other words, as [quoted](https://www.businessinsider.com/sheryl-sandberg-lean-in-2013-2){target="_blank"} by Facebook Chief Operating Officer Sheryl Sandberg about halfway thru the article: **"Done is better than perfect."** 
+
+<center>
+![](static/images/BML.png){ width=275px } ![](static/images/MVP.png){ width=525px }
+</center>
 
 
 
