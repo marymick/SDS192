@@ -87,28 +87,29 @@ Look at the `#general_annoucements` post on Slack from Friday 10/12 for the `dat
 
 ## Grading Rubric
 
-There are 16 possible points for this mini-project.
+There are ~~16~~ 15 possible points for this mini-project.
 
 **Baseline**
 
 
-* +1 for an `.Rmd` that compiles without errors and is **replicable and reproducible** by someone else who has the same `MP2.zip` starting point of files.
+* +1 for an `.Rmd` that compiles without errors and is replicable and reproducible by someone else who has the same `MP2.zip` starting point of files.
 * +2 for both group members completing the Individual Google Form
-* +1 for using [code folding](https://bookdown.org/yihui/rmarkdown/html-document.html#code-folding) to keep your code hidden, but still make it available.
+* **Updated Mon 10/29 - Moved to Advanced**: ~~+1 for using [code folding](https://bookdown.org/yihui/rmarkdown/html-document.html#code-folding) to keep your code hidden, but still make it available.~~ 
 * +1 for using at least two of the five basic verbs (i.e., `select()`, `mutate()`, etc.)
 * +1 for annotating your data wrangling pipeline (this can be in a few sentences in text surrounding the R code chunks, or some informative comments inside the R code chunks)
 * +1 unnecessary messages from R are hidden from being displayed in the HTML
 
 **Average**
 
-* +1 for having **at least 400** words and **no more than 600** words (use [the word count add-in](https://github.com/benmarwick/wordcountaddin))
+* +1 for having at least 400 words and no more than 600 words. **Updated Mon 10/29 - Removed**: ~~(use [the word count add-in](https://github.com/benmarwick/wordcountaddin))~~. Use Google Docs/Microsoft Word to ensure your word count is correct.
 * +1 for explaining in a single coherent sentence what we can learn from these data
 * +1 for using at least one join (e.g. `left_join()`, `inner_join()`, etc.)
 * +1 for providing context or background useful in interpreting the graphic
 
 **Advanced**
 
-* +1 for writing a function to generalize your analysis rather than re-writing the same code multiple times
+* **Updated Mon 10/29 - Removed**: ~~+1 for writing a function to generalize your analysis rather than re-writing the same code multiple times~~
+* **Updated Mon 10/29 - Moved here**: +1 for using [code folding](https://bookdown.org/yihui/rmarkdown/html-document.html#code-folding) to keep your code hidden, but still make it available. You need to figure out how to do this on your own! Example of code folding in practice [here](https://beanumber.github.io/sds192/lab-rmarkdown.html#){target="_blank"}; note all "Code" buttons along right-hand edge of page.
 * +0–4 "wow" factor: awarded at the grader’s discretion for submissions that are exceptionally compelling. What does "wow" factor mean? Ask yourself:
     + What is a checklist of criteria for a "great" calculus assignment?
     + What is a checklist of criteria for a "great" essay?

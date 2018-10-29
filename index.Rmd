@@ -61,7 +61,7 @@ h1{font-weight: 400;}
     1. Learning how to learn new data science tools (yellow): Text data, webscraping, SQL.
 * **Readings + Reference**: MD is ModernDive, MDSR is Modern Data Science with R, TMR is Text Mining with R. 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&si  ngle=true&amp;widget=true&amp;headers=false" width="100%" height="810"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRvggFhESyu_EFxrcFQXsZtdaQqaqcQ6kgWg173WTkTeWV67RWiZ01G8jhJsQ2b5VUVCJqQ8xo6COWM/pubhtml?gid=1373353942&single=true&amp;widget=true&amp;headers=false" width="100%" height="810"></iframe>
 
 
 
@@ -79,9 +79,43 @@ https://twitter.com/apreshill/status/1056669524487888896
 
 * **Joint SDS/Government faculty hiring**: First candidate is coming to campus tomorrow (Tuesday 10/30)! They will be holding a "mock lecture" at 5pm in Sabin-Reed 301 where they will teach a lecture on an intermediate/advanced topic in an way that is accessible to undergrads.
 * Office hours tomorrow: ~~3-6pm~~ 3-5pm.
-* Clarifications on Mini-Project 2: Use of functions, code folding, word count.
+* No problem set this week; work on Mini-Project 2!
+* Clarifications and updates on Mini-Project 2: Use of functions, code folding, word count.
 
 
+
+## Today's Topics/Activities
+
+### 1. Baby's First GitHub Pages Website
+
+* **Today**: You will publish your first [R Markdown Website](https://rmarkdown.rstudio.com/rmarkdown_websites.htm){target="_blank"} to GitHub pages. This will be the submission format for your final project. In other words, you will have your own version of this webpage: [`https://rudeboybert.github.io/webpage`](https://rudeboybert.github.io/webpage){target="_blank"} where `rudeboybert` is replaced with your GitHub login that you created at the beginning of the semester.
+* **Later in the semester**: You learn how R Markdown Websites work and how to edit your webpage. We won't be editing the webpage today, just publishing it. 
+
+Log into [GitHub.com](https://github.com/){target="_blank"} using the GitHub login you created at the beginning of the semester. For example, in the images below I'm pretending to be a student "Guy Incognito" whose GitHub login is `whoishomer`:
+
+1. **View template GitHub repository**: Open the GitHub repo [`https://github.com/rudeboybert/webpage`](https://github.com/rudeboybert/webpage){target="_blank"} containing the webpage template code.
+1. **Fork a copy of the repository**: Click on the "Fork" button on the top right:  
+![](static/images/github_pages_1.png){ width=600px }
+1. **View your forked copy of the repository**: You should be redirected to your own copy of the above GitHub repository located at `https://github.com/YOUR_GITHUB_LOGIN/webpage`. Note how the repository name `YOUR_GITHUB_LOGIN/webpage` indicates that it has been "forked" from `rudeboybert/webpage`:  
+![](static/images/github_pages_2.png){ width=600px }
+1. **Publish your webpage to GitHub Pages**: Click on the `r emo::ji("gear")`Settings tab at the top right -> Scroll down to "GitHub Pages" -> Source -> Select "master branch /docs folder" -> Save:  
+![](static/images/github_pages_3.png){ width=600px }
+1. **Make a change to your repository**:
+    + Go to back to your copy of the GitHub repository located at `https://github.com/YOUR_GITHUB_LOGIN/webpage`.
+    + From the list of files, click on the `README.md` file -> Click on the pencil icon on the right to "edit this file":    
+    ![](static/images/github_pages_4.png){ width=600px }
+    + On line 3 replace `YOUR_GITHUB_LOGIN` with your GitHub login.
+1. **Commit and push your changes**: Scroll down.
+    + Where it says `Update README.md`, replace it with `My first commit`
+    + Where it says `Add an optional extended description...`, replace it with `Testing out my first GitHub commit.` 
+    + Click "Commit Changes":  
+    ![](static/images/github_pages_5.png){ width=600px }
+1. **View your webpage**: Go to `https://YOUR_GITHUB_LOGIN.github.io/webpage/` in your browser where `YOUR_GITHUB_LOGIN` is replaced with your GitHub login. You may need to wait a minute for changes to update.
+
+
+### 2. Chalk Talk
+
+Git and GitHub terminology and theory.
 
 
 
@@ -230,6 +264,8 @@ Practice converting the following datasets from the `fivethirtyeight` datasets!
 ![](static/images/SDS_major.png){ width=500px }
 </center>  
 <br>
+
+## Today's Topics/Activities
 
 ### 1. Chalk Talk
 
