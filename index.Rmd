@@ -67,6 +67,28 @@ h1{font-weight: 400;}
 
 ***
 
+# Lec 22: Mon 10/29 {#Lec22}
+
+## Announcements
+
+<!--
+* In PS06 submission link on moodle it states: "Submit your **knitting** Rmd file here!". Submitting a `PS06.Rmd` R Markdown file that does not "knit" properly, i.e. the HTML webpage report does not show up, is of little use to us. Imagine you are competing for a job application with 9 other applicants. Your submitted `PS06.Rmd` does not generate a report, but the 9 other submitted `PS06.Rmd` files do generate a report. Even if your code is "valid", what do you think the hiring manager will do with your application? Before submitting your `.Rmd` files, you need to **test** that it works i.e. properly "knits" a report. 
+
+https://twitter.com/apreshill/status/1056669524487888896
+-->
+
+* **Joint SDS/Government faculty hiring**: First candidate is coming to campus tomorrow (Tuesday 10/30)! They will be holding a "mock lecture" at 5pm in Sabin-Reed 301 where they will teach a lecture on an intermediate/advanced topic in an way that is accessible to undergrads.
+* Office hours tomorrow: ~~3-6pm~~ 3-5pm.
+* Clarifications on Mini-Project 2: Use of functions, code folding, word count.
+
+
+
+
+
+***
+
+
+
 # Lec 21: Fri 10/26 {#Lec21}
 
 ## Announcements
